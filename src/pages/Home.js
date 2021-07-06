@@ -1,14 +1,16 @@
-import React from 'react'
+import React from 'react' 
+import './Home.css'
 
 function Home() {
     return (
         <div className='pages'>
-            <h1>
-                <div>Hi,</div>
-                <div>my name is Salem.</div>
-                <div>I'm a data engineer.</div>
-            </h1>
-            
+            <h1 className='h1'> Hi,
+                <h2 className='h2'>            
+                my name is Salem.{<br/>}
+                I'm a data engineer{<br/>}
+                <h3 className="h3"> based in Hamburg.</h3>
+                </h2>    
+            </h1>      
         </div>
     )
 }
