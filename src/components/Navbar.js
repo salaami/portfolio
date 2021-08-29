@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
-import * as FaIcons from "react-icons/fa";
-import * as AiIcons from "react-icons/ai";
-import * as GiIcons from "react-icons/gi";
+import * as Vsc from "react-icons/vsc"; 
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Navbar.css';
@@ -17,14 +15,14 @@ function Navbar() {
         <IconContext.Provider value={{color: '#fff'}}>
           <div className="navbar">
               <Link to="#" className='menu-bars'>
-                <GiIcons.GiSlicedSausage onClick={showSidebar} />
+                <Vsc.VscMenu onClick={showSidebar} />
               </Link>
           </div>
           <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
               <ul className='nav-menu-items' onClick={showSidebar} >
                 <li className="navbar-toggle">
                     <Link to="#" className='menu-bars'>
-                        <GiIcons.GiCrossedBones />
+                        <Vsc.VscChromeClose />
                     </Link>
                 </li>
                 {SidebarData.map((item, index) => {

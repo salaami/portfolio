@@ -1,11 +1,9 @@
 import React from 'react'
+import Cards from '../components/Cards'
 
-function Projects() {
+var Projects = () => {
     return (
-        <body className='pages'>
-            <h1>Projects</h1>
-            
-        </body>
+        <Cards />
     )
 }
 

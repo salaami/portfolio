@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { useState } from "react";
+import ContactForm from "../components/ContactForm";
 
-function Contact() {
-    return (
-        <div className='pages'>
-            <h1>Contact</h1>
-        </div>
-    )
+var Contact = () => {
+  return (
+    <ContactForm />
+  )
 }
 
-export default Contact
+export default Contact;
