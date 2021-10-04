@@ -12,7 +12,7 @@ function Navbar() {
 
     return (
         <>
-        <IconContext.Provider value={{color: '#fff'}}>
+        <IconContext.Provider value={{color: '#FFFFFF'}}>
           <div className="navbar">
               <Link to="#" className='menu-bars'>
                 <Vsc.VscMenu onClick={showSidebar} />

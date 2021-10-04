@@ -8,7 +8,6 @@ import Contact from './pages/Contact'
 
 var App = () => {
   return (
-    <>
     <Router>
       <Navbar />
       <Switch>
@@ -17,7 +16,6 @@ var App = () => {
         <Route path='/contact' exact component={Contact} />
       </Switch>
     </Router>
-    </>
   );
 }
 
