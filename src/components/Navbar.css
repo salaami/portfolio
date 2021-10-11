@@ -9,11 +9,12 @@
 
 .menu-bars {
     margin-left: 2rem;
+    margin-right: 2rem;
     font-size: 2rem;
 }
 
 .nav-menu {
-    width: 40vh;
+    width: 45vh;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -40,10 +41,10 @@
 }
 
 .nav-text a {
-    color: #FFFFFF;
+    color: #080008;
     text-decoration:none;
-    font-size: 7vh;
-    width: 4em;
+    font-size: 3rem;
+    width: 5em;
     height: 100%;
     display: flex;
     align-items: center;
@@ -52,7 +53,11 @@
 }
 
 .nav-text a:hover {
-background-color: #4D0098;
+    background-color: #080008;
+    color: white;
+    transition: 1s background ease;
+    width: auto;
+    height: auto;
 }
 
 .nav-menu-items {

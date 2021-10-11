@@ -10,7 +10,7 @@ var CardItem = (props) => {
             </div>
             <div className="card-content">
                 <div className="card-title">
-                    <h3>{props.title}</h3>
+                    <h4>{props.title}</h4>
                 </div>
                 <div className="card-body">
                     <p>{props.body}</p>
