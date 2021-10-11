@@ -6,6 +6,7 @@
 .pnp.js
 
 # fonts 
+# opentype
 *.otf
 
 # testing
