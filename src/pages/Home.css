@@ -1,19 +1,17 @@
+
+
 .h1 {
     font-size: 7.3rem;
-    color: black;
     text-align: left;
-    font-weight: 600;
 }
 
 .h2 {
     font-size: 3.5rem;
-    color:black;
-    font-weight: 300;
-    line-height: 6.7rem;
+    line-height: 5rem;
 }
 
 .h3 {
   font-size: 2rem;
-  color: black;
-  font-weight: 100;
+
 }
+

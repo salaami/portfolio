@@ -3,7 +3,10 @@ import ContactForm from "../components/ContactForm";
 
 var Contact = () => {
   return (
-    <ContactForm />
+    <div className='pages'>
+      <ContactForm /> 
+    </div>
+
   )
 }
 
