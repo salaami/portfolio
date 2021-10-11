@@ -8,16 +8,15 @@
 
 .form-box h2{
     margin-block: 2rem;
-    font-size: 30px;
 }
 
 .form-box input, textarea{
     display: block;
-    width: 50%;
+    width: 60vh;
     padding: .5rem .8rem .5rem .8rem;
     margin: .9vw 0 ;
-    border-radius: 10px;
     font-size: 20px;
+    width: 100vh;
 }
 
 .form-box textarea{
@@ -30,8 +29,8 @@
     cursor: pointer;
     font-size: 20px;
     position:relative;
-    margin: 1rem 0 1rem 1rem;   
-    border-radius: 20px 20px 20px 20px; 
+    margin: 1rem 1rem 1rem 0;   
+    border-radius: .3rem; 
 }
 
 .submitBtn:hover{
