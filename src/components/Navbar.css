@@ -1,8 +1,9 @@
 .navbar {
-    height: 8vh;
     display: flex;
     justify-self: start;
     align-items: center;
+    position: absolute;
+    height: 8vh;
     color: #FFFFFF;
     background-color: #080008;
 }
@@ -50,12 +51,14 @@
     align-items: center;
     padding: 0 16px;
     border-radius: 4px;
+    transition: 0.3s;
+    animation: ease-in-out;
 }
 
 .nav-text a:hover {
-    background-color: #080008;
-    color: white;
-    transition: 1s background ease;
+    transform: scale(1.02);
+    background-color: #FFFFFF;
+    box-shadow: 0.8rem 0.8rem #00FF00;
     width: auto;
     height: auto;
 }
