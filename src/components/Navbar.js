@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Navbar.css';
 import { IconContext } from 'react-icons'
+//import { BurgerMenu } from '/src/assets/icons/burger-menu.svg'
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false);
