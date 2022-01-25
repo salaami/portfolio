@@ -4,14 +4,16 @@
     align-items: center;
     position: sticky;
     height: 8vh;
-    color: #FFFFFF;
-    background-color: #080008;
+    background-color: #000000;
+    align-items: flex-end;
+
 }
 
 .menu-bars {
     margin-left: 2rem;
     margin-right: 2rem;
     font-size: 2rem;
+    text-decoration: none;
 }
 
 .nav-menu {
@@ -26,6 +28,7 @@
     transition: 850ms;
     color: #FFFFFF;
     background-color:#815FF5;
+    box-shadow: 0.8rem 0.8rem #FFFFFF;
 }
 
 .nav-menu.active {
@@ -78,4 +81,32 @@
 
 .span {
     margin-left: 16px;
+}
+
+.text-icons {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    transition: 0.3s;
+    color: #FFFFFF;
+    animation: ease-in-out;
+    margin-left: 16px;
+}
+
+.icon:hover {
+    transform: scale(1.02);
+    background-color: #FFFFFF;
+    color: #815FF5;
+    box-shadow: 0.8rem 0.8rem #00FF00;
+    width: auto;
+    height: auto;
+    
+}
+
+.social-icons {
+    display: flex;
+    color:#FFFFFF;
+    flex-direction: 'row';
+    justify-content: 'flex-end';
+    align-items: 'center';
+
 }

@@ -1,5 +1,9 @@
 export const SidebarData = [
     {
+        title: '×'
+        ,cName: 'nav-text'
+    }
+    ,{
         title: 'Home'
         ,path: '/'
         ,cName: 'nav-text'
