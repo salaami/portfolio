@@ -12,6 +12,7 @@
 
 .form-box input, textarea{
     display: block;
+    position: initial;
     width: 60vh;
     padding: .5rem .8rem .5rem .8rem;
     margin: .9vw 0 ;
@@ -30,12 +31,14 @@
     font-size: 20px;
     position:relative;
     margin: 1rem 1rem 1rem 0;   
-    border-radius: .3rem; 
+    color: #815FF5;
+    background-color: #080008;
     transition: 0.3s;
     animation: ease-in-out;
 }
 
 .submitBtn:hover{
     transform: scale(1.02);
+    background-color: #FFFFFF;
     box-shadow: 0.8rem 0.8rem #00FF00;
 }

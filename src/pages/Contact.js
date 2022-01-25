@@ -6,7 +6,6 @@ var Contact = () => {
     <div className='pages'>
       <ContactForm /> 
     </div>
-
   )
 }
 
