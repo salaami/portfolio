@@ -1,0 +1,7 @@
+.social-icons {
+    display: flex;
+    color: #000000;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+  }
