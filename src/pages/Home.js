@@ -3,7 +3,7 @@ import React from 'react'
 var Home = () =>{
     return (
         <div className='pages'>
-            <div className='text-box'>
+            <div >
                 <h1> Hi,
                     <h2 className='h2'>            
                         my name is Salem.{<br/>}

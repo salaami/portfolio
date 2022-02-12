@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Navbar.css';
 import { TiSocialLinkedin } from 'react-icons/ti'; 
+import { TiSocialGithub } from 'react-icons/ti'; 
+import { TiSocialTwitter} from 'react-icons/ti'; 
+import { CgMail, CgUiKit } from 'react-icons/cg'; 
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false);
@@ -11,18 +14,27 @@ function Navbar() {
 
     return (
         <>
-          <div className="navbar">
-            <Link to="#" className='menu-bars'>            
-                <ul onClick={showSidebar} className="text-icons">=</ul> 
-                <div>
-                    <li className="social-icons">
+            <div className="navbar">
+                <Link to="#" className='menu-icon'>            
+                    <ul onClick={showSidebar} className="text-icons">=</ul> 
+                </Link> 
+  
+                <div className="social-bar">
+                    <a href="mailto:salemsalleh@gmail.com" target="_blank" className="social-icon">
+                        <CgMail />
+                    </a>
+                    <a href="https://github.com/salaami" target="_blank" className="social-icon">
+                        <TiSocialGithub />
+                    </a>
+                    <a href="https://www.linkedin.com/in/salem-salleh-1a4828a8" target="_blank" className="social-icon">
                         <TiSocialLinkedin />
-                    </li>
+                    </a>
+                    <a href="https://twitter.com/Salamialaikum" target="_blank" className="social-icon">
+                        <TiSocialTwitter />
+                    </a>
                 </div>
-
-
-            </Link> 
           </div>
+
           <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
               <ul className='nav-menu-items' onClick={showSidebar}>
                 {SidebarData.map((item, index) => {
