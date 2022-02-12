@@ -31,7 +31,7 @@
   justify-content: center; 
   font-size: 1rem;
   color: #815FF5;
-  background-color: #111111;
+  background-color: #FFFFFF;
 
 }
 
@@ -63,3 +63,15 @@ h4 {
   font-size: 1rem;
   line-height: 1rem;
   }
+
+::-webkit-scrollbar{
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFFFF ; 
+}
+
+::-webkit-scrollbar-thumb {
+ background: #815FF5;
+}
