@@ -1,10 +1,8 @@
 import React, {useState} from 'react';
-import * as Vsc from "react-icons/vsc"; 
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Navbar.css';
-import { IconContext } from 'react-icons'
-//import { BurgerMenu } from '/src/assets/icons/burger-menu.svg'
+import { TiSocialLinkedin } from 'react-icons/ti'; 
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false);
@@ -13,24 +11,24 @@ function Navbar() {
 
     return (
         <>
-        <IconContext.Provider value={{color: '#FFFFFF'}}>
           <div className="navbar">
-              <Link to="#" className='menu-bars'>
-                <Vsc.VscMenu onClick={showSidebar} />
-              </Link>
+            <Link to="#" className='menu-bars'>            
+                <ul onClick={showSidebar} className="text-icons">=</ul> 
+                <div>
+                    <li className="social-icons">
+                        <TiSocialLinkedin />
+                    </li>
+                </div>
+
+
+            </Link> 
           </div>
           <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-              <ul className='nav-menu-items' onClick={showSidebar} >
-                <li className="navbar-toggle">
-                    <Link to="#" className='menu-bars'>
-                        <Vsc.VscChromeClose />
-                    </Link>
-                </li>
+              <ul className='nav-menu-items' onClick={showSidebar}>
                 {SidebarData.map((item, index) => {
                     return (
                         <li key={index} className={item.cName}>
                             <Link to={item.path}>
-                                {item.icon}
                                 <span>{item.title}</span>
                             </Link>
                         </li>
@@ -38,7 +36,6 @@ function Navbar() {
                 })}
               </ul>
           </nav>
-          </IconContext.Provider>
         </>
     );
 }

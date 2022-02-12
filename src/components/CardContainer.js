@@ -5,6 +5,7 @@ import './CardItem.css'
 var CardItem = (props) => {
     return (
         <div className="card-container">
+            <h2>Projects</h2>
             <a href={props.linkPath}>
                 <div className="image-container">
                     <img src={props.imageUrl} alt='' />
