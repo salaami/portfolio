@@ -15,10 +15,9 @@ function Navbar() {
     return (
         <>
             <div className="navbar">
-                <Link to="#" className='menu-icon'>            
-                    <ul onClick={showSidebar} className="text-icons">=</ul> 
-                </Link> 
-  
+                <ul className='menu-icon'>
+                    <a onClick={showSidebar} className="text-icons">=</a> 
+                </ul>
                 <div className="social-bar">
                     <a href="mailto:salemsalleh@gmail.com" target="_blank" className="social-icon">
                         <CgMail />
