@@ -16,9 +16,9 @@ function Navbar() {
         <>
             <div className="navbar">
                 <Link to="#" className='menu-icon'>            
-                    <ul onClick={showSidebar} className="text-icons">=</ul> 
+                    <ul onClick={showSidebar}>=</ul> 
                 </Link> 
-  
+                <div className='menu-icon'>SALEM|SALLEH</div>
                 <div className="social-bar">
                     <a href="mailto:salemsalleh@gmail.com" target="_blank" className="social-icon">
                         <CgMail />

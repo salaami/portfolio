@@ -21,27 +21,31 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'SuissIntlMono-Regular';
+  
 }
 
 .pages {
-  height: 100vh;
   display: flex; 
-  flex-direction:column;
-  align-items:center; 
-  justify-content: center; 
+  justify-content: center;
+  padding-top: 7vh;
   font-size: 1rem;
-  color: #815FF5;
-  background-color: #FFFFFF;
+  color: #000000; 
+  background: linear-gradient(
+    to right,
+    #456F74 50%,
+    #EB5937 50%,
+    #EB5937 100%
+  )
 
 }
 
 .text-box {
-  width: 120vh;
-  height: auto;
-  padding: 3rem;
-  margin: 1rem;
-  background-color: #FFFFFF;
-  box-shadow: 0.8rem 0.8rem #00FF00;
+  width: 70%;
+  height: 100vh;
+  padding-top: 14vh;
+  text-indent: 10rem;
+;
+
 }
 
 h1 {
@@ -69,9 +73,9 @@ h4 {
 }
 
 ::-webkit-scrollbar-track {
-  background: #FFFFFF ; 
+  background: #403D3C ; 
 }
 
 ::-webkit-scrollbar-thumb {
- background: #815FF5;
+ background: #1C1919;
 }
