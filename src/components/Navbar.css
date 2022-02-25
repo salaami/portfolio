@@ -1,36 +1,31 @@
 .navbar {
     display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    background-color: #815FF5;
-    height: 7vh;
-    align-items:center;
+    justify-self: start;
+    justify-content:start;
+    position: fixed;
+    background-color: #FFFFFF;
+    height: 10vh;
+    width: 100%;
 }
 
 .menu-icon {
-    flex-direction: row;
-    transition: 0.3s;
-    animation: ease-in-out;
-}
-
-.menu-icon:hover {
-    transform: scale(1.02);
-    background-color: #FFFFFF;
-    color: #815FF5;
-    box-shadow: 0.8rem 0.8rem #00FF00;
-    width: auto;
-    height: auto;
+    width: 80%; 
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
 }
 
 .social-bar {
     display: flex;
     gap: 2rem;
     margin-right: 2rem;
+    align-items: baseline; 
   }
 
 .social-icon {
     color: #FFFFFF;
-    font-size: 1rem;
   }
 
 
@@ -44,14 +39,14 @@
     top: 0;
     left: -100%; 
     transition: 850ms;
-    color: #FFFFFF;
-    background-color:#815FF5;
+    background-color: #FFFFFF;
 
 }
 
 .nav-menu.active {
     left: 0;
     transition: 850ms;
+    
 }
 
 .nav-text {
@@ -61,17 +56,14 @@
     padding: 20px 0px 20px 16px;
     list-style: none;
     height: 10vh;
+    color: black;
+    
 }
 
 .nav-text a {
-    color: #FFFFFF;
     text-decoration:none;
     font-size: 3rem;
-    width: 5em;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0 16px;
+    padding: 0 2rem;
     transition: 0.3s;
     animation: ease-in-out;
 }
@@ -79,8 +71,8 @@
 .nav-text a:hover {
     transform: scale(1.02);
     background-color: #FFFFFF;
-    color: #815FF5;
-    box-shadow: 0.8rem 0.8rem #00FF00;
+    color: #000000;
+    box-shadow: 0.8rem 0.8rem #456F74;
     width: auto;
     height: auto;
 }
@@ -95,29 +87,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
-
-.span {
-    margin-left: 16px;
-}
-
-.text-icons {
-    font-size: 3.5rem;
-    line-height: 4rem;
-    transition: 0.3s;
-    color: #FFFFFF;
-    animation: ease-in-out;
-    margin-left: 16px;
-}
-
-.icon:hover {
-    transform: scale(1.02);
-    background-color: #FFFFFF;
-    color: #815FF5;
-    box-shadow: 0.8rem 0.8rem #00FF00;
-    width: auto;
-    height: auto;
-    
 }
 
 

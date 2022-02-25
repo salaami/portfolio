@@ -3,7 +3,7 @@ import React from "react";
 var Contact = () => {
   return (
     <div className='pages'>
-      <div>
+      <div className="text-box">
         <h2> Let's get in touch!</h2>
         <h3>
           If you having any questions or{<br/>}
