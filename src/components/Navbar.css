@@ -6,8 +6,6 @@
     background-color: #FFFFFF;
     height: 10vh;
     width: 100%;
-    align-items:center;
-    border-bottom: 0.3rem solid;
 }
 
 .menu-icon {
@@ -27,8 +25,7 @@
   }
 
 .social-icon {
-    font-size: 1rem;
-    color: black;
+    color: #FFFFFF;
   }
 
 
