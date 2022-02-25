@@ -15,6 +15,7 @@ function Navbar() {
     return (
         <>
             <div className="navbar">
+
                 <Link to="#" className='menu-icon'>            
                     <ul onClick={showSidebar}>=</ul> 
                 </Link> 
