@@ -1,13 +1,9 @@
 import React from 'react' 
+import Layout from '../components/Layout/Layout'
 
 var About = () =>{
     return (
-        <div className='pages'>
-            <div className="text-box">
-
-            </div>
-
-        </div>
+        <Layout contentLeft="Lol" contentRight="Salami"/>
     )
 }
 

@@ -27,55 +27,19 @@
 .pages {
   display: flex; 
   justify-content: center;
-  padding-top: 7vh;
   font-size: 1rem;
   color: #000000; 
-  background: linear-gradient(
-    to right,
-    #456F74 50%,
-    #EB5937 50%,
-    #EB5937 100%
-  )
-
 }
-
-.text-box {
-  width: 70%;
-  height: 100vh;
-  padding-top: 14vh;
-  text-indent: 10rem;
-;
-
-}
-
-h1 {
-  font-size: 7rem;
-  line-height: 10rem;
-}
-
-h2 {
-  font-size: 3.5rem;
-  line-height: 4rem;
-}
-
-h3 {
-  font-size: 2rem;
-  line-height:4rem;
-}
-
-h4 {
-  font-size: 1rem;
-  line-height: 1rem;
-  }
 
 ::-webkit-scrollbar{
   width: 1rem;
 }
 
 ::-webkit-scrollbar-track {
-  background: #403D3C ; 
+  background: #403D3C;
 }
 
 ::-webkit-scrollbar-thumb {
- background: #1C1919;
+  background: #1C1919; 
 }
+

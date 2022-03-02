@@ -1,19 +1,15 @@
 import React from "react";
+import Layout from '../components/Layout/Layout'
 
 var Contact = () => {
   return (
-    <div className='pages'>
-      <div className="text-box">
-        <h2> Let's get in touch!</h2>
-        <h3>
-          If you having any questions or{<br/>}
-          you just like to say hello.{<br/>}
-          Reach out to me and {<br/>}
-          I'll get back to you{<br/>}
-          as soon as I can.{<br/>}
-        </h3>
-      </div>
-    </div>
+    <Layout contentLeft="Let's get in touch!" contentRight="If you having any questions or you just like to say hello.
+    Reach out to me and 
+    I'll get back to you
+    as soon as I can." />
+
+          
+
   )
 }
 

@@ -1,21 +1,12 @@
 import React from 'react' 
+import Layout from '../components/Layout/Layout'
+import Image from '../components/Image/Image'
+import Me from '../assets/pictures/selfie.jpg'
+import TextSection from '../components/TextSection/TextSection'
 
 var Home = () =>{
     return (
-        <div className="pages">
-            <div className="text-box">
-                <h1>Hi,</h1> 
-                <h2 className="h2">            
-                    my name is Salem.
-                </h2> 
-                <h2>
-                    I'm a data engineer 
-                </h2> 
-                <h3 className="h3"> 
-                    based in Hamburg.
-                </h3>
-            </div>
-        </div>
+        <Layout contentLeft={<Image src={Me}/>} contentRight={<TextSection content="Hi, my name is Salem.I'm a data engineer based in Hamburg." />} />
     )
 }
 
