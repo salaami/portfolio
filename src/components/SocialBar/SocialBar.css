@@ -1,0 +1,11 @@
+.social-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 2rem;
+    align-items: baseline;
+  }
+  
+.social-icon {
+    color: black;
+  }
