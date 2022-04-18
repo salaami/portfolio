@@ -1,0 +1,22 @@
+.about-text {
+    position: relative;
+    top: 30%;
+    left: 10%;
+    font-family: 'SuissIntlMono-Light';
+}
+
+.mark {
+    display: inline-block;
+    font-size: 4rem;
+    color: #D3CBBD;
+}
+
+.plain {
+    display: inline-block;
+    font-size: 3rem;
+ 
+}
+
+p {
+    width: 100%;
+}

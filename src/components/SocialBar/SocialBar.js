@@ -2,7 +2,6 @@ import './SocialBar.css'
 import React, {useState} from 'react'
 import { TiSocialLinkedin } from 'react-icons/ti' 
 import { TiSocialGithub } from 'react-icons/ti' 
-import { TiSocialTwitter} from 'react-icons/ti' 
 import { CgMail } from 'react-icons/cg' 
 import { FaXing } from 'react-icons/fa'
 
