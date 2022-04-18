@@ -1,9 +1,9 @@
 import React from 'react'
-import Layout from '../components/Layout/Layout'
+import SplitLayoutYellow from '../../Layout/SplitLayoutYellow'
 
 var Projects = () => {
     return (
-        <Layout />
+        <SplitLayoutYellow />
     )
 }
 
