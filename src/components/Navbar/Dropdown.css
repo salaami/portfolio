@@ -1,14 +1,16 @@
 .dropdown-menu {
   position: absolute;
-  width: 10vw;
-  top: 160px;
+  width: min-content;
+  height: min-content;
+  top: 1.5rem;
   list-style: none;
   text-align: start;
-  }
-  
+}
+
 .dropdown-menu li {
   background: #999999;
   cursor: pointer;
+  font-size: 1.5rem;
 }
 
 .dropdown-menu li:hover {

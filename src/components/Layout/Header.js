@@ -16,9 +16,9 @@ export default function header() {
                 <div className="window-top">
                     <Navbar/>
                     <div className="dots">
-                        <span className="dot">_</span>
-                        <span className="dot">◻</span>
-                        <span className="dot">x</span>
+                        <span className="min"></span>
+                        <span className="max"></span>
+                        <span className="close"></span>
                     </div>
                 </div>
                 <div className="sides"></div>
