@@ -1,13 +1,40 @@
 import React from 'react'
 import './HomeText.css'
+import Typewriter from 'typewriter-effect'
 
 export default function HomeText() {
     return (
         <div className="home-text">
-            <p className="plain">$  hi</p>
-            <p className="plain">$  my name is Salem</p>
-            <p className="plain">$  i'm a data engineer</p>
-            <p className="plain">$  based in Hamburg.</p>
+            <Typewriter 
+                options = {{
+                    cursor: '█',
+                    loop: true,
+                    skipAddStyles: false
+                }}
+                onInit = {(typewriter) => {
+                    typewriter.typeString(
+                        "Hello World!<br>"
+                    ).pauseFor(
+                        1000
+                    ).typeString(
+                        "My name is Salem.<br>"
+                    ).pauseFor(
+                        1000
+                    ).typeString(
+                        "I'm a data engineer<br>"
+                    ).pauseFor(
+                        1000
+                    ).typeString(
+                        "from Hamburg Germany.<br>"
+                    ).pauseFor(
+                        1000
+                    ).typeString(
+                        "Welcome to my home page.<br>"
+                    ).start()
+       
+                }}
+            />
+
         </div>
     )
 }   
