@@ -1,13 +1,31 @@
 import React from 'react'
 import './AboutText.css'
+import Typewriter from 'typewriter-effect'
 
 export default function AboutText() {
     return (
         <div className="about-text">
-            <p className="plain">Hello World!</p>
-            <p className="plain">My name is Salem</p>
-            <p className="plain">I'm a data engineer</p>
-            <p className="plain">from Hamburg Germany.</p>
+            <Typewriter 
+                options = {{
+                    cursor: '█',
+                    loop: true,
+
+                }}
+                onInit = {(typewriter) => {
+                    typewriter.typeString(
+                        "I am Salem Salleh,<br>"
+                    ).pauseFor(
+                        1000
+                    ).typeString(
+                        "a data engineer<br>"
+                    ).pauseFor(
+                        1000
+                    ).typeString(
+                        "from Hamburg.<br>"
+                    ).start()
+       
+                }}
+            />
         </div>
     )
 }   
