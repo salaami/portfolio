@@ -1,12 +1,14 @@
 import React from 'react' 
 import LayoutBlack from '../../Layout/LayoutBlack'
 import HomeText from './HomeText'
+import { useSpring, animated } from 'react-spring'
 
 
-var Home = () =>{
+export default function Home() {
+
+    
     return (
-        <LayoutBlack content={<HomeText />}/>
+            <LayoutBlack content={<HomeText />} />
     )
 }
 
-export default Home

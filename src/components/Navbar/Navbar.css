@@ -12,26 +12,26 @@
 
 .nav-item {
   align-items: center;
-  font-size: 1.25rem;
+  font-size: var(--fs-tiny);
   font-weight: bold;
 }
 
 .nav-item:hover {
-  border-radius: 4px;
-  background-color: #383340;
+  border-radius: var(--border-radius);
+  background-color: var(--bg-dark);
   transition: all 0.2s ease-out;
   width: min-content;
   height: min-content;
 }
 
 .nav-links {
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   transition: all 0.2s ease-out;
 }
 

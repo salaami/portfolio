@@ -26,12 +26,20 @@ body {
 }
 
 :root {
-  --bg: #383340;
-  --bg-accent: #6C6A73;
-  --text-color: #D9D9D9;
-  --nav-size: 60px;
-  --border-radius: 5px;
-  --speed: 500ms;  
+  --bg-darker: #0C0C0D;
+  --bg-dark: #2A2A2A;
+  --bg-middle: #2F3036;
+  --bg-light: #727585;
+  --bg-lighter: #B1B5CC;
+  --col-accent-1: #E994FA;
+  --col-accent-2: #B3B2FE;
+  --col-accent-3: #6AD1ED;
+  --text-color: #FFFFFF;
+  --fs-big: 3rem;
+  --fs-normal: 2rem;
+  --fs-small: 1.5rem;
+  --fs-tiny: 1rem;
+  --border-radius: 5px; 
 }
 
 ::-webkit-scrollbar{
