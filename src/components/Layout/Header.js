@@ -6,10 +6,6 @@ export default function header() {
     return (
         <div className="header-container">
             <div className="header">
-                <div className="sign">
-                    <p className="sign-dark">salem|</p>
-                    <p className="sign-light">salleh</p>
-                </div>
             </div>
             <div className="window-bar">
                 <div className="sides"></div>

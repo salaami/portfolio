@@ -4,13 +4,13 @@
     height: 100%;
     width: 100%;
     align-items: flex-end;
-    background-color: #383340;
+    background-color: var(--bg-dark);
 }
 
 .copy-right {
     margin-right: 10vh;
     margin-top: 1vh;
     position:sticky;
-    color: #383340;
-    font-size: 0.8rem;
+    color: var(--text-color);
+    font-size: var(--fs-tiny);
 }

@@ -1,5 +1,5 @@
 .about-text {
-    font-size: 2rem;
+    font-size: var(--fs-normal);
     line-height: 4.5rem;
     margin: 3rem 3rem 3rem;
     position: relative;

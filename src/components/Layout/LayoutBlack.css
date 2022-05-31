@@ -3,7 +3,7 @@
     flex-direction: column;
     position: absolute;
     align-items: flex-start;
-    background-color: #383340;
+    background-color: var(--bg-dark);
     width: 100vw;
     height: 100vh;
 }
@@ -19,7 +19,7 @@
     align-items: center;
     width: 5vw;
     height: 80vh;
-    fill: #383340;
+    fill: var(--bg-dark);
 }
 
 .black-content-box {
@@ -28,8 +28,8 @@
     display: flex;
     width: 90vw;
     height: 80vh;
-    background-color: #0D0D0D;
-    color: #D9D9D9;
+    background-color: var(--bg-darker);
+    color: var(--text-color);
 }
 
 

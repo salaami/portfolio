@@ -8,7 +8,6 @@ export default function HomeText() {
             <Typewriter 
                 options = {{
                     cursor: '█',
-                    loop: true,
                     skipAddStyles: false
                 }}
                 onInit = {(typewriter) => {
@@ -27,7 +26,7 @@ export default function HomeText() {
                     ).typeString(
                         "from Hamburg Germany.<br>"
                     ).pauseFor(
-                        1000
+                        500
                     ).typeString(
                         "Welcome to my home page.<br>"
                     ).start()

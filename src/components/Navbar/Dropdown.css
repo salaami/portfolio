@@ -8,13 +8,13 @@
 }
 
 .dropdown-menu li {
-  background: #999999;
+  background: var(--bg-light);
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: var(--fs-small);
 }
 
 .dropdown-menu li:hover {
-  background: #888888;
+  background: var(--bg-lighter);
 }
 
 .dropdown-menu.clicked {

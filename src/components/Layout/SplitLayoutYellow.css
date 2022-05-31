@@ -1,7 +1,7 @@
 .split-yellow-layout {
     display: flex;
     flex-direction: column;
-    background-color: #383340;
+    background-color: var(--bg-dark);
     width: 100vw;
     height: 100vh;
     
@@ -17,7 +17,7 @@
     align-items: center;
     width: 5vw;
     height: 80vh;
-    fill: #383340;
+    fill: var(--bg-dark);
 }
 
 .content-box-left {
@@ -26,8 +26,8 @@
     border-bottom-left-radius: var(--border-radius);
     width: 30vw;
     height: 80vh;
-    background-color: #F2C6A0; 
-    color: #383340;
+    background-color: var(--col-accent-2); 
+    color: var(--bg-dark);
 
 }
 
@@ -37,7 +37,7 @@
     width: 60vw;
     height: 80vh;
     border-bottom-right-radius: var(--border-radius);
-    background-color: #0D0D0D;
-    color: #D9D9D9;
+    background-color: var(--bg-darker);
+    color: var(--text-color);
 }
 

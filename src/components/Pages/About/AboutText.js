@@ -13,6 +13,10 @@ export default function AboutText() {
                 }}
                 onInit = {(typewriter) => {
                     typewriter.typeString(
+                        "Hello World!<br>"
+                    ).pauseFor(
+                        1000
+                    ).typeString(
                         "I am Salem Salleh,<br>"
                     ).pauseFor(
                         1000
@@ -22,6 +26,7 @@ export default function AboutText() {
                         1000
                     ).typeString(
                         "from Hamburg.<br>"
+
                     ).start()
        
                 }}
