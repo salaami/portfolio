@@ -1,10 +1,49 @@
 .home-text {
     display: flex;
-    align-content: stretch;
     flex-direction: column;
     font-size: var(--fs-normal);
-    line-height: 4.5rem;
-    margin: 3rem 3rem 3rem;
-    top: 30%;
+    margin: 4rem 4rem 4rem 4rem;
+    width: 100%;
+    line-height: 4rem;
 }
 
+
+.prompt {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: flex-start;
+}
+
+.prompt-name {
+    display: flex;
+    background: var(--col-accent-1);
+}
+
+.prompt-tilde {
+    display: flex;
+    background: var(--col-accent-2);
+}
+
+.response {
+    margin: 2rem 2rem;
+    line-height: 5rem;
+}
+
+.triangle-name {
+    width: 0;
+    height: 0;
+    border-left: var(--fs-normal) solid var(--col-accent-1);
+    border-bottom: var(--fs-normal) solid transparent;
+    border-top: var(--fs-normal) solid transparent;
+    background-color: var(--col-accent-2);
+}
+
+.triangle-tilde {
+    width: 0;
+    height: 0;
+    border-left: var(--fs-normal) solid var(--col-accent-2);
+    border-bottom: var(--fs-normal) solid transparent;
+    border-top: var(--fs-normal) solid transparent;
+    background-color: var(--bg-darker);
+    margin-right: 1.5rem;
+}
