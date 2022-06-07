@@ -8,9 +8,10 @@ export default function header() {
             <div className="header">
             </div>
             <div className="window-bar">
-                <div className="sides"></div>
+                <div className="sides">
+                    <Navbar />
+                </div>
                 <div className="window-top">
-                    <Navbar/>
                     <div className="dots">
                         <span className="min"></span>
                         <span className="max"></span>

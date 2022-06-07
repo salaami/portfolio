@@ -4,6 +4,7 @@ import Socialbar from '../SocialBar/SocialBar'
 import './LayoutTerminal.css'
 import Header from './Header'
 import Footer from './Footer'
+import Navbar from '../Navbar/Navbar'
 
 const LayoutTerminal = (props) => {
     const expands = useSpring({
@@ -21,7 +22,9 @@ const LayoutTerminal = (props) => {
         <div className="terminal-layout">
             <Header /> 
             <div className="terminal-content">
-                <div className="terminal-sidebar"></div>
+                <div className="terminal-sidebar">
+                    <Navbar />
+                </div>
                 <animated.div className="terminal-content-box" style={expands} >{props.content}</animated.div>
                 <div className="terminal-sidebar">
                     <Socialbar />
