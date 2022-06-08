@@ -4,7 +4,6 @@ import AboutText from '../About/AboutText'
 import Image from '../../Image/Image'
 import Me from '../../../assets/pictures/selfie.jpg'
 
-
 var About = () =>{
     return (
         <div className="pages">

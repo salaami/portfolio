@@ -1,15 +1,15 @@
 import React from 'react'
 import './Header.css'
-import Navbar from '../Navbar/Navbar'
+import { Navbar } from '../Menu/Navbar'
 
 export default function header() {
     return (
         <div className="header-container">
             <div className="header">
+                <Navbar />
             </div>
             <div className="window-bar">
                 <div className="sides">
-                    <Navbar />
                 </div>
                 <div className="window-top">
                     <div className="dots">

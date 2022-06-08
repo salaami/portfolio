@@ -1,0 +1,35 @@
+.menu { 
+  position: absolute; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1; 
+  top: 0; 
+  width: 100vw; 
+  height: 100vh; 
+  background: var(--bg-darker); 
+}
+
+.menu-list { 
+  padding: 0; 
+  list-style: none; 
+  
+}
+
+.menu-list-item { 
+  margin: 24px 0; 
+  font-size: var(--fs-big); 
+  
+}
+
+.menu a { 
+  text-decoration: none; 
+  color: var(--col-accent-2); 
+}
+
+.menu a:hover, 
+.menu a:focus { 
+  background-image: linear-gradient(var(--col-accent-1), var(--col-accent-2)); 
+  color: var(--text-color); 
+}
+
