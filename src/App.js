@@ -5,8 +5,6 @@ import About from './components/Pages/About/About'
 import Projects from './components/Pages/Projects/Projects'
 import Contact from './components/Pages/Contact/Contact'
 
-
-
 var App = () => {
   return (
     <Router>
@@ -17,6 +15,7 @@ var App = () => {
         <Route path='/projects' exact component={Projects} />
       </Switch>
     </Router>
+
   );
 }
 

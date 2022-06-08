@@ -18,7 +18,7 @@ export default function HomeText() {
             <div className="prompt">
                 <div className="prompt-name">&nbsp;salem&nbsp;</div>
                 <div className="triangle-name"></div>
-                <div className="prompt-tilde">&nbsp;~&nbsp;home</div>
+                <div className="prompt-tilde">&nbsp;home&nbsp;</div>
                 <div className="triangle-tilde"></div>
                 <Typewriter 
                     options = {{
@@ -33,10 +33,11 @@ export default function HomeText() {
                 />
             </div>
             <animated.div style = {fade} className="response">
-                My name is Salem.<br/>
-                I'm a data engineer from Hamburg Germany.<br/>
-                This site is build to provide you with the latest information on me. <br/>
-                I hope you enjoy it. <br/>
+                Hi,<br/>
+                my name is Salem.<br/>
+                I'm a data engineer from Hamburg.<br/>
+                If you are interested in what I am doing, <br/>
+                then this is for you.<br/>
                 In a bit!
             </animated.div>
         </div>
