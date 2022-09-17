@@ -1,15 +1,11 @@
-import React from 'react' 
-import SplitLayoutYellow from '../../Layout/SplitLayoutYellow'
-import AboutText from '../About/AboutText'
-import Image from '../../Image/Image'
-import Me from '../../../assets/pictures/selfie.jpg'
+import React from "react"
+import "./About.css"
+import { LayoutGraphs } from "../../Layout/LayoutGraphs"
 
-var About = () =>{
-    return (
-        <div className="pages">
-            <SplitLayoutYellow contentLeft={<Image src={Me}/>} contentRight={<AboutText />}/>
-        </div>
-    )
+export default function About() {
+  return (
+    <div className="container">
+      <LayoutGraphs />
+    </div>
+  );
 }
-
-export default About;
