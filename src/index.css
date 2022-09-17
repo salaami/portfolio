@@ -18,11 +18,11 @@
 
 body {
   position: absolute;
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'SuissIntlMono-Light';  
-  overflow: hidden;
 }
 
 :root {
@@ -34,6 +34,7 @@ body {
   --col-accent-1: #E994FA;
   --col-accent-2: #B3B2FE;
   --col-accent-3: #6AD1ED;
+  --col-accent-4: #F69C62;
   --text-color: #FFFFFF;
   --fs-big: 3rem;
   --fs-normal: 2rem;

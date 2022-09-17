@@ -4,7 +4,6 @@ import Socialbar from '../SocialBar/SocialBar'
 import './LayoutTerminal.css'
 import Header from './Header'
 import Footer from './Footer'
-import { Navbar } from '../Menu/Navbar'
 
 const LayoutTerminal = (props) => {
     const expands = useSpring({
