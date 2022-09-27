@@ -3,9 +3,9 @@ import React from 'react';
 import { RadialBarChart, RadialBar, Legend } from 'recharts';
 import { data } from './TongueData'
 
-export default function Frameworks() {
+export default function Tongue() {
     return (
-        <div> Linguistic Skills
+        <div> 
             <RadialBarChart
                 width={500}
                 height={300}
@@ -34,6 +34,6 @@ export default function Frameworks() {
             />
         </RadialBarChart>
       </div>
-          );
+    );
 };
 

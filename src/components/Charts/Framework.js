@@ -1,14 +1,13 @@
-
 import React from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine, Brush, LabelList } from 'recharts';
-import { data } from './FrameworksData'
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, LabelList } from 'recharts';
+import { data } from './FrameworkData'
 
-export default function Frameworks() {
+export default function Framework() {
     return (
-        <div>Data Technologies
+        <div className="chart-container">
             <BarChart
             width={500}
-            height={300}
+            height={200}
             layout="vertical"
             data={data}
         >
