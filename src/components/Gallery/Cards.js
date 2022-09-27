@@ -1,14 +1,17 @@
 import React from 'react'
 import { CardsData } from './CardsData'
 import './Cards.css'
+import { useSprings, animated } from 'react-spring'
 
 export default function Cards( Title, Text, Link, Framework ) {
+
     return (
             <div className="card-container">
                 
             {CardsData.map((item) => {
                 return (
-                    <div className="card">
+                    <div className="card"
+                    >
                         <a href={ item.Link } className="link">
                             <div className="card-header">{ item.Title }</div>
                             <p className="card-text">{ item.Text }</p>

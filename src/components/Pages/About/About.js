@@ -1,6 +1,6 @@
 import React from "react"
 import "./About.css"
-import { LayoutGraphs } from "../../Layout/LayoutGraphs"
+import LayoutGraphs from "../../Layout/LayoutGraphs"
 
 export default function About() {
   return (

@@ -1,12 +1,11 @@
 import React from 'react'
-import Socialbar from '../SocialBar/SocialBar'
 import './LayoutProjects.css'
 import Cards from '../Gallery/Cards'
-import Footer from '../Layout/Footer'
+import Socialbar from '../SocialBar/SocialBar'
 import { Navbar } from '../Menu/Navbar'
 
 
-var Layout = (props) => {
+export default function LayoutProjects(props) {
     return(
         <div className="project-container">
             <div className="sidebar-left">
@@ -24,5 +23,3 @@ var Layout = (props) => {
         </div>
     )
 }
-
-export default Layout;

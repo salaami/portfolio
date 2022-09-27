@@ -11,7 +11,7 @@ import {data} from './LanguageData'
 
 export default function Language() {
   return (
-    <div> Programming
+    <div>
       <RadarChart
         cx={300}
         cy={250}

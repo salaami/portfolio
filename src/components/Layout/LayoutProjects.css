@@ -17,6 +17,7 @@
     display: flex;
     height: 90vh;
     background: var(--bg-darker);
+    border-radius: var(--border-radius);
 }
 
 .project-content-box {
