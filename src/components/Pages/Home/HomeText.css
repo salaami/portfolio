@@ -7,7 +7,6 @@
     line-height: 4rem;
 }
 
-
 .prompt {
     display: flex;
     flex-flow: row nowrap;
@@ -17,11 +16,13 @@
 .prompt-name {
     display: flex;
     background: var(--col-accent-1);
+    padding: 0 2rem 0 2rem ;
 }
 
-.prompt-tilde {
+.prompt-home {
     display: flex;
     background: var(--col-accent-2);
+    padding: 0 2rem 0 2rem ;
 }
 
 .response {
@@ -38,12 +39,11 @@
     background-color: var(--col-accent-2);
 }
 
-.triangle-tilde {
+.triangle-home {
     width: 0;
     height: 0;
     border-left: var(--fs-normal) solid var(--col-accent-2);
     border-bottom: var(--fs-normal) solid transparent;
     border-top: var(--fs-normal) solid transparent;
-    background-color: var(--bg-darker);
     margin-right: 1.5rem;
 }

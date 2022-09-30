@@ -1,7 +1,7 @@
 import React from "react"
 import "./About.css"
 import Socialbar from "../../SocialBar/SocialBar"
-import { Navbar } from '../../Menu/Navbar'
+import Navbar from '../../Menu/Navbar'
 import Tongue from "../../Charts/Tongue"
 import Language from "../../Charts/Language"
 import Framework from "../../Charts/Framework"

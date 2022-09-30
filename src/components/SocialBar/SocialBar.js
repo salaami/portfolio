@@ -5,7 +5,7 @@ import { TiSocialGithub } from 'react-icons/ti'
 import { CgMail } from 'react-icons/cg' 
 import { FaXing } from 'react-icons/fa'
 
-var Socialbar = () =>{
+export default function Socialbar() {
     return (
         <div className="social-bar">
             <a href="mailto:salemsalleh@gmail.com" rel="noreferrer" className="social-icon">
@@ -22,5 +22,4 @@ var Socialbar = () =>{
             </a>
         </div>
     )
-}
-export default Socialbar;
+};

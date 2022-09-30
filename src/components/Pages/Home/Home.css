@@ -1,0 +1,28 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-sidebar-left {
+    display: flex;
+    width: 5vw;
+}
+
+.home-sidebar-right {
+    display: flex;
+    align-items: center;
+    width: 5vw;
+}
+
+.home-content {
+    display: flex;
+    align-content: flex-start;
+    width: 90vw;
+    height: 90vh;
+    border-radius: var(--border-radius);
+    background: var(--bg-dark);
+    color: var(--text-color);
+}
+
