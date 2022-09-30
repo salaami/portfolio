@@ -5,21 +5,17 @@ import { useSpring, animated } from 'react-spring'
 
 export default function HomeText() {
     const fade = useSpring({
-        from: {
-            opacity: 0
-        },
-        to: {
-            opacity: 1
-        },
+        from: {opacity: 0},
+        to: {opacity: 1},
         delay: 3000
     });
     return (
         <div className="home-text">
             <div className="prompt">
-                <div className="prompt-name">&nbsp;salem&nbsp;</div>
+                <div className="prompt-name">salem</div>
                 <div className="triangle-name"></div>
-                <div className="prompt-tilde">&nbsp;home&nbsp;</div>
-                <div className="triangle-tilde"></div>
+                <div className="prompt-home">home</div>
+                <div className="triangle-home"></div>
                 <Typewriter 
                     options = {{
                         cursor: '█',
@@ -36,9 +32,7 @@ export default function HomeText() {
                 Hi,<br/>
                 my name is Salem.<br/>
                 I'm a data engineer from Hamburg.<br/>
-                If you are interested in what I am doing, <br/>
-                then this is for you.<br/>
-                In a bit!
+                Welcome to my homepage.<br/>
             </animated.div>
         </div>
     )

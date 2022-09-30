@@ -1,7 +1,7 @@
 .contact-container {
     display: flex;
     align-items: center;
-    background-color: var(--bg-dark);
+    background-color: var(--bg-darker);
     width: 100vw;
     height: 100vh;
     color: var(--text-color);
@@ -10,14 +10,11 @@
 .sidebar-left {
     display: flex;
     width: 5vw;
-    background-color: var(--bg-dark);
-
 }
 
 .content {
     display: flex;
     height: 90vh;
-    background: var(--bg-darker);
     border-radius: var(--border-radius);
 }
 
@@ -33,7 +30,7 @@
 .contact-header {
     font-size: var(--fs-huge);
     font-weight: bold;
-    color: var(--col-accent-1);
+    color: var(--col-accent-3);
 }
 
 .contact-text {
@@ -49,14 +46,12 @@
     display: flex;
     align-items: center;
     width: 5vw;
-    fill: var(--bg-dark);    
-    background-color: var(--bg-dark);
-
+    background: var(--bg-darker);
 }
 
 .contact-button {
     border-radius: var(--border-radius);
-    outline: solid var(--col-accent-1);
+    outline: solid var(--col-accent-3);
     font-weight: lighter;
     text-decoration: none;
     padding: 1rem 1rem 1rem 1rem;

@@ -1,10 +1,10 @@
 import React from 'react'
 import './Projects.css'
-import { Navbar } from '../../Menu/Navbar'
+import Navbar from '../../Menu/Navbar'
 import Socialbar from '../../SocialBar/SocialBar'
 import Cards from '../../Gallery/Cards'
 
-var Projects = () => {
+export default function Projects() {
     return (
         <div className="project-container">
             <div className="sidebar-left">
@@ -21,6 +21,4 @@ var Projects = () => {
             </div>
         </div>
     )
-}
-
-export default Projects
+};

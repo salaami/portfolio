@@ -1,7 +1,6 @@
 .graph-container {
     display: flex;
     align-items: center;
-    background-color: var(--bg-dark);
     width: 100vw;
     height: 100vh;
   }
@@ -9,14 +8,11 @@
   .sidebar-left {
     display: flex;
     width: 5vw;
-    background-color: var(--bg-dark);
-  
   }
   
   .content {
     display: flex;
     height: 90vh;
-    background: var(--bg-darker);
     border-radius: var(--border-radius);
   }
   
@@ -32,9 +28,6 @@
     display: flex;
     align-items: center;
     width: 5vw;
-    fill: var(--bg-dark);    
-    background-color: var(--bg-dark);
-  
   }
   
   
