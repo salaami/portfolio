@@ -9,41 +9,31 @@
 
 .prompt {
     display: flex;
-    flex-flow: row nowrap;
-    align-content: flex-start;
+    font-weight: bold;
+    background: var(--col-accent-3);
+    background-color: var(--bg-darker);
+    margin-top: 2rem;
 }
 
-.prompt-name {
+.triangle {
+    border-left: var(--fs-normal) solid var(--col-accent-3);
+    border-bottom: var(--fs-normal) solid transparent;
+    border-top: var(--fs-normal) solid transparent;
+}
+
+.prompt-text {
     display: flex;
-    background: var(--col-accent-1);
+    background: var(--col-accent-3);
     padding: 0 2rem 0 2rem ;
 }
 
-.prompt-home {
-    display: flex;
-    background: var(--col-accent-2);
-    padding: 0 2rem 0 2rem ;
+.command {
+    margin-left: 2rem;
 }
 
 .response {
-    margin: 2rem 1rem;
-    line-height: 5rem;
+    margin-top: 2rem;
 }
 
-.triangle-name {
-    width: 0;
-    height: 0;
-    border-left: var(--fs-normal) solid var(--col-accent-1);
-    border-bottom: var(--fs-normal) solid transparent;
-    border-top: var(--fs-normal) solid transparent;
-    background-color: var(--col-accent-2);
-}
 
-.triangle-home {
-    width: 0;
-    height: 0;
-    border-left: var(--fs-normal) solid var(--col-accent-2);
-    border-bottom: var(--fs-normal) solid transparent;
-    border-top: var(--fs-normal) solid transparent;
-    margin-right: 1.5rem;
-}
+

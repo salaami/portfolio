@@ -1,0 +1,40 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5rem;
+    gap: 2rem;
+    color: var(--text-color);
+    justify-content: flex-start;
+}
+
+.card {
+    display: flex;
+    padding: 2rem;
+    width: 20rem;
+    border: 0.2rem solid var(--col-accent-3);
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-header {
+    font-size: var(--fs-small);
+    color: var(--col-accent-3);
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+}
+
+.card-text {
+    font-size: var(--fs-tiny);
+    margin-bottom: 1rem;
+}
+
+.framework {
+    font-size: var(--fs-tiny);
+    font-weight: lighter;
+    color: var(--col-accent-3);
+
+}

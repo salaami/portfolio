@@ -13,23 +13,14 @@
 .menu-list { 
   padding: 0; 
   list-style: none; 
-  
 }
 
 .menu-list-item { 
   margin: 24px 0; 
-  font-size: var(--fs-big); 
-  
+  font-size: var(--fs-huge); 
 }
 
 .menu a { 
   text-decoration: none; 
-  color: var(--col-accent-2); 
+  color: var(--col-accent-3); 
 }
-
-.menu a:hover, 
-.menu a:focus { 
-  background-image: linear-gradient(var(--col-accent-1), var(--col-accent-2)); 
-  color: var(--text-color); 
-}
-
