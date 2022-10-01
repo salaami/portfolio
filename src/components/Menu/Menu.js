@@ -7,16 +7,16 @@ export const Menu = ({ style }) => (
     <nav> 
       <ul className="menu-list"> 
         <li className="menu-list-item"> 
-          <a href="/">Home</a> 
+          <a href="/">01|HOME</a> 
         </li> 
         <li className="menu-list-item"> 
-          <a href="/About">About</a> 
+          <a href="/About">02|ABOUT</a> 
         </li> 
         <li className="menu-list-item"> 
-          <a href="/Projects">Projects</a> 
+          <a href="/Projects">03|PROJECTS</a> 
         </li> 
         <li className="menu-list-item"> 
-          <a href="/Contact">Contact</a> 
+          <a href="/Contact">04|CONTACT</a> 
         </li> 
       </ul> 
     </nav> 

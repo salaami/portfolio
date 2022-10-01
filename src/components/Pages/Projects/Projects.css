@@ -1,35 +1,7 @@
-.project-container {
+.project-content {
     display: flex;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
-}
-
-.sidebar-left {
-    display: flex;
-    width: 5vw;
-}
-
-.content {
-    display: flex;
-    height: 90vh;
-    border-radius: var(--border-radius);
-}
-
-.project-content-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
     width: 90vw;
     height: 90vh;
 }
-
-.sidebar-right {
-    display: flex;
-    align-items: center;
-    width: 5vw;
-}
-
-
-
-

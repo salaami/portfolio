@@ -11,7 +11,7 @@ import {data} from './LanguageData'
 
 export default function Language() {
   return (
-    <div>
+    <>
       <RadarChart
         cx={300}
         cy={250}
@@ -37,6 +37,6 @@ export default function Language() {
           fillOpacity={0.6}
         />
       </RadarChart>
-    </div>
+    </>
   );
 }

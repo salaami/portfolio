@@ -12,21 +12,21 @@ export default function HomeText() {
     return (
         <div className="home-text">
             <div className="prompt">
-                <div className="prompt-name">salem</div>
-                <div className="triangle-name"></div>
-                <div className="prompt-home">home</div>
-                <div className="triangle-home"></div>
-                <Typewriter 
-                    options = {{
-                        cursor: '█',
-                        skipAddStyles: false
-                    }}
-                    onInit = {(typewriter) => {
-                        typewriter.pauseFor(500).typeString(
-                            "whoami"
-                        ).start()
-                    }}
-                />
+                <div className="prompt-text">salem ~ home</div>
+                <div className="triangle"/>
+                    <div className="command">
+                    <Typewriter 
+                        options = {{
+                            cursor: '█',
+                            skipAddStyles: false
+                        }}
+                        onInit = {(typewriter) => {
+                            typewriter.pauseFor(500).typeString("whoami").start()
+                    
+                        }}    
+                    />
+                    
+                    </div>
             </div>
             <animated.div style = {fade} className="response">
                 Hi,<br/>
