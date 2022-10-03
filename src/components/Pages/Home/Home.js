@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import { useSpring, animated } from 'react-spring'
 import Socialbar from '../../SocialBar/SocialBar'
-import Navbar from '../../Menu/Navbar'
+import Navbar from '../../Navbar/Navbar'
 import HomeText from './HomeText'
 
 

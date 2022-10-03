@@ -3,6 +3,7 @@ import { useSpring } from 'react-spring'
 import { Menu } from './Menu'
 import './Navbar.css'
 import { CgMenuGridR, CgCloseO } from 'react-icons/cg'
+import { motion } from 'framer-motion'
 
 export default function Navbar () {
     const [ MenuVisible, setMenuVisible ] = useState(false);
@@ -12,9 +13,15 @@ export default function Navbar () {
     })
     return (
         <div className="navbar">
-            <button className="menu-button" onClick={() => setMenuVisible(!MenuVisible)}>
+            <motion.button 
+            className="menu-button" 
+            initial={{ scale: 1 }}
+            animate={{ scale: 1.5 }}
+            transition={{ duration: 0.5 }}
+            onClick={() => setMenuVisible(!MenuVisible)}
+            >
                 { MenuVisible ? <CgCloseO className="closing-icon"/>:<CgMenuGridR className="menu-icon"/> }
-            </button>
+            </motion.button>
             <Menu style={MenuAnimation} />
         </div>
     )

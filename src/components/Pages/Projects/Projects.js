@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projects.css'
-import Navbar from '../../Menu/Navbar'
+import Navbar from '../../Navbar/Navbar'
 import Socialbar from '../../SocialBar/SocialBar'
 import Cards from './Cards'
 
