@@ -27,9 +27,9 @@
   --col-accent-3: #6AD1ED;
   --col-accent-4: #F69C62;
   --text-color: #FFFFFF;
-  --fs-huge: 5rem;
-  --fs-big: 3rem;
-  --fs-normal: 2rem;
+  --fs-huge: 10rem;
+  --fs-big: 5rem;
+  --fs-normal: 3rem;
   --fs-small: 1.5rem;
   --fs-tiny: 1rem;
   --border-radius: 0.1rem; 
@@ -53,6 +53,7 @@ body {
   height: 100vh;
   margin: 0;
   color: var(--text-color);
+  margin-bottom: 5vh;
 }
 
 header {
@@ -60,7 +61,6 @@ header {
   top: 0;
   height: 5vh;
   width: 100%;
-  
 }
 
 footer {
@@ -87,6 +87,8 @@ h1 {
 }
 
 h2 {
+  font-size: var(--fs-normal);
+  font-weight: light;
   color: var(--text-color);
   margin-bottom: 2rem;
   line-height: 2rem;

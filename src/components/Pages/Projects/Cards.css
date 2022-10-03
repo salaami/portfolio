@@ -5,6 +5,7 @@
     gap: 2rem;
     color: var(--text-color);
     justify-content: flex-start;
+    margin-bottom: 5rem;
 }
 
 .card {
@@ -12,6 +13,7 @@
     padding: 2rem;
     width: 20rem;
     border: 0.2rem solid var(--col-accent-3);
+    box-shadow: 0.5rem 0.5rem var(--col-accent-3);
     list-style: none;
 }
 
@@ -25,6 +27,7 @@
     color: var(--col-accent-3);
     font-weight: bolder;
     margin-bottom: 1.5rem;
+    width: 100%;
 }
 
 .card-text {
