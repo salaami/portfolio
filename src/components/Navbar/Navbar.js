@@ -13,16 +13,13 @@ export default function Navbar () {
     })
     return (
         <div className="navbar">
-            <motion.button 
-            className="menu-button" 
-            initial={{ scale: 1 }}
-            animate={{ scale: 1.5 }}
-            transition={{ duration: 0.5 }}
-            onClick={() => setMenuVisible(!MenuVisible)}
+            <button 
+                className="menu-button" 
+                onClick={ () => setMenuVisible(!MenuVisible) }
             >
                 { MenuVisible ? <CgCloseO className="closing-icon"/>:<CgMenuGridR className="menu-icon"/> }
-            </motion.button>
-            <Menu style={MenuAnimation} />
+            </button>
+            <Menu style={ MenuAnimation } />
         </div>
     )
 }

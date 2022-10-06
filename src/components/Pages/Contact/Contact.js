@@ -18,7 +18,7 @@ export default function Contact() {
                 <p>and would like to reach out to me?</p>
                 <p>Then don't hesitate to send me a message and </p>
                 <p>I'll try to answer as soon as I can.</p>
-              <a className="contact-button" href="mailto:salemsalleh@gmail.com" rel="noreferrer" >say hello</a>
+              <a className="contact-button" href="mailto:salemsalleh@gmail.com" rel="noreferrer" >SAY HELLO >></a>
             </div>
           </div>
           <div className="sidebar-right">
