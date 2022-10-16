@@ -1,25 +1,100 @@
-import React, { useState } from 'react'
-import { useSpring } from 'react-spring'
-import { Menu } from './Menu'
-import './Navbar.css'
-import { CgMenuGridR, CgCloseO } from 'react-icons/cg'
-import { motion } from 'framer-motion'
+import React from "react";
+import "./Navbar.css";
+import { AnimatePresence, motion, useCycle } from "framer-motion";
+import { menuItemData } from "./MenuItemData";
+import { ChildVariants } from "./ChildVariants";
 
-export default function Navbar () {
-    const [ MenuVisible, setMenuVisible ] = useState(false);
-    const MenuAnimation = useSpring({
-        opacity: MenuVisible ? 0.95:0,
-        transform: MenuVisible ? `translateX(0)`:`translateX(-100%)`,
-    })
-    return (
-        <div className="navbar">
-            <button 
-                className="menu-button" 
-                onClick={ () => setMenuVisible(!MenuVisible) }
+const itemVariants = {
+    closed: {
+        opacity: 0
+    },
+    open: { 
+        opacity: 0.95 
+    }
+};
+
+const childVariants = {
+    closed: {
+      transition: {
+        staggerChildren: 0.2,
+        staggerDirection: -1
+      }
+    },
+    open: {
+      transition: {
+        staggerChildren: 0.2,
+        staggerDirection: 1
+      }
+    }
+  };
+
+const easeVariants = {
+    closed: {
+        opacity: 0,
+        x: -100,
+    },
+    open: {
+        opacity: 0.95,
+        x: 0,
+    },
+    exit:{
+        opacity: 0,
+        x: -100,
+        transition: { 
+            delay: 0.7, 
+            duration: 0.3 
+        }
+    }
+};
+
+
+
+export default function Navbar() {
+  const [open, cycleOpen] = useCycle(false, true);
+  return (
+    <div className="nav-container">
+        <motion.button 
+            onClick={cycleOpen}
+            whileHover={{
+                backGround: "#B1B5CC",
+                scale: 1.2,
+            }}
+        >
+            { open ? "×" : "»" }
+        </motion.button>
+        <AnimatePresence>
+        {open && (
+        <motion.div
+            className="navbar-container"
+            variants={easeVariants}
+            initial="closed" 
+            animate="open"
+            exit="exit"
+        >
+            <motion.div
+                className="container"
+                initial="closed"
+                animate="open"
+                exit="closed"
+                variants={childVariants}
             >
-                { MenuVisible ? <CgCloseO className="closing-icon"/>:<CgMenuGridR className="menu-icon"/> }
-            </button>
-            <Menu style={ MenuAnimation } />
-        </div>
-    )
+            {menuItemData.map(({ label, url, id }) => (
+                <motion.a
+                    key={id}
+                    href={url}
+                    whileHover={{ 
+                        scale: 0.95,
+                        color: "#6AD1ED"
+                    }}
+                    variants={itemVariants}
+                >
+                {label}
+                </motion.a>
+            ))}
+            </motion.div>
+        </motion.div>
+        )}
+        </AnimatePresence>
+    </div>
+  );
 }
