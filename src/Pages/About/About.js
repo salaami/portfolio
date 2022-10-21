@@ -1,20 +1,17 @@
 import React from "react"
 import "./About.css"
-import Socialbar from "../../SocialBar/SocialBar"
-import Navbar from "../../Navbar/Navbar"
+import Header from "../../components/Header/Header"
+import Socialbar from "../../components/SocialBar/SocialBar"
 import Tongue from './Charts/Tongue'
 import Language from './Charts/Language'
 import Framework from './Charts/Framework'
-
+import Footer from "../../components/Footer/Footer"
 
 export default function About() {
   return (
-    <>
-      <header></header>
-      <body>
-          <div className="sidebar-left">
-              <Navbar />
-          </div>
+    <div className="container">
+    <Header />
+      <main>
           <div className="about-content">
             <div className="about-text">
               <h1>About</h1>
@@ -29,11 +26,8 @@ export default function About() {
               <Tongue />
             </div>
           </div>
-          <div className="sidebar-right">
-              <Socialbar />
-          </div>
-      </body>
-      <footer></footer>
-    </>
+      </main>
+      <Footer />
+    </div>
   );
 }

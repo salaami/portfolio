@@ -17,22 +17,18 @@
 }
 
 :root {
-  --bg-darker: #0C0C0D;
-  --bg-dark: #2A2A2A;
-  --bg-middle: #2F3036;
-  --bg-light: #727585;
-  --bg-lighter: #B1B5CC;
-  --col-accent-1: #E994FA;
-  --col-accent-2: #B3B2FE;
-  --col-accent-3: #6AD1ED;
-  --col-accent-4: #F69C62;
-  --text-color: #FFFFFF;
+  --darker: #000000;
+  --dark: #110126;
+  --middle: #010440;
+  --accent-1: #A60321;
+  --accent-2: #F20505;
+  --accent-3: #05F2DB;
+  --text-color: #F2E7DC;
   --fs-huge: 10rem;
   --fs-big: 5rem;
   --fs-normal: 3rem;
   --fs-small: 1.5rem;
   --fs-tiny: 1rem;
-  --border-radius: 0.1rem; 
 }
 
 ::-webkit-scrollbar{
@@ -41,55 +37,34 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'SuissIntlMono-Light';  
-  background: var(--bg-darker);
+  font-family: 'SuissIntlMono-Bold';  
+  font-weight: 600;
+  font-style: italic;
+  background: var(--darker);
 }
 
-body {
+main {
   display: flex;
   align-items: center;
+  justify-content: center;
+  align-content: center;
   flex-wrap: wrap;
   width: 100vw;
   height: 100vh;
   margin: 0;
+  background: linear-gradient(to bottom, #000, var(--dark), var(--middle));
   color: var(--text-color);
   margin-bottom: 5vh;
 }
 
-header {
-  position: absolute;
-  top: 0;
-  height: 5vh;
-  width: 100%;
-}
-
-footer {
-  position: fixed;
-  height: 5vh;
-  width: 100%;
-  bottom: 0;
-}
-
-.sidebar-left {
-  display: flex;
-  width: 5vw;
-}
-
-.sidebar-right {
-  display: flex;
-  align-items: center;
-  width: 5vw;
-}
-
 h1 {
   font-size: var(--fs-huge);
-  color: var(--col-accent-3);
+  color: var(--accent-2)
 }
 
 h2 {
   font-size: var(--fs-normal);
   font-weight: light;
   color: var(--text-color);
-  margin-bottom: 2rem;
   line-height: 2rem;
 }
