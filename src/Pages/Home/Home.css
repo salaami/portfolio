@@ -1,9 +1,8 @@
-.home-content {
+.container {
     display: flex;
     align-content: flex-start;
-    width: 90vw;
+    width: 100%;
     height: 90vh;
     color: var(--text-color);
-    border: 0.2rem solid var(--col-accent-3);
 }
 
