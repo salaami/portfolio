@@ -10,7 +10,7 @@ import Footer from "../../components/Footer/Footer"
 export default function About() {
   return (
     <div className="container">
-    <Header />
+      <Header />
       <main>
           <div className="about-content">
             <div className="about-text">

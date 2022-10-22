@@ -11,7 +11,7 @@ export default function Cards( Title, Text, Link, Framework ) {
                 return (
                     <motion.li 
                         className="card"
-                        whileHover={{ scale: 1.1, backgroundColor: "#727585" }}
+                        whileHover={{ scale: 1.1, backgroundColor: "#010440" }}
                         transition={{ duration: 0.3, stiffness: 80}}
                     >
                         <a className="link" href={ item.Link }>

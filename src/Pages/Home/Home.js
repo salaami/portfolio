@@ -1,7 +1,6 @@
 import React from 'react' 
 import './Home.css'
 import Header from '../../components/Header/Header'
-import HomeText from './HomeText'
 import Footer from '../../components/Footer/Footer'
 
 export default function Home() {
@@ -10,7 +9,19 @@ export default function Home() {
             <Header />
             <main>
                 <div className="home-content" >
-                    <HomeText />
+                    <div className="prompt">
+                        <div className="prompt-text">SALEM ~ HOME</div>
+                        <div className="triangle"/>
+                            <div className="command">
+                                WHOAMI
+                            </div>
+                    </div>
+                    
+                    <div className="response">
+                        MY NAME IS SALEM.<br/>
+                        I AM A DATA ENGINEER <br/>
+                        FROM HAMBURG CITY.<br/>
+                    </div>
                 </div>
             </main>
             <Footer />

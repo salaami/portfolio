@@ -10,14 +10,6 @@
     font-size: var(--fs-small);
 }
 
-.contact-button {
-    outline: solid var(--light);
-    font-weight: lighter;
-    text-decoration: none;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
-    color: inherit;
-    margin-top: 3rem;
-    flex-shrink: unset;
-}
+
 
 

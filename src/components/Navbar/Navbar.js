@@ -2,7 +2,6 @@ import React from "react";
 import "./Navbar.css";
 import { AnimatePresence, motion, useCycle } from "framer-motion";
 import { menuItemData } from "./MenuItemData";
-import { ChildVariants } from "./ChildVariants";
 
 const itemVariants = {
     closed: {
@@ -54,13 +53,14 @@ export default function Navbar() {
   return (
     <div className="nav-container">
         <motion.button 
+            className="nav-button"
             onClick={cycleOpen}
             whileHover={{
-                backGround: "#B1B5CC",
-                scale: 1.2,
+                backGround: "#010440",
+                scale: 1.1,
             }}
         >
-            { open ? "×" : "»" }
+            { open ? "close" : "menu" }
         </motion.button>
         <AnimatePresence>
         {open && (
@@ -72,19 +72,19 @@ export default function Navbar() {
             exit="exit"
         >
             <motion.div
-                className="container"
+                className="nav-item"
                 initial="closed"
                 animate="open"
                 exit="closed"
                 variants={childVariants}
-            >
+                >
             {menuItemData.map(({ label, url, id }) => (
                 <motion.a
                     key={id}
                     href={url}
                     whileHover={{ 
                         scale: 0.95,
-                        color: "#6AD1ED"
+                        color: "#F20505"
                     }}
                     variants={itemVariants}
                 >

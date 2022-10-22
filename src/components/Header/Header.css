@@ -1,9 +1,7 @@
 header {
-    position: absolute;
     top: 0;
     left:0;
     height: 10vh;
     width: 100%;
-    box-shadow: 0 0.5rem 1rem 0.5rem var(--darker);
-    background: var(--darker);
+    outline: var(--accent-3) solid 0.25rem;
 }
