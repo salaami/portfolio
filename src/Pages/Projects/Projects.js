@@ -10,10 +10,10 @@ export default function Projects() {
             <Header/>
             <main>
                 <div className="project-content">
-                    <h1>Projects</h1>
+                    <h1>PROJECTS</h1>
                     <h2>
-                        <p>Check out the things I build.</p>
-                        <p>Here you'll find a collection of my projects.</p>
+                        <p>CHECK OUT THE THINGS I BUILD.</p>
+                        <p>HERE YOU'LL FIND A OVERVIEW OF MY PROJECTS.</p>
                     </h2>
                     <Cards /> 
                 </div>

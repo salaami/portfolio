@@ -23,7 +23,7 @@
   --accent-1: #A60321;
   --accent-2: #F20505;
   --accent-3: #05F2DB;
-  --text-color: #F2E7DC;
+  --text-color: #F20505;
   --fs-huge: 10rem;
   --fs-big: 5rem;
   --fs-normal: 3rem;
@@ -31,40 +31,41 @@
   --fs-tiny: 1rem;
 }
 
-::-webkit-scrollbar{
-  display: none;
-}
-
-* {
+html, body {
   box-sizing: border-box;
   font-family: 'SuissIntlMono-Bold';  
-  font-weight: 600;
-  font-style: italic;
-  background: var(--darker);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: var(--dark);
+  
 }
 
 main {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  background: linear-gradient(to bottom, #000, var(--dark), var(--middle));
-  color: var(--text-color);
-  margin-bottom: 5vh;
 }
 
 h1 {
-  font-size: var(--fs-huge);
-  color: var(--accent-2)
+  font-size: var(--fs-big);
+  text-shadow:0.5rem 0 var(--accent-1);
+  color: var(--accent-3);
+  font-style: italic;   
+
 }
 
 h2 {
   font-size: var(--fs-normal);
-  font-weight: light;
   color: var(--text-color);
-  line-height: 2rem;
 }
