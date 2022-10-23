@@ -23,7 +23,7 @@
   --accent-1: #A60321;
   --accent-2: #F20505;
   --accent-3: #05F2DB;
-  --text-color: #F20505;
+  --text-color: #FFFFFF;
   --fs-huge: 10rem;
   --fs-big: 5rem;
   --fs-normal: 3rem;
@@ -46,7 +46,6 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
   background: var(--dark);
   
 }

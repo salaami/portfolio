@@ -1,5 +1,7 @@
 .nav-button {
   position: fixed;
+  left: 2.5vw;
+  top: 50vh;
   z-index: 10;
   color: var(--text-color);
   padding: 0.5rem 0.5rem;
@@ -8,37 +10,28 @@
 
 }
 
-.nav-container {
-  margin: 2rem;
-  width: 100vw;
-  height: 100vh;
-  z-index: 100;
-}
-
-.nav-container {
+.navbar-menu {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  z-index: 5;
 }
 
 .nav-item {
-  position: sticky;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: var(--accent-3);
   font-size: var(--fs-huge);
   background: var(--dark);
-  color: inherit;
   font-weight: 900;
   text-shadow:0.5rem 0 var(--accent-1);
   font-style: italic;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 10vw;
 }
-
 
 .nav-link {
   text-decoration: none;
+  color: var(--accent-3);
 } 
 
