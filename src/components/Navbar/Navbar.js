@@ -65,7 +65,7 @@ export default function Navbar() {
         <AnimatePresence>
         {open && (
         <motion.div
-            className="navbar-container"
+            className="navbar-menu"
             variants={easeVariants}
             initial="closed" 
             animate="open"
@@ -80,12 +80,11 @@ export default function Navbar() {
                 >
             {menuItemData.map(({ label, url, id }) => (
                 <motion.a
+                    className="nav-link"
                     key={id}
                     href={url}
                     whileHover={{ 
-                        scale: 0.95,
-                        color: "#F20505"
-                    }}
+                        scale: 0.95                    }}
                     variants={itemVariants}
                 >
                 {label}
