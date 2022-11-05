@@ -1,11 +1,10 @@
 .home-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 90vh;
     font-size: var(--fs-normal);
+    padding: 5rem 0 5rem 5rem;
 }
 
 .prompt {
@@ -36,4 +35,5 @@
 
 .response {
     margin: 3rem 2rem;
+    color: var(--text-color)
 }
