@@ -46,14 +46,12 @@ const easeVariants = {
     }
 };
 
-
-
 export default function Navbar() {
   const [open, cycleOpen] = useCycle(false, true);
   return (
     <div className="nav-container">
         <motion.button 
-            className="nav-button"
+            className="nav-btn"
             onClick={cycleOpen}
             whileHover={{
                 backGround: "#010440",

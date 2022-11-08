@@ -3,12 +3,22 @@ import './Projects.css'
 import Header from '../../components/Header/Header'
 import Cards from './Cards'
 import Footer from '../../components/Footer/Footer'
+import { motion } from 'framer-motion'
+import { PageVariants } from '../Animations/PageVariants'
+import { PageTransition } from '../Animations/PageTransition'
 
 export default function Projects() {
     return (
-        <div className="container">
+        <div>
             <Header/>
-            <main>
+            <motion.main
+                className="container"
+                variants={PageVariants}
+                transition={PageTransition}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+            >
                 <div className="project-content">
                     <h1>PROJECTS</h1>
                     <h2>
@@ -17,7 +27,7 @@ export default function Projects() {
                     </h2>
                     <Cards /> 
                 </div>
-            </main>
+            </motion.main>
             <Footer />
         </div>
     )
