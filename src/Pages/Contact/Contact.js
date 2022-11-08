@@ -2,14 +2,24 @@ import React from "react"
 import './Contact.css'
 import Header from "../../components/Header/Header"
 import Footer from "../../components/Footer/Footer"
+import { PageVariants } from "../Animations/PageVariants"
+import { motion } from "framer-motion"
+import { PageTransition } from "../Animations/PageTransition"
 
 
 export default function Contact() {
   return(
-    <div className="container">
+    <div>
       <Header />
-      <main>
-        <div className="contact-text">
+      <motion.main
+        className="container"
+        variants={PageVariants}
+        transition={PageTransition}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+      >
+        <div className="contact-content">
           <h1>CONTACT</h1>
           <p>YOU HAVE A QUESTION</p>
           <p>and would like to reach out to me?</p>
@@ -18,12 +28,13 @@ export default function Contact() {
           <a
             href="mailto:salemsalleh@gmail.com" 
             rel="noreferrer"
-            >SAY HELLO
+            className="say-hello-btn"
+          >SAY HELLO
           </a>
         </div>
-      </main>
+      </motion.main>
       <Footer />
-    </div >
+    </div>
   )
 }
 
