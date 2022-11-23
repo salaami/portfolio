@@ -3,16 +3,16 @@
   left: 2.5vw;
   top: 50vh;
   z-index: 10;
-  color: var(--text-color);
-  padding: 0.5rem 0.5rem;
-  background: var(--dark);
-  border: var(--accent-1) solid;
+  background: transparent;
+  border: none;
+}
 
+.icon {
+  fill: var(--accent-1);
 }
 
 .navbar-menu {
   display: flex;
-  z-index: 5;
 }
 
 .nav-item {
@@ -28,6 +28,7 @@
   width: 100vw;
   height: 100vh;
   padding-left: 10vw;
+  z-index: 8;
 }
 
 .nav-link {

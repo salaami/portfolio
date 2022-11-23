@@ -3,8 +3,8 @@ import './Home.css'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import { motion } from 'framer-motion'
-import { PageVariants } from '../Animations/PageVariants'
-import { PageTransition } from '../Animations/PageTransition'
+import { PageVariants } from '../../components/Animations/PageVariants'
+import { PageTransition } from '../../components/Animations/PageTransition'
 
 export default function Home() {
 

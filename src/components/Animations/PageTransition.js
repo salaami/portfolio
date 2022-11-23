@@ -1,6 +1,6 @@
 const PageTransition = {
     type: "tween",
     ease: "easeIn",
-    duration: 1
+    duration: 0.5
 }
 export { PageTransition }
