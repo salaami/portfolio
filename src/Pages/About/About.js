@@ -6,23 +6,23 @@ import Language from './Charts/Language'
 import Framework from './Charts/Framework'
 import Footer from "../../components/Footer/Footer"
 import { motion } from "framer-motion"
-import { PageVariants } from "../Animations/PageVariants"
-import { PageTransition } from "../Animations/PageTransition"
+import { PageVariants } from "../../components/Animations/PageVariants"
+import { PageTransition } from "../../components/Animations/PageTransition"
 
 export default function About() {
 
   return (
     <div>
       <Header />
-      <motion.main 
-        className="container"
-        variants={PageVariants}
-        transition={PageTransition}
-        initial="initial"
-        animate="animate"
-        exit="exit"
-      >
-        <div className="about-content">
+      <main className="container">
+        <motion.div 
+          className="about-content"
+          variants={PageVariants}
+          transition={PageTransition}
+          initial="initial"
+          animate="animate"
+          exit="exit"
+        >
           <div className="about-text">
             <h1>About</h1>
               <p>You have a question</p>
@@ -35,8 +35,8 @@ export default function About() {
             <Framework />
             <Tongue />
           </div>
-        </div>
-      </motion.main>
+        </motion.div>
+      </main>
       <Footer />
     </div>
   );
