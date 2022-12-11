@@ -2,8 +2,6 @@
   display: flex;
   align-content: flex-start;
   justify-content: space-evenly;
-  width: 90vw;
-  height: 90vh;
   color: var(--text-color);
 }
 
