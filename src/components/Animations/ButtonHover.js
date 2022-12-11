@@ -45,12 +45,12 @@ export default function HoverButton({Text}) {
             >{ Text }
             </motion.p>
             <motion.svg 
-                viewBox="0 0 1500 1100" 
+                viewBox="0 0 5000 2000" 
             >
                 <motion.path
                     variants={outlineVariants}
                     fill="none"
-                    d="M 0, 0 H 1500 V 1100 H 0 Z"
+                    d="M 3900 1900 L 0 1900 L 0 0 L 3900 0 Z"
                 />
             </motion.svg>
         </motion.div>

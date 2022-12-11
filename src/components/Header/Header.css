@@ -3,6 +3,7 @@ header {
     left:0;
     height: 10vh;
     width: 100%;
-    outline: var(--accent-3) solid 0.25rem;
+    outline: var(--accent-3) dashed 0.1rem;
     background: var(--dark);
+    position: sticky;
 }

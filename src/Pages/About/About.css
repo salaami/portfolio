@@ -2,18 +2,18 @@
   display: flex;
   align-content: flex-start;
   justify-content: space-evenly;
-  width: 90vw;
-  height: 90vh;
   color: var(--text-color);
 }
 
 .about-text {
   display: flex;
-  width: 100%;
-  align-items: center;
+  max-width: 50vw;
+  align-items: flex-start;
   flex-direction: column;
   color: var(--text-color);
   font-size: var(--fs-small);
+  line-height: 3rem;
+
 }
 
 .graph-container {
