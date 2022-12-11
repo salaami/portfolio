@@ -100,9 +100,6 @@ export default function Navbar() {
             <motion.button 
                 className="nav-btn"
                 onClick={cycleOpen}
-                whileHover={{
-                    scale: 0.9,
-                }}
             >
             { open ? (
                 <svg
