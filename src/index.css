@@ -47,6 +47,8 @@ html, body {
   justify-content: center;
   align-items: center;
   background: var(--dark);
+  margin-top: 10vh;
+  padding: 0 5vw 0 5vw;
 }
 
 main {
@@ -57,10 +59,7 @@ main {
 
 h1 {
   font-size: var(--fs-big);
-  text-shadow:0.5rem 0 var(--accent-1);
   color: var(--accent-3);
-  font-style: italic;   
-
 }
 
 h2 {

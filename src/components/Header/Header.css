@@ -2,8 +2,44 @@ header {
     top: 0;
     left:0;
     height: 10vh;
+    display: flex;
     width: 100%;
     outline: var(--accent-3) dashed 0.1rem;
     background: var(--dark);
-    position: sticky;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: var(--fs-small);
+    list-style-type: none;
+    font-weight: 900;
+    margin-left: 5vw;
+}
+
+.header-first {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    text-decoration: none;
+    background: var(--accent-1);
+    color: var(--dark);
+}
+
+.header-last {
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+    text-decoration: none;
+    background: var(--accent-2);
+    color: var(--dark);
+}
+
+.header-nav {
+    align-self: center;
+    margin-right: 5vw;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: var(--fs-small);
+    color: var(--accent-1);
 }

@@ -16,11 +16,11 @@
     box-shadow: 0.5rem 0.5rem var(--accent-1);
     background: var(--dark);
     list-style: none;
+    color: var(--darker);
 }
 
 .link {
     text-decoration: none;
-    color: inherit;
 }
 
 .card-header {
@@ -34,11 +34,12 @@
 .card-text {
     font-size: var(--fs-tiny);
     margin-bottom: 1rem;
+    color: inherit;
 }
 
 .framework {
     font-size: var(--fs-tiny);
     font-weight: lighter;
-    color: var(--accent-3);
+    color: var(--accent-1);
 
 }

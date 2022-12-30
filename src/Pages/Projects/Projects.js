@@ -20,11 +20,19 @@ export default function Projects() {
                 exit="exit"
             >
                 <div className="project-content">
-                    <h1>PROJECTS</h1>
-                    <h2>
-                        <p>CHECK OUT THE THINGS I BUILD.</p>
-                        <p>HERE YOU'LL FIND A OVERVIEW OF MY PROJECTS.</p>
-                    </h2>
+                    <div >
+                        <h1>PROJECTS</h1>
+                            <article  className="project-text">
+                                <p>
+                                    This is a curated list of my private projects. 
+                                    Dispite working in the data field, I consider myself a tech enthusiast. 
+                                    That's why I try to keep my naive curiosity and discover other fields, too.
+                                    An economic approach would be to focus on a single field like data engineering, 
+                                    but I think that this rule does not apply here. 
+                                    To keep a good learning spirit I like to follow my interests and thereby broaden my knowledge.
+                                </p>
+                            </article>
+                    </div>
                     <Cards /> 
                 </div>
             </motion.main>
