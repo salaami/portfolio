@@ -25,7 +25,7 @@ export default function Contact() {
           <p>and would like to reach out to me?</p>
           <p>Then don't hesitate to send me a message and </p>
           <p>I'll try to answer as soon as I can.</p>
-          <HoverButton Text={"Say Hello >>"}>
+          <HoverButton Text={"Say Hello"}>
   
           </HoverButton>
         </motion.div>
