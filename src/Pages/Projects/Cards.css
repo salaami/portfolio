@@ -11,7 +11,7 @@
 .card {
     display: flex;
     padding: 2rem;
-    width: 20rem;
+    width: 16rem;
     border: 0.2rem solid var(--accent-1);
     background: var(--dark);
     list-style: none;

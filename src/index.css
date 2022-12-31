@@ -48,6 +48,7 @@ main {
   align-items: center;
   background: var(--dark);
   margin-top: 10vh;
+  margin-bottom: 10vh;
   padding: 0 5vw 0 5vw;
 }
 
@@ -68,8 +69,7 @@ article {
   flex-direction: column;
   color: var(--text-color);
   font-size: var(--fs-small);
-
+  line-height: 3rem;
   background: var(--middle);
-  padding: 3rem 3rem 3rem 3rem;
-  margin-bottom: 3rem;
+  padding: 3rem 5rem 0 5rem;
 }
