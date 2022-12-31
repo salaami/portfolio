@@ -11,10 +11,11 @@ const hoverVariants = {
     },
     hover:{
         color: "var(--accent-2)",
-        textDecoration: "underline",
+        textDecoration: "underline double",
         transition: {
             delay: 0.2,
-            stiffness: 8,
+            stiffness: 50,
+
         }
     }
 
@@ -38,11 +39,12 @@ export default function Header() {
             >
                 {NavData.map((item) => {
                     return (
-                            <motion.a 
+                            <motion.a
                                 className={item.Cname}  
                                 href={item.Route}
                                 whileHover="hover"
                                 variants={hoverVariants}
+                                whileTap={{scale: 0.5}}
                             >
                                 {item.Text}                   
                             </motion.a>

@@ -12,7 +12,6 @@ export default function Projects() {
         <div>
             <Header/>
             <motion.main
-                className="container"
                 variants={PageVariants}
                 transition={PageTransition}
                 initial="initial"
@@ -24,12 +23,10 @@ export default function Projects() {
                         <h1>PROJECTS</h1>
                             <article  className="project-text">
                                 <p>
-                                    This is a curated list of my private projects. 
-                                    Dispite working in the data field, I consider myself a tech enthusiast. 
-                                    That's why I try to keep my naive curiosity and discover other fields, too.
-                                    An economic approach would be to focus on a single field like data engineering, 
-                                    but I think that this rule does not apply here. 
-                                    To keep a good learning spirit I like to follow my interests and thereby broaden my knowledge.
+                                    This is a curated list of my private projects. <br />
+                                    Despite working in the data field, I am enthusiastic about many different technological subjects. <br />
+                                    That's why I try to keep my naive curiosity and discover related topics, too.<br />
+                                    To keep a good learning spirit I like to follow my interests and thereby broaden my knowledge.<br />
                                 </p>
                             </article>
                     </div>

@@ -12,7 +12,6 @@ export default function Home() {
         <div>
             <Header />
             <motion.main
-                className="container"
                 variants={PageVariants}
                 transition={PageTransition}
                 initial="initial"
