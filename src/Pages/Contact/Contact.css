@@ -1,11 +1,8 @@
 .contact-content {
     display: flex;
-    align-items: flex-start;
-    height: 90vh;
+    align-items: center;
     flex-direction: column;
-    color: var(--text-color);
-    font-size: var(--fs-small);
-    line-height: 1rem;
+    align-content: flex-start;
 }
 
 .say-hello-btn {
