@@ -13,7 +13,6 @@
     padding: 2rem;
     width: 20rem;
     border: 0.2rem solid var(--accent-1);
-    box-shadow: 0.5rem 0.5rem var(--accent-1);
     background: var(--dark);
     list-style: none;
     color: var(--darker);
@@ -34,7 +33,7 @@
 .card-text {
     font-size: var(--fs-tiny);
     margin-bottom: 1rem;
-    color: inherit;
+    color: var(--text-color);
 }
 
 .framework {
