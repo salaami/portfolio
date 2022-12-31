@@ -22,10 +22,12 @@ export default function Contact() {
         >
           <h1>CONTACT</h1>
           <article>
-            <p>you have a question</p>
-            <p>and would like to reach out to me?</p>
-            <p>Then don't hesitate to send me a message and </p>
-            <p>I'll try to answer as soon as I can.</p>
+            <p>
+              You have a question<br/>
+              and would like to reach out to me?<br/>
+              Then don't hesitate to send me a message and<br/>
+              I'll get back to you as soon as I can.
+            </p>
           </article>
           <HoverButton Text={"Say Hello"}>
           </HoverButton>

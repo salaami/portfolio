@@ -5,15 +5,9 @@
 }
 
 @font-face {
-  font-family: 'SuissIntlMono-Regular';
-  src: local('SuissIntlMono-Regular'),
-   url('./assets/fonts/SuisseIntlMono/SuisseIntlMono-Regular.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'SuissIntlMono-Light';
-  src: local('SuissIntlMono-Light'),
-   url('./assets/fonts/SuisseIntlMono/SuisseIntlMono-Light.otf') format('opentype');
+  font-family: 'SuisseIntl-Thin';
+  src: local('SuisseIntl-Thin'),
+   url('./assets/fonts/SuisseIntlThin/SuisseIntl-Thin.otf') format('opentype');
 }
 
 :root {
@@ -49,17 +43,20 @@ main {
   background: var(--dark);
   margin-top: 10vh;
   margin-bottom: 10vh;
+  min-height: 90vh;
   padding: 0 5vw 0 5vw;
 }
 
 h1 {
   font-size: var(--fs-big);
   color: var(--accent-3);
+  font-family: 'SuissIntlMono-Bold';  
 }
 
 h2 {
   font-size: var(--fs-normal);
   color: var(--text-color);
+  font-family: 'SuissIntlMono-Bold';  
 }
 
 article {
@@ -67,9 +64,10 @@ article {
   min-width: 50vw;
   align-items: flex-start;
   flex-direction: column;
+  font-family: 'SuisseIntl-Thin';  
   color: var(--text-color);
   font-size: var(--fs-small);
   line-height: 3rem;
   background: var(--middle);
-  padding: 3rem 5rem 0 5rem;
+  padding: 3rem 3rem 3rem 3rem;
 }
