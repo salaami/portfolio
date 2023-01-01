@@ -2,12 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: var(--dark);
   position: fixed;
   left: 0;
   bottom: 0;
   right: 0;
   height: 10vh;
   width: 100%;
-  outline: var(--accent-3) dashed 0.1rem;
+  opacity: 0.95;
 }

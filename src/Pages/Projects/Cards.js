@@ -14,7 +14,7 @@ export default function Cards() {
                         whileHover={{ 
                             scale: 1.05, 
                             backgroundColor: "var(--middle)",
-                            boxShadow: "0.5rem 0.5rem var(--accent-1)"
+                            boxShadow: "0.5rem 0.5rem var(--dark)"
                         }}
                         transition={{ 
                             duration: 0.3, 
@@ -22,12 +22,20 @@ export default function Cards() {
 
                         }}
                         >
-                        <a className="link" href={item.Link}>
-                            <div className="card-header">{item.Title}</div>
-                                <motion.p 
-                                    className="card-text"
-                                >{item.Text}</motion.p>
-                                <div className="framework">{item.Framework}</div>
+                        <a 
+                            className="link" 
+                            href={item.Link}
+                        >
+                            <div className="card-header">
+                                {item.Title}
+                            </div>
+                            <motion.p 
+                                className="card-text"
+                            >{item.Text}
+                            </motion.p>
+                            <div className="framework">
+                                {item.Framework}
+                            </div>
                         </a>
                     </motion.li>
                 )

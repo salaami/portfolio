@@ -14,21 +14,21 @@
 }
 
 .triangle {
-    border-left: var(--fs-normal) solid var(--accent-3);
+    border-left: var(--fs-normal) solid var(--accent-2);
     border-bottom: var(--fs-normal) solid transparent;
     border-top: var(--fs-normal) solid transparent; 
 }
 
 .prompt-text {
     display: flex;
-    background: var(--accent-3);
+    background: var(--accent-2);
     padding: 0 2rem 0 2rem;
     color: var(--darker);
 }
 
 .command {
     margin-left: 2rem;
-    color: var(--accent-3);
+    color: var(--light);
 }
 
 .response {
