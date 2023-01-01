@@ -6,15 +6,6 @@
 }
 
 .project-text {
-    display: flex;
     min-width: 50vw;
     max-width: 90vw;
-    align-items: flex-start;
-    flex-direction: column;
-    color: var(--text-color);
-    font-size: var(--fs-small);
-    line-height: 3rem;
-    background: var(--middle);
-    padding: 3rem 3rem 3rem 3rem;
-    margin-bottom: 3rem;
 }

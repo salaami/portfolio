@@ -5,17 +5,16 @@ import { motion } from "framer-motion"
 
 const hoverVariants = {
     default: {
-        color: "var(--accent-1)",
+        color: "var(--light)",
         textDecoration: "none"
 
     },
     hover:{
-        color: "var(--accent-2)",
-        textDecoration: "underline double",
+        color: "var(--text-color)",
+        textDecoration: "underline wavy",
         transition: {
             delay: 0.2,
             stiffness: 50,
-
         }
     }
 
@@ -24,16 +23,11 @@ const hoverVariants = {
 export default function Header() {
     return (
         <header>
-            <li className="header-logo">
-                <a 
-                    href="/"
-                    className="header-first"
-                >SALEM</a>
-                <a 
-                    href="/"
-                    className="header-last"
-                >SALLEH</a>
-            </li>
+            <a 
+                href="/"
+                className="header-logo"
+            >Salem Salleh
+            </a>
             <nav
                 className="header-nav"
             >

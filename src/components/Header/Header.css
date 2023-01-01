@@ -4,11 +4,12 @@ header {
     height: 10vh;
     display: flex;
     width: 100%;
-    outline: var(--accent-3) dashed 0.1rem;
-    background: var(--dark);
+    background: var(--darker);
     position: fixed;
     align-items: center;
     justify-content: space-between;
+    font-family: SuissIntlMono-Bold;
+    opacity: 0.95;
 }
 
 .header-logo {
@@ -16,20 +17,8 @@ header {
     list-style-type: none;
     font-weight: 900;
     margin-left: 5vw;
-}
-
-.header-first {
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: var(--light);
     text-decoration: none;
-    background: var(--accent-1);
-    color: var(--dark);
-}
-
-.header-last {
-    padding: 0.25rem 0.25rem 0.25rem 0.25rem;
-    text-decoration: none;
-    background: var(--accent-2);
-    color: var(--dark);
 }
 
 .header-nav {
@@ -41,5 +30,6 @@ header {
     text-decoration: none;
     padding: 1rem;
     font-size: var(--fs-small);
-    color: var(--accent-1);
+    font-weight: 900;
+    color: var(--light);
 }

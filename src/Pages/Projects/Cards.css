@@ -12,10 +12,10 @@
     display: flex;
     padding: 2rem;
     width: 16rem;
-    border: 0.2rem solid var(--accent-1);
     background: var(--dark);
     list-style: none;
     color: var(--darker);
+    border-radius: var(--border-radius);
 }
 
 .link {
@@ -24,7 +24,7 @@
 
 .card-header {
     font-size: var(--fs-small);
-    color: var(--accent-3);
+    color: var(--accent-2);
     font-weight: bolder;
     margin-bottom: 1.5rem;
     width: 100%;
