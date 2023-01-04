@@ -29,13 +29,21 @@ export default function Contact() {
           transition={PageTransition}
           animate="animate"
         >
-          <motion.h1
-            className="contact-btn"
-            variants={container}
-            animate="animate"
+          <h2>SAY HELLO</h2>
+          <marquee
+            scrollamount="10"
           >
-            ***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***
-          </motion.h1>
+            <motion.a
+              href="mailto:salemsalleh@gmail.com"
+              rel="noreferrer" 
+              whileHover={{
+                textDecoration: "underline"
+              }}
+            >
+              ***SALEMSALLEH@GMAIL.COM***
+            </motion.a>
+          </marquee>
+
         </motion.div>
       </main>
       <Footer />

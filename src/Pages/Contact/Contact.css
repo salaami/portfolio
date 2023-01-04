@@ -6,17 +6,9 @@
     overflow: hidden;
 }
 
-.contact-btn {
-    text-decoration: none;
-    color: var(--text-color);
-    padding: 0.5rem 0.5rem;
-    color: var(--accent-2)
-}
-
 .email-container {
     display: flex;
     flex-direction: column;
 }
-
 
 
