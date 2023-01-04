@@ -11,7 +11,7 @@ const hoverVariants = {
     },
     hover:{
         color: "var(--text-color)",
-        textDecoration: "underline wavy",
+        textDecoration: "underline double",
         transition: {
             delay: 0.2,
             stiffness: 50,
