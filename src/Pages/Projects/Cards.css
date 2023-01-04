@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     column-gap: 5rem;
     gap: 2rem;
-    color: var(--text-color);
     justify-content: flex-start;
     margin-bottom: 5rem;
 }
@@ -11,11 +10,10 @@
 .card {
     display: flex;
     padding: 2rem;
-    width: 16rem;
-    background: var(--dark);
+    width: 14rem;
     list-style: none;
-    color: var(--darker);
     border-radius: var(--border-radius);
+    background: var(--middle);
 }
 
 .link {

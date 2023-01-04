@@ -5,7 +5,18 @@ import Footer from "../../components/Footer/Footer"
 import { PageVariants } from "../../components/Animations/PageVariants"
 import { motion } from "framer-motion"
 import { PageTransition } from "../../components/Animations/PageTransition"
-import HoverButton from "../../components/Animations/ButtonHover" 
+
+const container = {
+  animate: {
+    x: [-1000, 1000],
+    transition: {
+      repeat: Infinity,
+      repeatType: "loop",
+      duration: 5,
+      ease: "linear"
+    }
+  }
+}
 
 export default function Contact() {
   return(
@@ -16,21 +27,15 @@ export default function Contact() {
           className="contact-content"
           variants={PageVariants}
           transition={PageTransition}
-          initial="initial"
           animate="animate"
-          exit="exit"
         >
-          <h1>CONTACT</h1>
-          <article>
-            <p>
-              You have a question<br/>
-              and would like to reach out to me?<br/>
-              Then don't hesitate to send me a message and<br/>
-              I'll get back to you as soon as I can.
-            </p>
-          </article>
-          <HoverButton Text={"Say Hello"}>
-          </HoverButton>
+          <motion.h1
+            className="contact-btn"
+            variants={container}
+            animate="animate"
+          >
+            ***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***SALEMSALLEH@GMAIL.COM***
+          </motion.h1>
         </motion.div>
       </main>
       <Footer />

@@ -14,10 +14,10 @@ export default function Cards() {
                         whileHover={{ 
                             scale: 1.05, 
                             backgroundColor: "var(--middle)",
-                            boxShadow: "0.5rem 0.5rem var(--dark)"
+                            boxShadow: "0.5rem 0.5rem var(--dark)",
                         }}
                         transition={{ 
-                            duration: 0.3, 
+                            duration: 0.3,
                             ease: "easeInOut"
 
                         }}
