@@ -63,6 +63,12 @@ h1 {
 h2 {
   font-size: var(--fs-normal);
   color: var(--text-color);
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 article {
@@ -80,3 +86,8 @@ article {
   margin-bottom: 3rem;
 }
 
+marquee {
+  color: var(--accent-2);
+  font-size: var(--fs-huge);
+  font-weight: 900;
+}
