@@ -4,11 +4,28 @@
     flex-direction: column;
     align-content: flex-start;
     overflow: hidden;
+    width: 100%;
 }
 
-.email-container {
-    display: flex;
-    flex-direction: column;
+.call-to-action {
+    padding-top: 5rem;
 }
 
+.marquee {
+    width: 100%;
+	height: 100%;
+    overflow: hidden;
+}
 
+.scrolling-text {
+    animation: marquee 20s linear infinite;
+    font-size: var(--fs-huge);
+    color: var(--accent-2);
+    font-weight: 900;
+    margin-top: 0;
+}
+
+@keyframes marquee {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
