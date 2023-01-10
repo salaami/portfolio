@@ -51,7 +51,7 @@ main {
   background: var(--darker);
   margin-top: 10vh;
   margin-bottom: 10vh;
-  min-height: 90vh;
+  max-height: 90vh;
   padding: 0 5vw 0 5vw;
 }
 
