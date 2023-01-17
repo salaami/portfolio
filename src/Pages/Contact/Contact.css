@@ -11,21 +11,35 @@
     padding-top: 5rem;
 }
 
-.marquee {
-    width: 100%;
-	height: 100%;
+.marquee-container {
+    min-width: 100%;
+    height: 100%;
     overflow: hidden;
+    display: flex;
+    gap: 7rem;
 }
-
-.scrolling-text {
-    animation: marquee 20s linear infinite;
+.marquee {
+    display: flex;
+    flex-shrink: 0;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 0;
+    padding-left: 3vw;
+    white-space: nowrap;
+    animation: scroll 40s linear infinite;
     font-size: var(--fs-huge);
     color: var(--accent-2);
-    font-weight: 900;
-    margin-top: 0;
+    font-family: "SuisseWorks-Book";
+    font-weight: 100;
 }
 
-@keyframes marquee {
-    0%   { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100% - 3rem));
+  }
 }
