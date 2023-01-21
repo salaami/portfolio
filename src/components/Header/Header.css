@@ -20,6 +20,15 @@ header {
     color: var(--light);
     text-decoration: none;
 }
+.nav-container {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: var(--darker);
+    border-radius: 8px;
+    width: fit-content;
+    gap: 32px;
+}
 
 .header-nav {
     align-self: center;
@@ -27,9 +36,21 @@ header {
 }
 
 .nav-link {
+    position: relative;
+    list-style: none;
+    outline: none;
     text-decoration: none;
     padding: 1rem;
     font-size: var(--fs-small);
     font-weight: 900;
     color: var(--light);
+}
+
+.underline {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--accent-1);
 }
