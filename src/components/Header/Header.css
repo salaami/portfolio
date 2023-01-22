@@ -23,11 +23,9 @@ header {
 .nav-container {
     display: flex;
     align-items: center;
-    padding: 8px 16px;
+    margin-right: 5vw;
     background: var(--darker);
-    border-radius: 8px;
-    width: fit-content;
-    gap: 32px;
+    gap: 2vw;
 }
 
 .header-nav {
@@ -40,7 +38,6 @@ header {
     list-style: none;
     outline: none;
     text-decoration: none;
-    padding: 1rem;
     font-size: var(--fs-small);
     font-weight: 900;
     color: var(--light);
