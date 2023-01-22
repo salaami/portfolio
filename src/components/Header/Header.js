@@ -5,7 +5,6 @@ import { motion } from "framer-motion"
 import { useState } from 'react'
 
 export default function Header() {
-    const [focused, setFocused] = React.useState(null)
     const [selected, setSelected] = React.useState(null)
     return (
         <header>
@@ -16,19 +15,20 @@ export default function Header() {
             </a>
             <ul 
                 className="nav-container"
-                onMouseLeave={() => setFocused(null)}
             >
                 {NavData.map((item) => (
-                    <a
+                    <motion.a
                         className="nav-link"
                         key={item.Text}
                         href={item.Route}
+                        whileHover={{
+                            color: 'var(--text-color)',
+                            scale: 1.1,
+                        }}
                         onClick={() => setSelected(item)}
                         onKeyDown={(event: { key: string }) =>
                             event.key === 'Enter' ? setSelected(item.Text) : null
                             }
-                        onFocus={() => setFocused(item)}
-                        onMouseEnter={() => setFocused(item)}
                         tabIndex={0}
                     >
                         {item.Text}
@@ -46,7 +46,7 @@ export default function Header() {
                                 layoutId="underline"
                             />
                         ) : null}
-                    </a>
+                    </motion.a>
                 ))}
             </ul>
         </header>
