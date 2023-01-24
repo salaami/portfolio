@@ -1,4 +1,4 @@
-const NavData = [
+export const NavData = [
     {
         Route: "/",
         Cname: "nav-link",
@@ -20,4 +20,3 @@ const NavData = [
         Text: "CONTACT"
     },
 ]
-export { NavData }
