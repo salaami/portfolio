@@ -1,11 +1,17 @@
 import React from 'react'
 import './Header.css'
 import { NavData } from './NavData'
-import { motion } from "framer-motion"
-import { useState } from 'react'
+import { motion, AnimateSharedLayout } from "framer-motion"
+import { useState, useEffect } from 'react'
 
 export default function Header() {
-    const [selected, setSelected] = React.useState(null)
+    const [selected, setSelected] = useState(0)
+    useEffect(() => {
+        setSelected(JSON.parse(window.localStorage.getItem('selected')))
+    }, [])
+    useEffect(() => {
+        window.localStorage.setItem('selected', selected)
+    }, [selected])
     return (
         <header>
             <a 
@@ -16,38 +22,26 @@ export default function Header() {
             <ul 
                 className="nav-container"
             >
-                {NavData.map((item) => (
-                    <motion.a
-                        className="nav-link"
-                        key={item.Text}
-                        href={item.Route}
-                        whileHover={{
-                            color: 'var(--text-color)',
-                            scale: 1.1,
-                        }}
-                        onClick={() => setSelected(item)}
-                        onKeyDown={(event: { key: string }) =>
-                            event.key === 'Enter' ? setSelected(item.Text) : null
-                            }
-                        tabIndex={0}
-                    >
-                        {item.Text}
-                        {selected === item ? (
-                            <motion.div
-                                style={{
-                                    position: 'absolute',
-                                    bottom: '-0.25rem',
-                                    left: 0,
-                                    right: 0,
-                                    height: '0.25rem',
-                                    background: 'var(--accent-1)',
-                                    zIndex: 0,
-                                }}
-                                layoutId="underline"
-                            />
-                        ) : null}
-                    </motion.a>
-                ))}
+                <AnimateSharedLayout>
+                    {NavData.map(({ Text, Route }, i) => (
+                        <motion.a
+                            className="nav-link"
+                            key={i}
+                            href={Route}
+                            whileHover={{
+                                color: 'var(--text-color)',
+                            }}
+                            onClick={() => setSelected(i)}
+                        >
+                        {i === selected && (
+                          <motion.div
+                            className="underline"
+                          />
+                        )}
+                            {Text}
+                        </motion.a>
+                    ))}
+                </AnimateSharedLayout>
             </ul>
         </header>
     )

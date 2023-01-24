@@ -28,6 +28,11 @@ header {
     gap: 2vw;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .header-nav {
     align-self: center;
     margin-right: 5vw;
@@ -48,6 +53,6 @@ header {
   bottom: -1px;
   left: 0;
   right: 0;
-  height: 1px;
+  height: 0.25rem;
   background: var(--accent-1);
 }
