@@ -14,11 +14,7 @@ export default function Header() {
     }, [selected])
     return (
         <header>
-            <a 
-                href="/"
-                className="header-logo"
-            >Salem Salleh
-            </a>
+            <div className="header-logo">Salem Salleh</div>
             <ul 
                 className="nav-container"
             >
