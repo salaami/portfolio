@@ -3,6 +3,29 @@ import { CardsData } from './CardsData'
 import './Cards.css'
 import { motion } from 'framer-motion'
 
+const hoverCard = {
+    rest: {
+        color: "var(--light)",
+        y: "0vh",
+        scale: 1,
+        transition: {
+            duration: 0.3,
+            type: "tween",
+            ease: "easeIn"
+        }
+    },
+    hover: {
+        color: "var(--text-color)",
+        y: "-1vh",
+        scale: 1.02,
+        transition: {
+            duration: 0.3,
+            type: "tween",
+            ease: "easeOut"
+        }
+    },
+}
+
 export default function Cards() {
     return (
             <div className="card-container">
@@ -11,18 +34,13 @@ export default function Cards() {
                 return (
                     <motion.li 
                         className="card"
-                        whileHover={{ 
-                            y: "-1vh",
-                            scale: 1.02
-                        }}
-                        transition={{ 
-                            duration: 0.3,
-                            ease: "easeInOut"
-
-                        }}
-                        >
+                        whileHover="hover"
+                        initial="rest"
+                        animate="rest"
+                        variants={hoverCard}
+                    >    
                         <a 
-                            className="link" 
+                            className="link"
                             href={item.Link}
                         >
                             <div className="card-header">
@@ -30,6 +48,7 @@ export default function Cards() {
                             </div>
                             <motion.p 
                                 className="card-text"
+                                variants={hoverCard}
                             >{item.Text}
                             </motion.p>
                             <div className="framework">
