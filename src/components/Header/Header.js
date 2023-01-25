@@ -28,6 +28,9 @@ export default function Header() {
                                 color: 'var(--text-color)',
                             }}
                             onClick={() => setSelected(i)}
+                            transitition={{
+                                delay: 1
+                            }}
                         >
                         {i === selected && (
                           <motion.div
