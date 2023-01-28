@@ -5,17 +5,17 @@ export const NavData = [
         Text: "HOME"
     },
     {
-        Route: "/About",
+        Route: "/about",
         Cname: "nav-link",
         Text: "ABOUT"
     },
     {
-        Route: "/Projects",
+        Route: "/projects",
         Cname: "nav-link",
         Text: "PROJECTS"
     },
     {
-        Route: "/Contact",
+        Route: "/contact",
         Cname: "nav-link",
         Text: "CONTACT"
     },
