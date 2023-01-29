@@ -13,7 +13,7 @@
     width: 14rem;
     list-style: none;
     border-radius: var(--border-radius);
-    background: var(--dark);
+    background: var(--middle);
 }
 
 .link {
@@ -22,15 +22,14 @@
 
 .card-header {
     font-size: var(--fs-small);
-    font-family: "SuisseWorks-Book"; 
     color: var(--accent-2);
+    font-weight: bolder;
     margin-bottom: 1.5rem;
     width: 100%;
 }
 
 .card-text {
     font-size: var(--fs-tiny);
-    font-family: "SuisseIntl-Thin";
     margin-bottom: 1rem;
     color: var(--text-color);
 }
