@@ -12,8 +12,9 @@ export default function Cards() {
                     <motion.li 
                         className="card"
                         whileHover={{ 
-                            y: "-1vh",
-                            scale: 1.02
+                            scale: 1.05, 
+                            backgroundColor: "var(--middle)",
+                            boxShadow: "0.5rem 0.5rem var(--dark)",
                         }}
                         transition={{ 
                             duration: 0.3,
