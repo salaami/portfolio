@@ -3,7 +3,6 @@ import './Header.css'
 import { NavData } from './NavData'
 import { motion, AnimateSharedLayout } from "framer-motion"
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
 
 export default function Header() {
     const [selected, setSelected] = useState(0)
@@ -21,10 +20,10 @@ export default function Header() {
             >
                 <AnimateSharedLayout>
                     {NavData.map(({ Text, Route }, i) => (
-                        <motion.Link
+                        <motion.a
                             className="nav-link"
                             key={i}
-                            to={Route}
+                            href={Route}
                             whileHover={{
                                 color: 'var(--text-color)',
                             }}
@@ -39,7 +38,7 @@ export default function Header() {
                           />
                         )}
                             {Text}
-                        </motion.Link>
+                        </motion.a>
                     ))}
                 </AnimateSharedLayout>
             </ul>

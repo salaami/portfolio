@@ -32,6 +32,7 @@
     font-size: var(--fs-tiny);
     font-family: "SuisseIntl-Thin";
     margin-bottom: 1rem;
+    color: var(--text-color);
 }
 
 .framework {
