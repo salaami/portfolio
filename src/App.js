@@ -1,29 +1,21 @@
-import { 
-  createBrowserRouter, 
-  createRoutesFromElements, 
-  Route,
-  RouterProvider,
-} from 'react-router-dom'
-import RootLayout from './components/Layout/RootLayout'
+import React from 'react'
+import { Switch, Route } from 'react-router-dom'
 import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Projects from './Pages/Projects/Projects'
 import Contact from './Pages/Contact/Contact'
-
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path='/' element={<RootLayout />}>
-      <Route index element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/contact' element={<Contact />} />
-      <Route path='/projects' element={<Projects />} />
-    </Route>
-  )
-)
+import { AnimatePresence } from 'framer-motion'
 
 export default function App() {
   return (
-    <RouterProvider router={router} />
+    <AnimatePresence exitBeforeEnter>
+      <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/about' exact component={About} />
+        <Route path='/contact' exact component={Contact} />
+        <Route path='/projects' exact component={Projects} />
+      </Switch>
+    </AnimatePresence>
   )
 }
 

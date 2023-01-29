@@ -1,12 +1,23 @@
 import React from 'react'
 import './Projects.css'
+import Header from '../../components/Header/Header'
 import Cards from './Cards'
-import AnimateMain from "../../components/Animations/AnimateMain"
+import Footer from '../../components/Footer/Footer'
+import { motion } from 'framer-motion'
+import { PageVariants } from '../../components/Animations/PageVariants'
+import { PageTransition } from '../../components/Animations/PageTransition'
 
 export default function Projects() {
     return (
-        <AnimateMain>
-            <main>
+        <div>
+            <Header/>
+            <motion.main
+                variants={PageVariants}
+                transition={PageTransition}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+            >
                 <div className="project-content">
                     <h1>PROJECTS</h1>
                     <article  className="project-text">
@@ -19,7 +30,8 @@ export default function Projects() {
                     </article>
                     <Cards /> 
                 </div>
-            </main>
-        </AnimateMain>
+            </motion.main>
+            <Footer />
+        </div>
     )
 };
