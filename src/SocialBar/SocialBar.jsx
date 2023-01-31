@@ -2,7 +2,6 @@ import './SocialBar.css'
 import React from 'react'
 import { motion } from 'framer-motion'
 import { SocialBarData } from './SocialBarData'
-import { Scale } from 'chart.js'
 
 export default function Socialbar() {
     return (

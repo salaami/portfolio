@@ -86,8 +86,7 @@ article {
   margin-bottom: 3rem;
 }
 
-marquee {
-  color: var(--accent-2);
-  font-size: var(--fs-huge);
-  font-weight: 900;
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
 }
