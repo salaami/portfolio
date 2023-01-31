@@ -12,14 +12,6 @@ header {
     opacity: 0.95;
 }
 
-.header-logo {
-    font-size: var(--fs-small);
-    list-style-type: none;
-    font-weight: 900;
-    margin-left: 5vw;
-    color: var(--light);
-    text-decoration: none;
-}
 .nav-container {
     display: flex;
     align-items: center;
@@ -28,9 +20,13 @@ header {
     gap: 2vw;
 }
 
-.wrapper {
-    display: flex;
-    justify-content: space-evenly;
+.header-logo {
+    font-size: var(--fs-small);
+    list-style-type: none;
+    font-weight: 900;
+    margin-left: 5vw;
+    color: var(--light);
+    text-decoration: none;
 }
 
 .header-nav {
@@ -38,9 +34,18 @@ header {
     margin-right: 5vw;
 }
 
+.nav-list {
+    list-style: none;
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    font-size: var(--fs-small);
+    font-weight: 900;
+    color: var(--light);
+}
+
 .nav-link {
     position: relative;
-    list-style: none;
     outline: none;
     text-decoration: none;
     font-size: var(--fs-small);

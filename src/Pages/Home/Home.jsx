@@ -1,23 +1,9 @@
 import React from 'react' 
 import './Home.css'
-import Header from '../../components/Header/Header'
-import Footer from '../../components/Footer/Footer'
-import { motion } from 'framer-motion'
-import { PageVariants } from '../../components/Animations/PageVariants'
-import { PageTransition } from '../../components/Animations/PageTransition'
-
+import PageTransition from '../../Animations/PageTransition'
 export default function Home() {
-
     return(
-        <div>
-            <Header />
-            <motion.main
-                variants={PageVariants}
-                transition={PageTransition}
-                initial="initial"
-                animate="animate"
-                exit="exit"
-            >
+            <main>
                 <div className="home-content" >
                     <div className="prompt">
                         <div className="prompt-text">SALEM ~ HOME</div>
@@ -33,9 +19,7 @@ export default function Home() {
                         FROM HAMBURG CITY.<br/>
                     </div>
                 </div>
-            </motion.main>
-            <Footer />
-        </div>
+            </main>
     )
 }
 
