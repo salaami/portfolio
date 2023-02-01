@@ -6,18 +6,19 @@ import { SocialBarData } from './SocialBarData'
 export default function Socialbar() {
     return (
         <div className="social-bar">
-                {SocialBarData.map((item) => {
+                {SocialBarData.map(({ Cname, Icon, Id, Link }, i) => {
                     return (
                             <motion.a
-                                href={item.Link}
-                                className={item.Cname}  
+                                key={Id}
+                                href={Link}
+                                className={Cname}  
                                 rel="noreferrer" 
                                 whileHover={{
                                     scale: 1.5,
                                     color: "var(--text-color)"
                                 }}
                             >
-                                {item.Icon}               
+                                {Icon}               
                             </motion.a>
                     )
                 })}
