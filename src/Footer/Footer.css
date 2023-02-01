@@ -9,4 +9,5 @@
   height: 10vh;
   width: 100%;
   opacity: 0.95;
+  z-index: 10;
 }

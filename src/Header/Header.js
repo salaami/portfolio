@@ -24,9 +24,10 @@ export default function Header() {
                     className="nav-container"
                 >
                     <AnimateSharedLayout>
-                        {NavData.map(({ Text, Route }, i) => (
+                        {NavData.map(({ Route, Id, Text}, i) => (
                             <motion.li
                                 className="nav-list"
+                                key={Id}
                                 whileHover={{
                                     color: 'var(--text-color)',
                                 }}

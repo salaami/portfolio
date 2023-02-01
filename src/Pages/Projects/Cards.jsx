@@ -7,7 +7,7 @@ export default function Cards() {
     return (
             <div className="card-container">
                 
-            {CardsData.map((item) => {
+            {CardsData.map(({Framework, Id, Link, Text, Title}, i) => {
                 return (
                     <motion.li 
                         className="card"
@@ -23,18 +23,19 @@ export default function Cards() {
                         }}
                         >
                         <a 
-                            className="link" 
-                            href={item.Link}
+                            className="link"
+                            key={Id} 
+                            href={Link}
                         >
                             <div className="card-header">
-                                {item.Title}
+                                {Title}
                             </div>
                             <motion.p 
                                 className="card-text"
-                            >{item.Text}
+                            >{Text}
                             </motion.p>
                             <div className="framework">
-                                {item.Framework}
+                                {Framework}
                             </div>
                         </a>
                     </motion.li>

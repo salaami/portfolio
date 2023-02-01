@@ -1,6 +1,6 @@
 import React from 'react' 
 import './Home.css'
-import PageTransition from '../../Animations/PageTransition'
+
 export default function Home() {
     return(
             <main>
