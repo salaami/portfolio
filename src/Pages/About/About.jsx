@@ -1,9 +1,17 @@
 import React from "react"
 import "./About.css"
+import { TransitionVariants } from "../../AnimatedRoute/TransitionVariants";
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <div className="about-content">
+    <motion.div 
+      className="about-content"
+      initial="inital"
+      animate="animate"
+      exit="exit"
+      variants={TransitionVariants}
+    >
       <h1>MY JOURNEY INTO DATA</h1>
       <article>
         <p>
@@ -33,6 +41,6 @@ export default function About() {
           that encourages me to constantly learn new things and develop myself.
         </p>
       </article>
-    </div>
+    </motion.div>
   );
 }

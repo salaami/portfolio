@@ -5,7 +5,8 @@ import {
 } from 'framer-motion'
 import { 
   Route,
-  Routes
+  Routes,
+  useLocation
 } from 'react-router-dom'
 import Home from '../Pages/Home/Home'
 import About from '../Pages/About/About'
@@ -25,25 +26,16 @@ const transAnimation = {
 }
 
 export default function AnimatedRoute() {
+  const location = useLocation()
   return (
     <>
-      <AnimatePresence>
-        <motion.main
-            variants={transAnimation}
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={{
-              duration: 2
-            }}
-        >
-            <Routes>
-                <Route path="/" element={<Home />}/>
-                <Route path="/contact" element={<Contact />}/>
-                <Route path="/about" element={<About />}/>
-                <Route path="/projects" element={<Projects />}/>
-            </Routes>
-        </motion.main>
+      <AnimatePresence exitBeforeEnter>
+          <Routes location={location} key={location.pathname}>
+              <Route path="/" element={<Home />}/>
+              <Route path="/contact" element={<Contact />}/>
+              <Route path="/about" element={<About />}/>
+              <Route path="/projects" element={<Projects />}/>
+          </Routes>
       </AnimatePresence>
     </>
   )
