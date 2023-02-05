@@ -37,7 +37,7 @@ export default function Header() {
                                 onClick={() => setSelected(i)}
                             >
                                 <Link
-                                    className="nav-link"
+                                    className={`nav-link ${i === selected ? 'selected' : ''}`}
                                     to={Route}
                                 >
                                 {i === selected && (
@@ -46,9 +46,7 @@ export default function Header() {
                                         initial={{ scaleX: 0 }}
                                         animate={{ scaleX: 1 }}
                                         exit={{ scaleX: 0 }}
-                                        transition={{
-                                            type: "tween"
-                                        }}
+                                        transition={{ type: "tween" }}
                                     />
                                 )}
                                     {Text}
