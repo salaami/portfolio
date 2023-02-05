@@ -15,7 +15,10 @@ export default function Socialbar() {
                                 rel="noreferrer" 
                                 whileHover={{
                                     scale: 1.5,
-                                    color: "var(--text-color)"
+                                    color: "var(--text-color)",
+                                    transition: {
+                                        type: "tween"
+                                    }
                                 }}
                             >
                                 {Icon}               
