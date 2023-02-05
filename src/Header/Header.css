@@ -55,10 +55,14 @@ header {
 }
 
 .underline {
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  right: 0;
-  height: 0.25rem;
-  background: var(--accent-1);
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 0.25rem;
+    background: var(--accent-1);
+}
+
+.selected {
+    color: white;
 }
