@@ -3,10 +3,13 @@ import './Header.css'
 import { NavData } from './NavData'
 import { motion, AnimatePresence } from "framer-motion"
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 export default function Header() {
-    const [selected, setSelected] = useState(0)
+    const location = useLocation()
+    const [selected, setSelected] = useState(
+        NavData.findIndex(({ Route }) => Route ===location.pathname)
+    )
 
     useEffect( () => {
         setSelected(JSON.parse(window.localStorage.getItem('selected')))
