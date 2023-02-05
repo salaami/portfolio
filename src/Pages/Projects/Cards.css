@@ -13,7 +13,7 @@
     width: 14rem;
     list-style: none;
     border-radius: var(--border-radius);
-    background: var(--middle);
+    background: var(--dark);
 }
 
 .link {
@@ -31,7 +31,7 @@
 .card-text {
     font-size: var(--fs-tiny);
     margin-bottom: 1rem;
-    color: var(--text-color);
+    color: var(--darker);
 }
 
 .framework {
