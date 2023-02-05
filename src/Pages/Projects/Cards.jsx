@@ -7,10 +7,11 @@ export default function Cards() {
     return (
             <div className="card-container">
                 
-            {CardsData.map(({Framework, Id, Link, Text, Title}, i) => {
+            {CardsData.map((item, index) => {
                 return (
                     <motion.li 
                         className="card"
+                        key={index} 
                         whileHover={{ 
                             scale: 1.05, 
                             backgroundColor: "var(--middle)",
@@ -22,22 +23,25 @@ export default function Cards() {
 
                         }}
                         >
-                        <a 
-                            className="link"
-                            key={Id} 
-                            href={Link}
-                        >
-                            <div className="card-header">
-                                {Title}
-                            </div>
-                            <motion.p 
-                                className="card-text"
-                            >{Text}
-                            </motion.p>
-                            <div className="framework">
-                                {Framework}
-                            </div>
-                        </a>
+                            <a 
+                                className="link"
+                                href={item.Link}
+                            >
+                                <div 
+                                    className="card-header"
+                                >
+                                    {item.Title}
+                                </div>
+                                <motion.p 
+                                    className="card-text"
+                                >{item.Text}
+                                </motion.p>
+                                <div 
+                                    className="framework"
+                                >
+                                    {item.Framework}
+                                </div>
+                            </a>
                     </motion.li>
                 )
             })}

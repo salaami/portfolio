@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import { NavData } from './NavData'
-import { motion, AnimateSharedLayout } from "framer-motion"
+import { motion, AnimatePresence } from "framer-motion"
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -23,7 +23,7 @@ export default function Header() {
                 <ul 
                     className="nav-container"
                 >
-                    <AnimateSharedLayout>
+                    <AnimatePresence>
                         {NavData.map(({ Route, Id, Text}, i) => (
                             <motion.li
                                 className="nav-list"
@@ -44,7 +44,7 @@ export default function Header() {
                                 </Link>
                             </motion.li>
                         ))}
-                    </AnimateSharedLayout>
+                    </AnimatePresence>
                 </ul>
             </nav>
         </header>

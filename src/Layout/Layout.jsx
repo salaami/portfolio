@@ -5,10 +5,10 @@ import AnimatedRoute from '../AnimatedRoute/AnimatedRoute'
 
 export default function Layout() {
     return (
-        <div>
+        <html>
             <Header />
             <AnimatedRoute />
             <Footer />
-        </div>
+        </html>
     )
 }

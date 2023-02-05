@@ -1,19 +1,21 @@
 .contact-content {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    align-content: flex-start;
     overflow: hidden;
     width: 100%;
+    height: 100%;
 }
 
 .marquee-container {
-    min-width: 100%;
+    min-width: 100vw;
     height: 100%;
-    overflow: hidden;
     display: flex;
-    gap: 7rem;
+    align-items: center;
+    flex-direction: column;
 }
+
 .marquee {
     display: flex;
     flex-shrink: 0;
@@ -23,19 +25,19 @@
     top: 0;
     padding-left: 3vw;
     white-space: nowrap;
-    animation: scroll 40s linear infinite;
+    animation: scroll 10s linear infinite;
     font-size: var(--fs-huge);
     color: var(--accent-2);
     font-family: "SuisseWorks-Book";
     font-weight: 100;
+    transform: translateX(100%);
 }
 
-@keyframes scroll {
+@keyframes scroll{
   0% {
-    transform: translateX(0);
+    transform: translateX(130vw)
   }
-
   100% {
-    transform: translateX(calc(-100% - 3rem));
+    transform: translateX(-130vw);
   }
 }
