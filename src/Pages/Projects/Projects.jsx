@@ -1,11 +1,19 @@
 import React from 'react'
 import './Projects.css'
 import Cards from './Cards'
+import { motion } from 'framer-motion'
+import { TransitionVariants } from '../../AnimatedRoute/TransitionVariants'
 
 export default function Projects() {
     return (
         <main>
-            <div className="project-content">
+            <motion.div 
+                className="project-content"
+                initial="inital"
+                animate="animate"
+                exit="exit"
+                variants={TransitionVariants}
+            >
                 <h1>PROJECTS</h1>
                 <article  className="project-text">
                     <p>
@@ -16,7 +24,7 @@ export default function Projects() {
                     </p>
                 </article>
                 <Cards /> 
-            </div>
+            </motion.div>
         </main>
     )
 };

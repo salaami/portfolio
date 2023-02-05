@@ -1,10 +1,17 @@
 import React from "react"
 import './Contact.css'
 import { motion } from 'framer-motion'
+import { TransitionVariants } from "../../AnimatedRoute/TransitionVariants"
 
 export default function Contact() {
   return(
-    <div className="contact-content">
+    <motion.div 
+      className="contact-content"
+      initial="inital"
+      animate="animate"
+      exit="exit"
+      variants={TransitionVariants}
+    >
       <h2>
         say hello
       </h2>
@@ -17,6 +24,6 @@ export default function Contact() {
         >*** SALEMSALLEH@GMAIL.COM *** 
         </motion.span>
       </a>
-    </div>
+    </motion.div>
   )
 }
