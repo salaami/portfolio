@@ -18,19 +18,11 @@
 
 .marquee {
     display: flex;
-    flex-shrink: 0;
-    align-items:center;
-    flex-direction: row;
-    justify-content: space-around;
-    top: 0;
-    padding-left: 3vw;
     white-space: nowrap;
-    animation: scroll 10s linear infinite;
+    animation: scroll 15s linear infinite;
     font-size: var(--fs-huge);
     color: var(--accent-2);
     font-family: "SuisseWorks-Book";
-    font-weight: 100;
-    transform: translateX(100%);
 }
 
 @keyframes scroll{

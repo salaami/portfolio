@@ -41,7 +41,15 @@ export default function Header() {
                                     to={Route}
                                 >
                                 {i === selected && (
-                                    <motion.div className="underline"/>
+                                    <motion.div 
+                                        className="underline"
+                                        initial={{ scaleX: 0 }}
+                                        animate={{ scaleX: 1 }}
+                                        exit={{ scaleX: 0 }}
+                                        transition={{
+                                            type: "tween"
+                                        }}
+                                    />
                                 )}
                                     {Text}
                                 </Link>
