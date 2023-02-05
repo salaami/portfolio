@@ -2,16 +2,6 @@ import React from "react"
 import './Contact.css'
 import { motion } from 'framer-motion'
 
-const hoverVariants = {
-  hover:{
-    textDecoration: "underline",
-    transition: {
-        delay: 0.2,
-        stiffness: 50,
-    }
-  }
-}
-
 export default function Contact() {
   return(
     <div className="contact-content">
@@ -24,39 +14,7 @@ export default function Contact() {
       >
         <motion.span 
           className="marquee"
-          whileHover="hover" 
-          variants={hoverVariants}
-        >SALEMSALLEH@GMAIL.COM
-        </motion.span>
-        <motion.span 
-          className="marquee"
-          whileHover="hover" 
-          variants={hoverVariants}
-        >SALEMSALLEH@GMAIL.COM
-        </motion.span>
-        <motion.span 
-          className="marquee"
-          whileHover="hover" 
-          variants={hoverVariants}
-        >SALEMSALLEH@GMAIL.COM
-        </motion.span>
-        <motion.span 
-          className="marquee"
-          whileHover="hover" 
-          variants={hoverVariants}
-        >SALEMSALLEH@GMAIL.COM
-        </motion.span>
-        <motion.span 
-          className="marquee"
-          whileHover="hover" 
-          variants={hoverVariants}
-        >SALEMSALLEH@GMAIL.COM
-        </motion.span>
-        <motion.span 
-          className="marquee"
-          whileHover="hover" 
-          variants={hoverVariants}
-        >SALEMSALLEH@GMAIL.COM
+        >*** SALEMSALLEH@GMAIL.COM *** 
         </motion.span>
       </a>
     </div>

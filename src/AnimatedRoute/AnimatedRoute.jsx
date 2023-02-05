@@ -28,7 +28,7 @@ export default function AnimatedRoute() {
   return (
     <>
       <AnimatePresence>
-        <motion.div
+        <motion.main
             variants={transAnimation}
             initial="initial"
             animate="animate"
@@ -43,7 +43,7 @@ export default function AnimatedRoute() {
                 <Route path="/about" element={<About />}/>
                 <Route path="/projects" element={<Projects />}/>
             </Routes>
-        </motion.div>
+        </motion.main>
       </AnimatePresence>
     </>
   )
