@@ -14,7 +14,7 @@ export default function Cards() {
                         key={index} 
                         whileHover={{ 
                             scale: 1.05, 
-                            backgroundColor: "var(--middle)",
+                            backgroundColor: "var(--light)",
                             boxShadow: "0.5rem 0.5rem var(--dark)",
                         }}
                         transition={{ 
