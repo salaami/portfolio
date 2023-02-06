@@ -13,18 +13,6 @@ import About from '../Pages/About/About'
 import Contact from '../Pages/Contact/Contact'
 import Projects from '../Pages/Projects/Projects'
 
-const transAnimation = {
-  inital: {
-      opacity: 0,
-  },
-  animate: {
-      opacity: 1
-  },
-  exit: {
-      opacity: 0
-  }
-}
-
 export default function AnimatedRoute() {
   const location = useLocation()
   return (
