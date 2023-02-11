@@ -10,12 +10,6 @@
    url('./assets/fonts/SuisseIntlThin/SuisseIntl-Thin.otf') format('opentype');
 }
 
-@font-face {
-  font-family: 'SuisseWorks-Book';
-  src: local('SuisseWorks-Book'),
-   url('./assets/fonts/SuisseWorks/SuisseWorks-Book.otf') format('opentype');
-}
-
 :root {
   --darker: #0D0D0D;
   --dark: #262626;

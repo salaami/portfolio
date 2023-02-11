@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { TransitionVariants } from "../../AnimatedRoute/TransitionVariants"
 
 export default function Contact() {
-  return(
+  return (
     <motion.div 
       className="contact-content"
       initial="inital"
@@ -12,18 +12,19 @@ export default function Contact() {
       exit="exit"
       variants={TransitionVariants}
     >
-      <h2>
+      <h2 className="call-to-action">
         say hello
       </h2>
       <a 
         className="marquee-container" 
         href="mailto:salemsalleh@gmail.com"
       >
-        <motion.span 
+        <span 
           className="marquee"
-        >*** SALEMSALLEH@GMAIL.COM *** 
-        </motion.span>
+        >
+          SALEMSALLEH@GMAIL.COM
+        </span>
       </a>
     </motion.div>
-  )
+  );
 }
