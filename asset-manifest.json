@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.381b6e27.css",
+    "main.js": "/static/js/main.5856cfce.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/SuisseIntl-Thin.otf": "/static/media/SuisseIntl-Thin.0daad41c6888dc6bc644.otf",
+    "static/media/SuisseWorks-Book.otf": "/static/media/SuisseWorks-Book.4f699b98d3c0397c6a5a.otf",
+    "static/media/SuisseIntlMono-Regular.otf": "/static/media/SuisseIntlMono-Regular.3f10e6987f46a0cbe380.otf",
+    "index.html": "/index.html",
+    "main.381b6e27.css.map": "/static/css/main.381b6e27.css.map",
+    "main.5856cfce.js.map": "/static/js/main.5856cfce.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.381b6e27.css",
+    "static/js/main.5856cfce.js"
+  ]
+}
