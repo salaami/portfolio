@@ -1,14 +1,14 @@
 import {
-  BrowserRouter
+  HashRouter
 } from 'react-router-dom'
 import Layout from './Layout/Layout';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <main>
         <Layout />
       </main>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
