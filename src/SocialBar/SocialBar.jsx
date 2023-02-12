@@ -11,7 +11,7 @@ export default function Socialbar() {
                             <motion.a
                                 key={Id}
                                 href={Link}
-                                className={Cname}  
+                                className={Cname} 
                                 rel="noreferrer" 
                                 whileHover={{
                                     scale: 1.5,
