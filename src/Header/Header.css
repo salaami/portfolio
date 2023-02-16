@@ -57,8 +57,8 @@ header {
     bottom: -0.25rem;
     left: 0;
     right: 0;
-    height: 0.25rem;
-    background: var(--accent-1);
+    height: 0.2rem;
+    background: var(--accent-2);
 }
 
 .selected {
