@@ -20,6 +20,13 @@ export default function Socialbar() {
                                         type: "tween"
                                     }
                                 }}
+                                whileTap={{
+                                    scale: 1.5,
+                                    color: "var(--text-color)",
+                                    transition: {
+                                        type: "tween"
+                                    }
+                                }}
                             >
                                 {Icon}               
                             </motion.a>
