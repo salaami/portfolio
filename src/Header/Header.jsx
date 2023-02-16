@@ -21,7 +21,7 @@ export default function Header() {
 
     return (
         <header>
-            <div className="header-logo">Salem Salleh</div>
+            <div className="header-logo">SALEM SALLEH</div>
             <nav>
                 <ul 
                     className="nav-container"
@@ -32,9 +32,6 @@ export default function Header() {
                                 className="nav-list"
                                 key={Id}
                                 whileHover={{
-                                    color: 'var(--text-color)',
-                                }}
-                                whileTap={{
                                     color: 'var(--text-color)',
                                 }}
                                 onClick={() => setSelected(i)}

@@ -10,6 +10,18 @@
    url('./assets/fonts/SuisseIntlThin/SuisseIntl-Thin.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'SuisseIntl-Regular';
+  src: local('SuisseIntl-Regular'),
+   url('./assets/fonts/SuisseIntlRegular/SuisseIntl-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SuisseIntl-Light';
+  src: local('SuisseIntl-Light'),
+   url('./assets/fonts/SuisseIntlLight/SuisseIntl-Light.otf') format('opentype');
+}
+
 :root {
   --darker: #0D0D0D;
   --dark: #262626;
@@ -68,7 +80,8 @@ article {
   width: 50vw;
   align-items: flex-start;
   flex-direction: column;
-  font-family: 'SuisseIntl-Thin';  
+  font-family: 'SuisseIntl-Light'; 
+  letter-spacing: 0.05rem;
   font-size: var(--fs-small);
   line-height: 2.25rem;
   padding-left: 3rem;

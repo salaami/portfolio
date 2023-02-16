@@ -15,7 +15,6 @@
     list-style: none;
     border-radius: var(--border-radius);
     background: var(--dark);
-    border: solid 0.2rem var(--darker);
     box-shadow: 0.5rem 0.5rem var(--darker); 
 }
 
