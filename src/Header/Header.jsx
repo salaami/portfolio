@@ -34,6 +34,9 @@ export default function Header() {
                                 whileHover={{
                                     color: 'var(--text-color)',
                                 }}
+                                whileTap={{
+                                    color: 'var(--text-color)',
+                                }}
                                 onClick={() => setSelected(i)}
                             >
                                 <Link
