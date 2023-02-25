@@ -8,29 +8,6 @@
     margin-top: 10vh;
 }
 
-.marquee-container {
-    display: flex;
-    flex-direction: column;
-}
-
 .call-to-action {
     font-family: "SuisseIntl-Regular";
-}
-
-.marquee {
-    display: flex;
-    white-space: nowrap;
-    animation: scroll 25s linear infinite;
-    font-size: var(--fs-huge);
-    color: var(--accent-2);
-    font-weight: 900;
-}
-
-@keyframes scroll{
-  0% {
-    transform: translateX(130vw)
-  }
-  100% {
-    transform: translateX(-130vw);
-  }
 }

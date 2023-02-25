@@ -1,0 +1,28 @@
+.marquee-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 5rem;
+    width: 100%;
+    height: 12rem;
+    overflow: hidden;
+    background: var(--dark);
+    border: 1rem solid var(--accent-2);
+    margin-top: 2vh;
+}
+
+.scrolling-text {
+    animation: marquee 30s linear infinite;
+    font-size: var(--fs-huge);
+    color: var(--accent-2);
+    margin-top: 0;
+}
+
+@keyframes marquee {
+    0%   { 
+        transform: translateX(0); 
+    }
+    100% { 
+        transform: translateX(calc(-100% - 5%)); 
+    }
+}
