@@ -8,8 +8,8 @@ header {
     align-items: center;
     justify-content: space-between;
     font-family: SuissIntlMono-Bold;
-    opacity: 0.95;
     z-index: 10;
+    background-color: var(--dark);
 }
 
 .nav-container {
@@ -38,7 +38,7 @@ header {
     position: relative;
     outline: none;
     text-decoration: none;
-    font-size: var(--fs-small);
+    font-size: var(--fs-normal);
     font-weight: 900;
     color: var(--light);
 }
