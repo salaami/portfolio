@@ -9,14 +9,14 @@ const CardsData = [
     {
         Id: 1,
         Title: "test",
-        Text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos iure officiis, iste quo porro ullam enim odio, modi, voluptates minima ipsam delectus eum illum animi voluptas quia repellendus quis ducimus.",
+        Text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", 
         Link: "https://github.com/salaami/",
         Framework: "test"
     },
     {
         Id: 2,
         Title: "test test test test test test ",
-        Text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos iure officiis, iste quo porro ullam enim odio, modi, voluptates minima ipsam delectus eum illum animi voluptas quia repellendus quis ducimus.",
+        Text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
         Link: "https://github.com/salaami/",
         Framework: "test"
     },

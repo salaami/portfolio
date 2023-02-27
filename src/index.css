@@ -30,12 +30,12 @@
   --accent-1: #BF3636;
   --accent-2: #D97D48;
   --text-color: #F2F2F2;
-  --fs-huge: 10rem;
-  --fs-big: 5rem;
-  --fs-normal: 3rem;
-  --fs-small: 1.5rem;
-  --fs-tiny: 1rem;
-  --border-radius: 2px;
+  --fs-huge: 10vw;
+  --fs-big: 7vw;
+  --fs-normal: 5vw;
+  --fs-small: 3vw;
+  --fs-tiny: 2vw;
+  --border-radius: 0.5rem;
 }
 
 html, body {
@@ -52,7 +52,7 @@ html, body {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 10vh;
   width: 100vw;
@@ -81,9 +81,9 @@ article {
   align-items: flex-start;
   flex-direction: column;
   font-family: 'SuisseIntl-Light'; 
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.05vw;
   font-size: var(--fs-small);
-  line-height: 2.25rem;
+  line-height: 4vw;
   padding-left: 3rem;
   padding-top: 1.5rem;
   padding-right: 3rem;

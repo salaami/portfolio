@@ -2,36 +2,46 @@
     display: flex;
     flex-direction: column;
     min-height: 90vh;
-    font-size: var(--fs-normal);
     padding: 5rem 0 5rem 0;
 }
 
+.terminal {
+    background: var(--darker);  
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 5vh;
+    border-radius: var(--border-radius);
+    font-size: var(--fs-small);
+    font-weight: bold;
+}
 .prompt {
     display: flex;
-    font-weight: bold;
-    margin-top: 2rem;
-    line-height: 6rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .triangle {
     border-left: var(--fs-normal) solid var(--accent-2);
     border-bottom: var(--fs-normal) solid transparent;
-    border-top: var(--fs-normal) solid transparent; 
+    border-top: var(--fs-normal) solid transparent;
 }
 
 .prompt-text {
     display: flex;
     background: var(--accent-2);
-    padding: 0 2rem 0 2rem;
     color: var(--darker);
+    padding: 0.5vw;
+    text-align: center;
+    line-height: 8vw;
 }
 
 .command {
-    margin-left: 2rem;
+    margin-left: 2vw;
     color: var(--light);
+    background-color: transparent;
 }
 
 .response {
-    margin: 3rem 2rem;
-    color: var(--text-color)
+    color: var(--text-color);
+    margin-top: 3vh;
 }
