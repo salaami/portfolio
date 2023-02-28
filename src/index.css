@@ -30,12 +30,57 @@
   --accent-1: #BF3636;
   --accent-2: #D97D48;
   --text-color: #F2F2F2;
-  --fs-huge: 10vw;
-  --fs-big: 7vw;
-  --fs-normal: 5vw;
-  --fs-small: 3vw;
-  --fs-tiny: 2vw;
-  --border-radius: 0.5rem;
+  --border-radius: 0.2rem;
+}
+
+@media(min-width: 576px){
+  :root {
+    --fs-huge: 10vw;
+    --fs-big: 4vw;
+    --fs-normal: 3vw;
+    --fs-small: 2vw;
+    --fs-tiny: 1vw;
+  }
+}
+
+@media(min-width: 768px){
+  :root {
+    --fs-huge: 10vw;
+    --fs-big: 4vw;
+    --fs-normal: 3vw;
+    --fs-small: 2vw;
+    --fs-tiny: 1vw;
+  }
+}
+
+@media(min-width: 992px){
+  :root {
+    --fs-huge: 10vw;
+    --fs-big: 7vw;
+    --fs-normal: 5vw;
+    --fs-small: 3vw;
+    --fs-tiny: 2vw;
+  }
+}
+
+@media(min-width: 1200px){
+  :root {
+    --fs-huge: 10vw;
+    --fs-big: 7vw;
+    --fs-normal: 5vw;
+    --fs-small: 3vw;
+    --fs-tiny: 2vw;
+  }
+}
+
+@media(min-width: 768px){
+  :root {
+    --fs-huge: 10vw;
+    --fs-big: 7vw;
+    --fs-normal: 5vw;
+    --fs-small: 3vw;
+    --fs-tiny: 2vw;
+  }
 }
 
 html, body {
