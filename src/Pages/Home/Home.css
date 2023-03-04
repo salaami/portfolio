@@ -6,26 +6,60 @@
 }
 
 .terminal {
-    background: var(--darker);  
+    background: var(--light);
+    border: 1rem solid var(--darker);
     justify-content: center;
     align-items: center;
-    padding: 5vh 5vh;
     border-radius: var(--border-radius);
-    font-size: var(--fs-normal);
+    font-size: var(--fs-medium);
     font-weight: bold;
 }
+
+.terminal-bar {
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--darker);
+    width: 100%;
+    height: calc(var(--fs-medium)*1.5);
+    bottom: 1vh;
+    border-bottom: 1rem solid var(--darker);
+}
+
+.dot-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-right: 2rem;
+}
+
+.dot {
+    border-radius: 50%;
+    background: var(--light);
+    width: 2rem;
+    height: 2rem;
+}
+
+.terminal-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
 .prompt {
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: calc(var(--fs-normal)*1.5);
+    line-height: calc(var(--fs-medium)*1.5);
+    padding-top: 1rem;
 }
 
 .triangle {
-    border-left: var(--fs-normal) solid var(--accent-2);
-    border-bottom: var(--fs-normal) solid transparent;
-    border-top: var(--fs-normal) solid transparent;
-    line-height: calc(var(--fs-normal)*1.5);
+    border-left: var(--fs-medium) solid var(--accent-2);
+    border-bottom: var(--fs-medium) solid transparent;
+    border-top: var(--fs-medium) solid transparent;
+    line-height: calc(var(--fs-medium)*1.5);
 }
 
 .prompt-text {
@@ -39,8 +73,7 @@
 
 .command {
     margin-left: 2vw;
-    color: var(--light);
-    background-color: transparent;
+    color: var(--middle);
 }
 
 .response {

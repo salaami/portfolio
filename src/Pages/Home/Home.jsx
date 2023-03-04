@@ -14,18 +14,27 @@ export default function Home() {
                     variants={TransitionVariants}
                 >
                     <div className="terminal">
-                        <div className="prompt">
-                            <div className="prompt-text">SALEM ~ HOME</div>
-                            <div className="triangle"/>
-                                <div className="command">
-                                    WHOAMI
-                                </div>
+                        <div className="terminal-bar">
+                            <div className="dot-container">
+                                <div className="dot"></div>
+                                <div className="dot"></div>
+                                <div className="dot"></div>
+                            </div>
                         </div>
-                        
-                        <div className="response">
-                            MY NAME IS SALEM.<br/>
-                            I AM A DATA ENGINEER <br/>
-                            FROM HAMBURG CITY.<br/>
+                        <div className="terminal-content">
+                            <div className="prompt">
+                                <div className="prompt-text">SALEM ~ HOME</div>
+                                <div className="triangle"/>
+                                    <div className="command">
+                                       whoami 
+                                    </div>
+                            </div>
+                            
+                            <div className="response">
+                                MY NAME IS SALEM.<br/>
+                                I AM A DATA ENGINEER <br/>
+                                FROM HAMBURG CITY.<br/>
+                            </div>
                         </div>
                     </div>
                 </motion.div>
