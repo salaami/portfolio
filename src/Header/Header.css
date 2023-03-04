@@ -10,7 +10,7 @@ header {
     font-family: SuissIntlMono-Bold;
     z-index: 10;
     background-color: var(--dark);
-    font-size: var(--fs-big);
+    font-size: var(--fs-normal);
 }
 
 .nav-container {

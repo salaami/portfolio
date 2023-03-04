@@ -14,7 +14,7 @@ export default function Projects() {
                 exit="exit"
                 variants={TransitionVariants}
             >
-                <h1>PROJECTS</h1>
+                <h2>PROJECTS</h2>
                 <article  className="project-text">
                     <p>
                         This is a curated list of my private projects. 

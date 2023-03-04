@@ -12,7 +12,7 @@ export default function About() {
       exit="exit"
       variants={TransitionVariants}
     >
-      <h1>MY JOURNEY INTO DATA</h1>
+      <h2>MY JOURNEY INTO DATA</h2>
       <article>
         <p>
           My journey started as a student of economics and business. 

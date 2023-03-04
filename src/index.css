@@ -33,56 +33,6 @@
   --border-radius: 0.2rem;
 }
 
-@media(min-width: 576px){
-  :root {
-    --fs-huge: 10vw;
-    --fs-big: 4vw;
-    --fs-normal: 3vw;
-    --fs-small: 2vw;
-    --fs-tiny: 1vw;
-  }
-}
-
-@media(min-width: 768px){
-  :root {
-    --fs-huge: 10vw;
-    --fs-big: 4vw;
-    --fs-normal: 3vw;
-    --fs-small: 2vw;
-    --fs-tiny: 1vw;
-  }
-}
-
-@media(min-width: 992px){
-  :root {
-    --fs-huge: 10vw;
-    --fs-big: 7vw;
-    --fs-normal: 5vw;
-    --fs-small: 3vw;
-    --fs-tiny: 2vw;
-  }
-}
-
-@media(min-width: 1200px){
-  :root {
-    --fs-huge: 10vw;
-    --fs-big: 7vw;
-    --fs-normal: 5vw;
-    --fs-small: 3vw;
-    --fs-tiny: 2vw;
-  }
-}
-
-@media(min-width: 768px){
-  :root {
-    --fs-huge: 10vw;
-    --fs-big: 7vw;
-    --fs-normal: 5vw;
-    --fs-small: 3vw;
-    --fs-tiny: 2vw;
-  }
-}
-
 html, body {
   box-sizing: border-box;
   font-family: 'SuissIntlMono-Bold';  
@@ -105,14 +55,15 @@ main {
 }
 
 h1 {
-  font-size: var(--fs-big);
+  font-size: var(--fs-huge);
   color: var(--light);
+  font-weight: 900;
 }
 
 h2 {
-  font-size: var(--fs-normal);
+  font-size: var(--fs-big);
   color: var(--text-color);
-  font-weight: lighter;
+  font-weight: 900;
 }
 
 a {
@@ -126,9 +77,9 @@ article {
   align-items: flex-start;
   flex-direction: column;
   font-family: 'SuisseIntl-Light'; 
-  letter-spacing: 0.05vw;
-  font-size: var(--fs-small);
-  line-height: 4vw;
+  letter-spacing: calc(var(--fs-tiny)*0.5);
+  font-size: var(--fs-normal);
+  line-height: var(--fs-normal);
   padding-left: 3rem;
   padding-top: 1.5rem;
   padding-right: 3rem;
@@ -140,3 +91,44 @@ article {
   width: 0px;
   background: transparent; /* make scrollbar transparent */
 }
+
+@media(min-width: 576px){
+  :root {
+    --fs-huge: 10vw;
+    --fs-big: 7vw;
+    --fs-normal: 3vw;
+    --fs-small: 2vw;
+    --fs-tiny: 1vw;
+  }
+}
+
+@media(min-width: 768px){
+  :root {
+    --fs-huge: 10vw;
+    --fs-big: 7vw;
+    --fs-normal: 3vw;
+    --fs-small: 2vw;
+    --fs-tiny: 1vw;
+  }
+}
+
+@media(min-width: 992px){
+  :root {
+    --fs-huge: 7vw;
+    --fs-big: 5vw;
+    --fs-normal: 1vw;
+    --fs-small: 0.5vw;
+    --fs-tiny: 0.25vw;
+  }
+}
+
+@media(min-width: 1200px){
+  :root {
+    --fs-huge: 7vw;
+    --fs-big: 5vw;
+    --fs-normal: 1vw;
+    --fs-small: 0.5vw;
+    --fs-tiny: 0.25vw;
+  }
+}
+
