@@ -96,6 +96,7 @@ article {
   :root {
     --fs-huge: 10vw;
     --fs-big: 7vw;
+    --fs-medium: 5vw;
     --fs-normal: 3vw;
     --fs-small: 2vw;
     --fs-tiny: 1vw;
@@ -106,6 +107,7 @@ article {
   :root {
     --fs-huge: 10vw;
     --fs-big: 7vw;
+    --fs-medium: 5vw;
     --fs-normal: 3vw;
     --fs-small: 2vw;
     --fs-tiny: 1vw;
@@ -116,6 +118,7 @@ article {
   :root {
     --fs-huge: 7vw;
     --fs-big: 5vw;
+    --fs-medium: 3vw;
     --fs-normal: 1vw;
     --fs-small: 0.5vw;
     --fs-tiny: 0.25vw;
@@ -126,6 +129,7 @@ article {
   :root {
     --fs-huge: 7vw;
     --fs-big: 5vw;
+    --fs-medium: 3vw;
     --fs-normal: 1vw;
     --fs-small: 0.5vw;
     --fs-tiny: 0.25vw;
