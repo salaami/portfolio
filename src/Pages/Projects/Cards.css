@@ -11,7 +11,7 @@
 .card {
     display: flex;
     padding: 2vw;
-    max-width: 25vw;
+    width: 12rem;
     list-style: none;
     border-radius: var(--border-radius);
     background: var(--dark);
@@ -23,7 +23,7 @@
 }
 
 .card-header {
-    font-size: var(--fs-small);
+    font-size: var(--fs-normal);
     color: var(--accent-2);
     font-weight: bolder;
     margin-bottom: 1.5rem;
@@ -31,13 +31,13 @@
 }
 
 .card-text {
-    font-size: var(--fs-small);
+    font-size: var(--fs-normal);
     margin-bottom: 1rem;
     color: var(--darker);
 }
 
 .framework {
-    font-size: var(--fs-tiny);
+    font-size: var(--fs-normal);
     font-weight: lighter;
     color: var(--accent-1);
 

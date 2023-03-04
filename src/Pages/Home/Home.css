@@ -11,19 +11,21 @@
     align-items: center;
     padding: 5vh 5vh;
     border-radius: var(--border-radius);
-    font-size: var(--fs-small);
+    font-size: var(--fs-normal);
     font-weight: bold;
 }
 .prompt {
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: calc(var(--fs-normal)*1.5);
 }
 
 .triangle {
     border-left: var(--fs-normal) solid var(--accent-2);
     border-bottom: var(--fs-normal) solid transparent;
     border-top: var(--fs-normal) solid transparent;
+    line-height: calc(var(--fs-normal)*1.5);
 }
 
 .prompt-text {
@@ -32,7 +34,7 @@
     color: var(--darker);
     padding: 0.5vw;
     text-align: center;
-    line-height: 8vw;
+    line-height: var(--normal);
 }
 
 .command {
