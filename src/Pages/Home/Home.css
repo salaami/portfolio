@@ -7,7 +7,7 @@
 
 .terminal {
     background: var(--light);
-    border: 1rem solid var(--darker);
+    border: 1vw solid var(--darker);
     justify-content: center;
     align-items: center;
     border-radius: var(--border-radius);
@@ -22,23 +22,23 @@
     justify-content: flex-end;
     background-color: var(--darker);
     width: 100%;
-    height: calc(var(--fs-medium)*1.5);
+    height: calc(2vw*1.5);
     bottom: 1vh;
-    border-bottom: 1rem solid var(--darker);
+    border-bottom: 1vw solid var(--darker);
 }
 
 .dot-container {
     display: flex;
     justify-content: center;
-    gap: 0.75rem;
-    margin-right: 2rem;
+    gap: 1vw;
+    margin-right: 1vw;
 }
 
 .dot {
     border-radius: 50%;
     background: var(--light);
-    width: 2rem;
-    height: 2rem;
+    width: 1.5vw;
+    height: 1.5vw; 
 }
 
 .terminal-content {
