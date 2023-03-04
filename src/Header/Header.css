@@ -55,7 +55,7 @@ header {
     bottom: -0.25rem;
     left: 0;
     right: 0;
-    height: 0.2rem;
+    height: calc(var(--fs-normal)*0.1);
     background: var(--accent-2);
 }
 

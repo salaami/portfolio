@@ -77,9 +77,10 @@ article {
   align-items: flex-start;
   flex-direction: column;
   font-family: 'SuisseIntl-Light'; 
-  letter-spacing: calc(var(--fs-tiny)*0.5);
   font-size: var(--fs-normal);
-  line-height: var(--fs-normal);
+  line-height: calc(var(--fs-normal)*1.5);
+  letter-spacing: calc(var(--fs-normal)*0.1);
+  text-align: justify;
   padding-left: 3rem;
   padding-top: 1.5rem;
   padding-right: 3rem;
