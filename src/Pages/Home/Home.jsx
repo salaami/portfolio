@@ -23,17 +23,16 @@ export default function Home() {
                         </div>
                         <div className="terminal-content">
                             <div className="prompt">
-                                <div className="prompt-text">SALEM ~ HOME</div>
+                                <div className="prompt-text">salem ~ home </div>
                                 <div className="triangle"/>
                                     <div className="command">
-                                       whoami 
+                                       whoami
                                     </div>
                             </div>
-                            
                             <div className="response">
-                                MY NAME IS SALEM.<br/>
-                                I AM A DATA ENGINEER <br/>
-                                FROM HAMBURG CITY.<br/>
+                                My name is Salem.<br/>
+                                I am a data engineer<br/>
+                                from Hamburg City.<br/>
                             </div>
                         </div>
                     </div>

@@ -66,6 +66,7 @@
     display: flex;
     background: var(--accent-2);
     color: var(--darker);
+    font-weight: 900;
     padding: 0.5vw;
     text-align: center;
     line-height: var(--normal);

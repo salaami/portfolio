@@ -4,23 +4,7 @@
    url('./assets/fonts/SuisseIntlMono/SuisseIntlMono-Regular.otf') format('opentype');
 }
 
-@font-face {
-  font-family: 'SuisseIntl-Thin';
-  src: local('SuisseIntl-Thin'),
-   url('./assets/fonts/SuisseIntlThin/SuisseIntl-Thin.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'SuisseIntl-Regular';
-  src: local('SuisseIntl-Regular'),
-   url('./assets/fonts/SuisseIntlRegular/SuisseIntl-Regular.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'SuisseIntl-Light';
-  src: local('SuisseIntl-Light'),
-   url('./assets/fonts/SuisseIntlLight/SuisseIntl-Light.otf') format('opentype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
   --darker: #0D0D0D;
@@ -30,7 +14,6 @@
   --accent-1: #BF3636;
   --accent-2: #D97D48;
   --text-color: #F2F2F2;
-  --border-radius: 0.2rem;
 }
 
 html, body {
@@ -55,15 +38,20 @@ main {
 }
 
 h1 {
+  font-family: 'Press Start 2P';
+  text-shadow: var(--darker) 0.1rem 0.1rem 0.1rem 0.1rem;
   font-size: var(--fs-huge);
   color: var(--light);
   font-weight: 900;
 }
 
 h2 {
+  font-family: 'Press Start 2P';
   font-size: var(--fs-big);
-  color: var(--text-color);
-  font-weight: 900;
+  font-size: 72px;
+  background: -webkit-linear-gradient(var(--accent-2), var(--accent-1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a {
@@ -76,10 +64,8 @@ article {
   width: 50vw;
   align-items: flex-start;
   flex-direction: column;
-  font-family: 'SuisseIntl-Light'; 
   font-size: var(--fs-normal);
   line-height: calc(var(--fs-normal)*1.5);
-  letter-spacing: calc(var(--fs-normal)*0.1);
   text-align: justify;
   padding-left: 3rem;
   padding-top: 1.5rem;
