@@ -25,9 +25,9 @@ export default function Home() {
                             <div className="prompt">
                                 <div className="prompt-text">salem ~ home </div>
                                 <div className="triangle"/>
-                                    <div className="command">
-                                       whoami
-                                    </div>
+                                <div className="command">
+                                   whoami
+                                </div>
                             </div>
                             <div className="response">
                                 My name is Salem.<br/>
