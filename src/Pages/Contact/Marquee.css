@@ -9,13 +9,12 @@
     height: calc(var(--fs-huge)*1.5);
     overflow: hidden;
     background: var(--light);
-    border: var(--fs-tiny) solid var(--accent-1);
 }
 
 .scrolling-text {
     animation: marquee 30s linear infinite;
     font-size: var(--fs-huge);
-    color: var(--accent-1);
+    color: var(--dark);
     text-align: center;
 }
 

@@ -11,15 +11,41 @@
 .card {
     display: flex;
     padding: 2vw;
-    width: 12rem;
+    width: 10vw;
     list-style: none;
-    border-radius: var(--border-radius);
     background: var(--dark);
-    box-shadow: 0.5rem 0.5rem var(--darker); 
+    box-shadow: 0.5rem 0.5rem var(--darker);
+    border: 0.5rem solid var(--darker);
+}
+
+@media(min-width: 576px){
+    .card {
+        width: 10rem;
+    }
+}
+
+@media(min-width: 768px){
+.card {
+        width: 15rem;
+    }
+}
+
+@media(min-width: 992px){
+.card {
+        width: 10rem;
+    }
+}
+
+@media(min-width: 1200px){
+.card {
+        width: 10rem;
+    }
 }
 
 .link {
     text-decoration: none;
+    width: 100%;
+    height: 100%;
 }
 
 .card-header {
@@ -34,6 +60,7 @@
     font-size: var(--fs-normal);
     margin-bottom: 1rem;
     color: var(--darker);
+    text-align: justify;
 }
 
 .framework {

@@ -3,7 +3,7 @@ header {
     left:0;
     height: 10vh;
     display: flex;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     align-items: center;
     justify-content: space-between;
@@ -55,7 +55,7 @@ header {
     bottom: -0.25rem;
     left: 0;
     right: 0;
-    height: calc(var(--fs-normal)*0.1);
+    height: 0.25vw;
     background: var(--accent-2);
 }
 
