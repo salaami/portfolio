@@ -8,7 +8,7 @@
     width: 100%;
     height: calc(var(--fs-huge)*1.5);
     overflow: hidden;
-    background: var(--light);
+    background: var(--darker);
 }
 
 .scrolling-text {
