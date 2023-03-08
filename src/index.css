@@ -59,7 +59,7 @@ a {
 
 article {
   display: flex;
-  width: 50vw;
+  width: 75vw;
   align-items: flex-start;
   flex-direction: column;
   font-size: var(--fs-normal);
@@ -79,6 +79,7 @@ article {
 
 @media(min-width: 576px){
   :root {
+    --thickness: 1vw;
     --fs-huge: 10vw;
     --fs-big: 7vw;
     --fs-medium: 5vw;
@@ -90,6 +91,7 @@ article {
 
 @media(min-width: 768px){
   :root {
+    --thickness: 0.7vw;
     --fs-huge: 10vw;
     --fs-big: 7vw;
     --fs-medium: 5vw;
@@ -101,6 +103,7 @@ article {
 
 @media(min-width: 992px){
   :root {
+    --thickness: 0.6vw;
     --fs-huge: 7vw;
     --fs-big: 5vw;
     --fs-medium: 3vw;
@@ -112,6 +115,7 @@ article {
 
 @media(min-width: 1200px){
   :root {
+    --thickness: 0.5vw;
     --fs-huge: 7vw;
     --fs-big: 5vw;
     --fs-medium: 3vw;
