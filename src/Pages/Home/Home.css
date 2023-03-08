@@ -7,7 +7,7 @@
 
 .terminal {
     background: var(--light);
-    border: 1vw solid var(--darker);
+    border: var(--thickness) solid var(--darker);
     justify-content: center;
     align-items: center;
     border-radius: var(--border-radius);
@@ -24,7 +24,7 @@
     width: 100%;
     height: calc(2vw*1.5);
     bottom: 1vh;
-    border-bottom: 1vw solid var(--darker);
+    border-bottom: var(--thickness) solid var(--darker);
 }
 
 .dot-container {
@@ -57,7 +57,7 @@
 
 .triangle {
     width: 2vw;
-    border-left: var(--fs-medium) solid var(--accent-2);
+    border-left: var(--fs-medium) solid var(--middle);
     border-bottom: var(--fs-medium) solid transparent;
     border-top: var(--fs-medium) solid transparent;
     line-height: calc(var(--fs-medium)*1.5);
@@ -65,8 +65,7 @@
 
 .prompt-text {
     display: flex;
-    background: var(--accent-2);
-    color: var(--darker);
+    background: var(--middle);
     font-weight: 900;
     padding: 0.5vw;
     text-align: center;
@@ -75,7 +74,7 @@
 
 .command {
     margin-left: 2vw;
-    color: var(--middle);
+    color: var(--darker);
 }
 
 .response {

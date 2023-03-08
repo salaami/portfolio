@@ -8,14 +8,14 @@ const CardsData = [
     },
     {
         Id: 1,
-        Title: "test",
+        Title: "TEST",
         Text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", 
         Link: "https://github.com/salaami/",
         Framework: "test"
     },
     {
         Id: 2,
-        Title: "test test test test test test ",
+        Title: "TEST",
         Text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
         Link: "https://github.com/salaami/",
         Framework: "test"

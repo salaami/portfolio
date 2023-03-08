@@ -26,3 +26,27 @@
         transform: translateX(calc(-100% - 5%)); 
     }
 }
+
+@media(min-width: 576px){
+    .marquee-container {
+            height: 30vw;
+    }
+}
+
+@media(min-width: 768px){
+    .marquee-container {
+            max-height: 25vw;
+    }
+}
+
+@media(min-width: 992px){
+    .marquee-container {
+            max-height: 20vw;
+    }
+}
+
+@media(min-width: 1200px){
+    .marquee-container {
+            max-height: 20vw;
+    }
+}
