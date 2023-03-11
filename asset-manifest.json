@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b106905.css",
+    "main.css": "/static/css/main.d3386811.css",
     "main.js": "/static/js/main.e65d4168.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/SuisseIntlMono-Regular.otf": "/static/media/SuisseIntlMono-Regular.3f10e6987f46a0cbe380.otf",
     "index.html": "/index.html",
-    "main.1b106905.css.map": "/static/css/main.1b106905.css.map",
+    "main.d3386811.css.map": "/static/css/main.d3386811.css.map",
     "main.e65d4168.js.map": "/static/js/main.e65d4168.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b106905.css",
+    "static/css/main.d3386811.css",
     "static/js/main.e65d4168.js"
   ]
 }
