@@ -57,7 +57,7 @@
 
 .triangle {
     width: 2vw;
-    border-left: var(--fs-medium) solid var(--middle);
+    border-left: var(--fs-medium) solid var(--accent-2);
     border-bottom: var(--fs-medium) solid transparent;
     border-top: var(--fs-medium) solid transparent;
     line-height: calc(var(--fs-medium)*1.5);
@@ -65,7 +65,8 @@
 
 .prompt-text {
     display: flex;
-    background: var(--middle);
+    background: var(--accent-2);
+    color: var(--darker);
     font-weight: 900;
     padding: 0.5vw;
     text-align: center;

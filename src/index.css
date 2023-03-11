@@ -4,6 +4,12 @@
    url('./assets/fonts/SuisseIntlMono/SuisseIntlMono-Regular.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'BulkyPixel-Regilar';
+  src: local('BulkyPixel-Regilar'),
+   url('./assets/fonts/BulksPixelRegular/BULKYPIX.TTF') format('truetype');
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
@@ -38,18 +44,24 @@ main {
 }
 
 h1 {
-  font-family: 'Press Start 2P';
+  font-family: 'BulkyPixel-Regilar';
   font-size: var(--fs-huge);
   color: var(--light);
   font-weight: 900;
 }
 
 h2 {
-  font-family: 'Press Start 2P';
+  font-family: 'BulkyPixel-Regilar';
   font-size: var(--fs-big);
   background: -webkit-linear-gradient(var(--accent-2), var(--accent-1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-family: 'BulkyPixel-Regilar';
+  font-size: var(--fs-big);
+  color: var(--text-color);
 }
 
 a {

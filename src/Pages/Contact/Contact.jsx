@@ -5,6 +5,21 @@ import { TransitionVariants } from "../../AnimatedRoute/TransitionVariants"
 import Marquee from "./Marquee.jsx"
 
 
+const hoverState = {
+    hovered: {
+        scale: 0.95,
+        background: "var(--text-color)"
+    },
+    initial: {
+        scale: 1,
+        background: "var(--light)"
+    },
+    transition: { 
+        duration: 0.3,
+        type: "EaseInOut"
+    }
+};
+
 export default function Contact() {
 
   return (
@@ -13,10 +28,17 @@ export default function Contact() {
       animate="animate"
       variants={TransitionVariants}
     >
-      <h2 className="call-to-action">
-        say hello
-      </h2>
-      <Marquee />
+      <h3 className="call-to-action">
+        say hello 
+      </h3>
+      <motion.div
+        variants={hoverState}
+        initial="initial"
+        whileHover="hovered" 
+        whileTap="hovered"
+>
+        <Marquee />
+      </motion.div>
     </motion.div>
   );
 }
