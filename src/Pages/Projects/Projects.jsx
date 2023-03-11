@@ -13,7 +13,7 @@ export default function Projects() {
             exit="exit"
             variants={TransitionVariants}
         >
-            <h2>Projects</h2>
+            <h2>PROJECTS</h2>
             <article  className="project-text">
                 <p>
                     This is a curated list of my private projects. 

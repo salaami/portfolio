@@ -21,6 +21,7 @@ header {
 }
 
 .header-logo {
+    font-family: 'BulkyPixel-Regilar';
     list-style-type: none;
     font-weight: 900;
     margin-left: 5vw;
