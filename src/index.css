@@ -77,7 +77,7 @@ article {
   background: transparent; /* make scrollbar transparent */
 }
 
-@media(min-width: 576px){
+@media(max-width: 767px){
   :root {
     --thickness: 1vw;
     --fs-huge: 10vw;
