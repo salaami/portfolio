@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
 import AnimatedRoute from '../AnimatedRoute/AnimatedRoute'
 
 export default function Layout() {
@@ -8,7 +7,6 @@ export default function Layout() {
         <>
             <Header />
             <AnimatedRoute />
-            <Footer />
         </>
     )
 }

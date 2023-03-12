@@ -1,37 +1,49 @@
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 2vh;
 }
 
 .card {
     display: flex;
-    max-width: 40vw;
     list-style: none;
     box-shadow: var(--box-shadow);
 }
 
 @media(max-width: 767px){
     .card-container {
-        width: 70vw;
+        width: 60vw;
         column-gap: 5vw;
-        gap: 5vw;
+        gap: 4.5vw;
     }
 
     .card {
-        max-width: 30vw;
+        max-width: 16vw;
     }
 }
 
 @media(min-width: 768px){
     .card-container {
-        width: 70vw;
+        width: 60vw;
         column-gap: 5vw;
-        gap: 5vw;
+        gap: 4.5vw;
     }
 
     .card {
-            max-width: 30vw;
+        max-width: 16vw;
+    }
+}
+
+@media(min-width: 768px){
+    .card-container {
+        width: 60vw;
+        column-gap: 5vw;
+        gap: 4.5vw;
+    }
+
+    .card {
+        max-width: 16vw;
     }
 }
 
@@ -39,23 +51,11 @@
     .card-container {
         width: 60vw;
         column-gap: 5vw;
-        gap: 5vw;
-    }
-    
-    .card {
-            max-width: 20vw;
-    }
-}
-
-@media(min-width: 1200px){
-    .card-container {
-        width: 60vw;
-        column-gap: 5vw;
-        gap: 5vw;
+        gap: 4.5vw;
     }
 
     .card {
-            max-width: 15vw;
+        max-width: 16vw;
     }
 }
 
@@ -66,21 +66,25 @@
 }
 
 .card-header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     font-family: 'BulkyPixel-Regular';
     color: var(--accent-2);
-    padding: 2vw;
-    background-color: var(--middle)
+    padding: 1vw 2vw 1vw 2vw;
+    background-color: var(--middle);
+    font-size: var(--fs-middle);
+}
+
+.card-icon {
+    display: flex;
+    align-self: center;
+    font-size: var(--fs-huge);
 }
 
 .card-text {
     font-size: var(--fs-normal);
     color: var(--darker);
     text-align: left;
-    padding: 2vw;
-}
-
-.framework {
-    font-size: var(--fs-normal);
-    color: var(--accent-1);
-    padding: 2vw;
+    padding: 1vw 2vw 1vw 2vw;
 }

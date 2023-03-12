@@ -13,14 +13,12 @@ export default function Projects() {
             exit="exit"
             variants={TransitionVariants}
         >
-            <h2>PROJECTS</h2>
+            <h1 className="header">PROJECTS</h1>
             <article  className="project-text">
-                <p>
-                    This is a curated list of my private projects. 
-                    Despite working in the data field, I am enthusiastic about many different technological subjects. 
-                    That's why I try to keep my naive curiosity and discover related topics, too.
-                    To keep a good learning spirit I like to follow my interests and thereby broaden my knowledge.
-                </p>
+                This is a curated list of my private projects. 
+                Despite working in the data field, I am enthusiastic about many different technological subjects. 
+                That's why I try to keep my naive curiosity and discover related topics, too.
+                To keep a good learning spirit I like to follow my interests and thereby broaden my knowledge.
             </article>
             <Cards /> 
         </motion.div>

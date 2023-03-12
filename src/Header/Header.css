@@ -13,19 +13,13 @@ header {
     font-size: var(--fs-normal);
 }
 
-.nav-container {
-    display: flex;
-    align-items: center;
-    margin-right: 5vw;
-    gap: 2vw;
-}
 .logo-background {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     max-width: var(--fs-);
     height: 100%;
-    margin-left: 5vw;
+    margin-left: 20vw;
     background-color: var(--accent-2);
     box-shadow: var(--box-shadow);
 }
@@ -36,9 +30,11 @@ header {
     color: var(--dark);
 }
 
-.header-nav {
-    align-self: center;
-    margin-right: 5vw;
+.nav-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20vw;
+    gap: 2vw;
 }
 
 .nav-list {
