@@ -9,13 +9,13 @@ const hoverState = {
     hovered: {
         scale: 0.95,
         background: "var(--text-color)",
-        boxShadow: "0.5rem 0.5rem var(--darker)",
+        boxShadow: "0.25vw 0.25vw var(--darker)",
         color: "var(--lighter)"
     },
     initial: {
         scale: 1,
-        boxShadow: "1rem 1rem var(--darker)",
         background: "var(--light)",
+        boxShadow: "var(--box-shadow)",
         color: "var(--light)"
     },
     transition: { 
@@ -32,17 +32,17 @@ export default function Contact() {
       animate="animate"
       variants={TransitionVariants}
     >
-      <h3 className="call-to-action">
-        say hello 
-      </h3>
-      <motion.div
-        variants={hoverState}
-        initial="initial"
-        whileHover="hovered" 
-        whileTap="hovered"
->
-        <Marquee />
-      </motion.div>
+        <h2>
+            CONTACT
+        </h2>
+        <motion.div
+            variants={hoverState}
+            initial="initial"
+            whileHover="hovered"
+            whileTap="hovered"
+        >
+            <Marquee />
+        </motion.div>
     </motion.div>
   );
 }
