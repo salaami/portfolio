@@ -21,7 +21,14 @@ export default function Header() {
 
     return (
         <header>
-            <div className="header-logo">SALEM SALLEH</div>
+            <div
+                className="logo-background"
+            >
+                <div
+                    className="header-logo"
+                >SALEM{<br/>}SALLEH
+                </div>
+            </div>
             <nav>
                 <ul 
                     className="nav-container"

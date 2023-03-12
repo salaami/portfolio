@@ -19,14 +19,22 @@ header {
     margin-right: 5vw;
     gap: 2vw;
 }
+.logo-background {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: var(--fs-);
+    height: var(--fs-big);
+    margin-left: 5vw;
+    background-color: var(--accent-2);
+    box-shadow: var(--box-shadow);
+}
 
 .header-logo {
-    font-family: 'BulkyPixel-Regilar';
-    list-style-type: none;
-    font-weight: 900;
-    margin-left: 5vw;
-    color: var(--light);
-    text-decoration: none;
+    height: 0.01vw;
+    padding: 1vw 1vw 1vw 1vw; 
+    font-family: 'BulkyPixel-Regular';
+    color: var(--dark);
 }
 
 .header-nav {
@@ -46,6 +54,7 @@ header {
 .nav-link {
     position: relative;
     outline: none;
+    font-family: 'BulkyPixel-Regular';
     text-decoration: none;
     font-weight: 900;
     color: var(--light);

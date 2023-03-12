@@ -7,7 +7,7 @@ const hoverState = {
     hovered: {
         boxShadow: "0.5rem 0.5rem var(--darker)",
         scale: 0.95,
-        background: "var(--text-color)"
+        background: "var(--lighter)"
     },
     initial: {
         boxShadow: "1rem 1rem var(--darker)",

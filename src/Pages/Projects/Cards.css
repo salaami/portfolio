@@ -11,8 +11,7 @@
     display: flex;
     max-width: 40vw;
     list-style: none;
-    box-shadow: 0.5rem 0.5rem var(--darker);
-    border: var(--thickness) solid var(--darker);
+    box-shadow: var(--box-shadow);
 }
 
 @media(max-width: 767px){
@@ -46,25 +45,21 @@
 }
 
 .card-header {
-    font-size: var(--fs-normal);
+    font-family: 'BulkyPixel-Regular';
     color: var(--accent-2);
-    font-weight: 900;
-    border-bottom: var(--thickness) solid var(--darker);
-    padding: 3vw;
+    padding: 2vw;
     background-color: var(--middle)
 }
 
 .card-text {
     font-size: var(--fs-normal);
-    margin-bottom: 1rem;
     color: var(--darker);
     text-align: justify;
-    padding: 3vw;
+    padding: 2vw;
 }
 
 .framework {
     font-size: var(--fs-normal);
-    font-weight: lighter;
     color: var(--accent-1);
-    padding: 3vw;
+    padding: 2vw;
 }

@@ -10,5 +10,6 @@
 
 .call-to-action {
    font-family: "SuissIntlMono-Bold";
+   color: var(--lighter);
 }
 
