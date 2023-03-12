@@ -7,7 +7,7 @@ header {
     position: fixed;
     align-items: center;
     justify-content: space-between;
-    font-family: SuissIntlMono-Bold;
+    font-family: SuisseIntlMono-Regular;
     z-index: 10;
     background-color: var(--dark);
     font-size: var(--fs-normal);
@@ -20,14 +20,12 @@ header {
     max-width: var(--fs-);
     height: 100%;
     margin-left: 20vw;
-    background-color: var(--accent-2);
-    box-shadow: var(--box-shadow);
 }
 
 .header-logo {
     padding: 1vw 1vw 1vw 1vw; 
     font-family: 'BulkyPixel-Regular';
-    color: var(--dark);
+    color: var(--light);
 }
 
 .nav-container {
@@ -48,10 +46,8 @@ header {
 
 .nav-link {
     position: relative;
-    outline: none;
     text-decoration: none;
-    font-weight: 900;
-    color: var(--light);
+    font-family: 'SuisseIntlMono-Bold'
 }
 
 .underline {

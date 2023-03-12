@@ -1,6 +1,12 @@
 @font-face {
-  font-family: 'SuissIntlMono-Bold';
-  src: local('SuissIntlMono-Bold'),
+  font-family: 'SuisseIntlMono-Bold';
+  src: local('SuisseIntlMono-Bold'),
+   url('./assets/fonts/SuisseIntlMono/SuisseIntlMono-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SuisseIntlMono-Regular';
+  src: local('SuisseIntlMono-Regular'),
    url('./assets/fonts/SuisseIntlMono/SuisseIntlMono-Regular.otf') format('opentype');
 }
 
@@ -25,7 +31,7 @@
 
 html, body {
   box-sizing: border-box;
-  font-family: 'SuissIntlMono-Bold';  
+  font-family: 'SuisseIntlMono-Regular';  
   padding: 0;
   margin: 0;
   background: var(--dark);
@@ -53,10 +59,9 @@ h1 {
   line-height: 1.25;
 }
 
-h3 {
-  font-family: 'BulkyPixel-Regular';
+h2 {
+  font-family: 'SuisseIntlMono-Bold';
   font-size: var(--fs-normal);
-  color: var(--accent-2);
   margin: 1vw 0vw 0vw 0vw;
 }
 
@@ -87,11 +92,10 @@ article {
     --thickness: 1vw;
     --box-shadow: 0.75vw 0.75vw var(--darker);
     --fs-huge: 10vw;
-    --fs-big: 7vw;
+    --fs-big: 8vw;
     --fs-medium: 5vw;
-    --fs-normal: 3vw;
-    --fs-small: 2vw;
-    --fs-tiny: 1vw;
+    --fs-normal: 4vw;
+    --fs-small: 3vw;
   }
 }
 
@@ -99,12 +103,11 @@ article {
   :root {
     --thickness: 0.7vw;
     --box-shadow: 0.75vw 0.75vw var(--darker);
-    --fs-huge: 10vw;
-    --fs-big: 7vw;
+    --fs-huge: 15vw;
+    --fs-big: 8vw;
     --fs-medium: 5vw;
     --fs-normal: 3vw;
     --fs-small: 2vw;
-    --fs-tiny: 1vw;
   }
 }
 
@@ -116,8 +119,7 @@ article {
     --fs-big: 6vw;
     --fs-medium: 4vw;
     --fs-normal: 2vw;
-    --fs-small: 1vw;
-    --fs-tiny: 0.5vw;
+    --fs-small: 0.75vw;
   }
 }
 
@@ -129,8 +131,8 @@ article {
     --fs-big: 5vw;
     --fs-medium: 3vw;
     --fs-normal: 1.25vw;
-    --fs-small: 0.5vw;
-    --fs-tiny: 0.25vw;
+    --fs-small: 0.75vw;
+
   }
 }
 

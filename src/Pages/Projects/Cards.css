@@ -11,6 +11,35 @@
     box-shadow: var(--box-shadow);
 }
 
+.link {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.card-icon {
+    display: flex;
+    align-self: center;
+    font-size: var(--fs-huge);
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: var(--accent-2);
+    padding: 1vw 2vw 1vw 2vw;
+    background-color: var(--middle);
+    font-size: var(--fs-big);
+}
+
+.card-text {
+    font-size: var(--fs-small);
+    color: var(--darker);
+    text-align: left;
+    padding: 1vw 2vw 1vw 2vw;
+}
+
 @media(max-width: 767px){
     .card-container {
         width: 60vw;
@@ -19,31 +48,45 @@
     }
 
     .card {
-        max-width: 16vw;
+        max-width: 60vw;
     }
+
+    .card-icon {
+        font-size: 50vw;
+    }
+
 }
 
 @media(min-width: 768px){
     .card-container {
         width: 60vw;
         column-gap: 5vw;
-        gap: 4.5vw;
+        gap: 5vw;
     }
 
     .card {
-        max-width: 16vw;
+        max-width: 25vw;
     }
+    .card-icon {
+        font-size: 30vw;
+    }
+
+
 }
 
 @media(min-width: 768px){
     .card-container {
         width: 60vw;
         column-gap: 5vw;
-        gap: 4.5vw;
+        gap: 5vw;
     }
 
     .card {
-        max-width: 16vw;
+        max-width: 25vw;
+    }
+
+    .card-icon {
+        font-size: 30vw;
     }
 }
 
@@ -57,34 +100,24 @@
     .card {
         max-width: 16vw;
     }
+
+    .card-icon {
+        font-size: 20vw;
+    }
 }
 
-.link {
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-}
+@media(min-width: 1200px){
+    .card-container {
+        width: 60vw;
+        column-gap: 5vw;
+        gap: 4.5vw;
+    }
 
-.card-header {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    font-family: 'BulkyPixel-Regular';
-    color: var(--accent-2);
-    padding: 1vw 2vw 1vw 2vw;
-    background-color: var(--middle);
-    font-size: var(--fs-middle);
-}
+    .card {
+        max-width: 16vw;
+    }
 
-.card-icon {
-    display: flex;
-    align-self: center;
-    font-size: var(--fs-huge);
-}
-
-.card-text {
-    font-size: var(--fs-normal);
-    color: var(--darker);
-    text-align: left;
-    padding: 1vw 2vw 1vw 2vw;
+    .card-icon {
+        font-size: 20vw;
+    }
 }
