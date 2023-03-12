@@ -7,12 +7,11 @@
 
 .terminal {
     background: var(--light);
-    border: var(--thickness) solid var(--darker);
     justify-content: center;
     align-items: center;
-    border-radius: var(--border-radius);
     font-size: var(--fs-medium);
     font-weight: bold;
+    box-shadow: var(--box-shadow);
 }
 
 .terminal-bar {
@@ -20,11 +19,9 @@
     justify-self: flex-start;
     align-items: center;
     justify-content: flex-end;
-    background-color: var(--darker);
+    background-color: var(--middle);
     width: 100%;
-    height: calc(2vw*1.5);
-    bottom: 1vh;
-    border-bottom: var(--thickness) solid var(--darker);
+    height: 4vw;
 }
 
 .dot-container {
@@ -79,6 +76,6 @@
 }
 
 .response {
-    color: var(--text-color);
+    color: var(--lighter);
     margin-top: 3vh;
 }

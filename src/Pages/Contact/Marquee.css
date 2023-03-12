@@ -9,15 +9,13 @@
     height: calc(var(--fs-huge)*1.5);
     overflow: hidden;
     background: var(--middle);
-    border: 1rem solid var(--accent-2);
 }
 
 .scrolling-text {
     animation: marquee 30s linear infinite;
     font-size: var(--fs-huge);
-    color: var(--text-color);
     text-align: center;
-    font-family: 'BulkyPixel-Regilar';
+    font-family: 'BulkyPixel-Regular';
 }
 
 @keyframes marquee {
@@ -37,18 +35,18 @@
 
 @media(min-width: 768px){
     .marquee-container {
-            max-height: 25vw;
+            height: 25vw;
     }
 }
 
 @media(min-width: 992px){
     .marquee-container {
-            max-height: 20vw;
+            height: 25vw;
     }
 }
 
 @media(min-width: 1200px){
     .marquee-container {
-            max-height: 20vw;
+            height: 15vw;
     }
 }

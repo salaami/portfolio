@@ -8,11 +8,15 @@ import Marquee from "./Marquee.jsx"
 const hoverState = {
     hovered: {
         scale: 0.95,
-        background: "var(--text-color)"
+        background: "var(--text-color)",
+        boxShadow: "0.5rem 0.5rem var(--darker)",
+        color: "var(--lighter)"
     },
     initial: {
         scale: 1,
-        background: "var(--light)"
+        boxShadow: "1rem 1rem var(--darker)",
+        background: "var(--light)",
+        color: "var(--light)"
     },
     transition: { 
         duration: 0.3,
