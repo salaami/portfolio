@@ -20,7 +20,7 @@
   --lighter: #F2F2F2;
   --accent-1: #BF3636;
   --accent-2: #D97D48;
-  --text-color: #0D0D0D;
+  --text-color: #F2F2F2;
 }
 
 html, body {
@@ -42,26 +42,22 @@ main {
   margin: 10vh 0vh;
   width: 100vw;
   min-height: 100vh;
+  padding: 10vh 0 0 0;
 }
 
 h1 {
   font-family: 'BulkyPixel-Regular';
-  font-size: var(--fs-huge);
-  font-weight: 900;
-  color: var(--accent-2);
-}
-
-h2 {
-  font-family: 'BulkyPixel-Regular';
-  font-size: var(--fs-big);
+  font-size: var(--fs-medium);
   color: var(--accent-2);
   text-shadow: 0.5vw 0.5vw 0rem var(--darker);
+  line-height: 1.25;
 }
 
 h3 {
   font-family: 'BulkyPixel-Regular';
-  font-size: var(--fs-big);
-  color: var(--text-color);
+  font-size: var(--fs-normal);
+  color: var(--accent-2);
+  margin: 1vw 0vw 0vw 0vw;
 }
 
 a {
@@ -75,13 +71,10 @@ article {
   align-items: flex-start;
   flex-direction: column;
   font-size: var(--fs-normal);
-  line-height: calc(var(--fs-normal)*1.5);
+  line-height: 1.5;
   text-align: start;
-  background-color: var(--light);
-  box-shadow: var(--box-shadow);
   color: var(--text-color);
-  padding: 4vw 6vw 4vw 6vw;
-  margin-bottom: 3rem;
+  margin: 5vh 0 5vh 0;
 }
 
 ::-webkit-scrollbar {
@@ -135,7 +128,7 @@ article {
     --fs-huge: 7vw;
     --fs-big: 5vw;
     --fs-medium: 3vw;
-    --fs-normal: 1vw;
+    --fs-normal: 1.25vw;
     --fs-small: 0.5vw;
     --fs-tiny: 0.25vw;
   }

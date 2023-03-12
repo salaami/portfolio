@@ -41,17 +41,19 @@ export default function Cards() {
                                 <div 
                                     className="card-header"
                                 >
-                                    {item.Title}
+                                    <div
+                                        className="card-icon"    
+                                    >
+                                        {item.Icon}
+                                    </div>
+                                    <h3>
+                                        {item.Title}
+                                    </h3>
                                 </div>
                                 <motion.p 
                                     className="card-text"
                                 >{item.Text}
                                 </motion.p>
-                                <div 
-                                    className="framework"
-                                >
-                                    {item.Framework}
-                                </div>
                             </a>
                     </motion.li>
                 )

@@ -33,7 +33,11 @@ export default function Socialbar() {
                                 whileHover="hovered" 
                                 whileTap="hovered"
                             >
-                                {Icon}               
+                                <svg
+                                    className="card-icon"    
+                                >
+                                    {Icon}
+                                </svg>
                             </motion.a>
                     )
                 })}

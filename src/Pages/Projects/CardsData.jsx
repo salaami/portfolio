@@ -1,24 +1,27 @@
+import { DiReact } from 'react-icons/di' 
+
 const CardsData = [
     {
         Id: 0,
-        Title: "REACT APP",
-        Text: "Creating a portfolio website as a Javascript React application.",
+        Title: "PORTFOLIO",
+        Text: "This website is a React application using jsx and css.",
         Link: "https://github.com/salaami/portfolio",
-        Framework: "React.js"
+        Icon: <DiReact />
     },
     {
         Id: 1,
         Title: "TEST",
         Text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", 
         Link: "https://github.com/salaami/",
-        Framework: "test"
+        Icon: <DiReact />
     },
     {
         Id: 2,
         Title: "TEST",
         Text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
         Link: "https://github.com/salaami/",
-        Framework: "test"
+        Icon: <DiReact />
     },
 ]
+
 export { CardsData }
