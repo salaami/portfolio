@@ -46,14 +46,17 @@ export default function Cards() {
                                     >
                                         {item.Icon}
                                     </div>
-                                    <h3>
-                                        {item.Title}
-                                    </h3>
                                 </div>
-                                <motion.p 
+                                <motion.div 
                                     className="card-text"
-                                >{item.Text}
-                                </motion.p>
+                                >
+                                    <h2>
+                                        {item.Title}
+                                    </h2>
+                                    <p>
+                                        {item.Text}
+                                    </p>
+                                </motion.div>
                             </a>
                     </motion.li>
                 )
