@@ -43,12 +43,12 @@ html, body {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  justify-content: flex-start;
   margin: 10vh 0vh;
   width: 100vw;
-  min-height: 100vh;
-  padding: 10vh 0 0 0;
+  min-height: 100%;
+  padding: 8vh 0 0 0;
 }
 
 h1 {

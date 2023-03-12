@@ -52,7 +52,7 @@
     }
 
     .card-icon {
-        font-size: 50vw;
+        font-size: 60vw;
     }
 
 }
@@ -68,7 +68,7 @@
         max-width: 25vw;
     }
     .card-icon {
-        font-size: 30vw;
+        font-size: 25vw;
     }
 
 
@@ -86,7 +86,7 @@
     }
 
     .card-icon {
-        font-size: 30vw;
+        font-size: 25vw;
     }
 }
 
@@ -102,7 +102,7 @@
     }
 
     .card-icon {
-        font-size: 20vw;
+        font-size: 16vw;
     }
 }
 
@@ -118,6 +118,6 @@
     }
 
     .card-icon {
-        font-size: 20vw;
+        font-size: 16vw;
     }
 }
