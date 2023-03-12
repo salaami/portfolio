@@ -21,7 +21,7 @@
     justify-content: flex-end;
     background-color: var(--middle);
     width: 100%;
-    height: 4vw;
+    height: calc(var(--fs-medium)*1.5);
 }
 
 .dot-container {

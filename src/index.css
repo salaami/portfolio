@@ -21,7 +21,6 @@
   --accent-1: #BF3636;
   --accent-2: #D97D48;
   --text-color: #0D0D0D;
-  --box-shadow: 0.75rem 0.75rem var(--darker);
 }
 
 html, body {
@@ -40,9 +39,9 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10vh;
+  margin: 10vh 0vh;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 h1 {
