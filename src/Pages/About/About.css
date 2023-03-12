@@ -1,6 +1,10 @@
 .about-content {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  align-content: flex-start;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.header {
+    align-self: start;
 }

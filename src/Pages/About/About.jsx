@@ -12,7 +12,10 @@ export default function About() {
       exit="exit"
       variants={TransitionVariants}
     >
-      <h1>ABOUT</h1>
+      <h1
+        className="header"
+      >ABOUT
+      </h1>
       <article>
         <p>
           My journey started as a student of economics and business. 
