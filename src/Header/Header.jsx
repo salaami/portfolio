@@ -26,7 +26,7 @@ export default function Header() {
             >
                 <div
                     className="header-logo"
-                >SALEM{<br/>}SALLEH
+                >SALEM SALLEH
                 </div>
             </div>
             <nav>
