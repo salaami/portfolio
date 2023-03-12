@@ -5,12 +5,12 @@ import { motion } from 'framer-motion'
 
 const hoverState = {
     hovered: {
-        boxShadow: "0.5rem 0.5rem var(--darker)",
+        boxShadow: "0.25vw 0.25vw var(--darker)",
         scale: 0.95,
         background: "var(--lighter)"
     },
     initial: {
-        boxShadow: "1rem 1rem var(--darker)",
+        boxShadow: "var(--box-shadow)",
         scale: 1,
         background: "var(--light)"
     },
