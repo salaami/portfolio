@@ -77,14 +77,11 @@ article {
   flex-direction: column;
   font-size: var(--fs-normal);
   line-height: calc(var(--fs-normal)*1.5);
-  text-align: justify;
+  text-align: start;
   background-color: var(--light);
   box-shadow: var(--box-shadow);
   color: var(--text-color);
-  padding-left: 3rem;
-  padding-top: 1.5rem;
-  padding-right: 3rem;
-  padding-bottom: 1.5rem;
+  padding: 4vw 6vw 4vw 6vw;
   margin-bottom: 3rem;
 }
 
@@ -125,7 +122,7 @@ article {
     --box-shadow: 0.5vw 0.5vw var(--darker);
     --fs-huge: 8vw;
     --fs-big: 6vw;
-    --fs-medium: vw;
+    --fs-medium: 4vw;
     --fs-normal: 2vw;
     --fs-small: 1vw;
     --fs-tiny: 0.5vw;

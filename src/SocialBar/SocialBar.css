@@ -11,6 +11,6 @@
   
 .social-icon {
     color: var(--light);
-    background-color: var(--dark);
+    background-color: transparent;
     font-size: 1.2rem;
   }

@@ -24,14 +24,13 @@ header {
     justify-content: flex-end;
     align-items: center;
     max-width: var(--fs-);
-    height: var(--fs-big);
+    height: 100%;
     margin-left: 5vw;
     background-color: var(--accent-2);
     box-shadow: var(--box-shadow);
 }
 
 .header-logo {
-    height: 0.01vw;
     padding: 1vw 1vw 1vw 1vw; 
     font-family: 'BulkyPixel-Regular';
     color: var(--dark);
