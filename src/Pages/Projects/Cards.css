@@ -40,11 +40,10 @@
     padding: 1vw 2vw 1vw 2vw;
 }
 
-@media(max-width: 767px){
+@media(min-width: 320px){
     .card-container {
         width: 60vw;
-        column-gap: 5vw;
-        gap: 4.5vw;
+        gap: 10vw;
     }
 
     .card {
@@ -57,11 +56,10 @@
 
 }
 
-@media(min-width: 768px){
+@media(min-width: 480px){
     .card-container {
         width: 60vw;
-        column-gap: 5vw;
-        gap: 5vw;
+        gap: 10vw;
     }
 
     .card {
@@ -77,8 +75,8 @@
 @media(min-width: 768px){
     .card-container {
         width: 60vw;
-        column-gap: 5vw;
-        gap: 5vw;
+        column-gap: 10vw;
+        gap: 10vw;
     }
 
     .card {
@@ -90,10 +88,9 @@
     }
 }
 
-@media(min-width: 992px){
+@media(min-width: 1024px){
     .card-container {
         width: 60vw;
-        column-gap: 5vw;
         gap: 4.5vw;
     }
 

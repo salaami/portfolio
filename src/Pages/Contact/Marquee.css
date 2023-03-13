@@ -27,9 +27,15 @@
     }
 }
 
-@media(max-width: 767px){
+@media(max-width: 320px){
     .marquee-container {
             height: 30vw;
+    }
+}
+
+@media(min-width: 480px){
+    .marquee-container {
+            height: 25vw;
     }
 }
 
@@ -39,7 +45,7 @@
     }
 }
 
-@media(min-width: 992px){
+@media(min-width: 1024px){
     .marquee-container {
             height: 25vw;
     }
