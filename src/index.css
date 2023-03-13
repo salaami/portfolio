@@ -87,7 +87,7 @@ article {
   background: transparent;
 }
 
-@media(max-width: 767px){
+@media(min-width: 320px){
   :root {
     --thickness: 1vw;
     --box-shadow: 0.75vw 0.75vw var(--darker);
@@ -99,7 +99,7 @@ article {
   }
 }
 
-@media(min-width: 768px){
+@media(min-width: 480px){
   :root {
     --thickness: 0.7vw;
     --box-shadow: 0.75vw 0.75vw var(--darker);
@@ -111,7 +111,7 @@ article {
   }
 }
 
-@media(min-width: 992px){
+@media(min-width: 768px){
   :root {
     --thickness: 0.6vw;
     --box-shadow: 0.5vw 0.5vw var(--darker);
@@ -120,6 +120,19 @@ article {
     --fs-medium: 4vw;
     --fs-normal: 2vw;
     --fs-small: 0.75vw;
+  }
+}
+
+@media(min-width: 1024px){
+  :root {
+    --thickness: 0.5vw;
+    --box-shadow: 0.5vw 0.5vw var(--darker);
+    --fs-huge: 7vw;
+    --fs-big: 5vw;
+    --fs-medium: 3vw;
+    --fs-normal: 1.25vw;
+    --fs-small: 0.75vw;
+
   }
 }
 
