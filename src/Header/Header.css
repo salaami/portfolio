@@ -19,7 +19,6 @@ header {
     align-items: center;
     max-width: var(--fs-);
     height: 100%;
-    margin-left: 20vw;
 }
 
 .header-logo {
@@ -61,4 +60,40 @@ header {
 
 .selected {
     color: white;
+}
+
+
+@media(min-width: 320px){
+
+    .logo-background {
+         margin-left: 10vw;
+    }
+}
+
+@media(min-width: 480px){
+
+    .logo-background {
+         margin-left: 10vw;
+    }
+}
+
+@media(min-width: 768px){
+
+    .logo-background {
+        margin-left: 20vw;
+    }
+}
+
+@media(min-width: 1024px){
+    
+    .logo-background {
+        margin-left: 20vw;
+    }
+}
+
+@media(min-width: 1200px){
+  
+    .logo-background {
+        margin-left: 20vw;
+    }
 }
