@@ -62,7 +62,6 @@ h1 {
 h2 {
   font-family: 'SuisseIntlMono-Bold';
   font-size: var(--fs-normal);
-  margin: 1vw 0vw 0vw 0vw;
 }
 
 a {
@@ -72,7 +71,6 @@ a {
 
 article {
   display: flex;
-  width: 60vw;
   align-items: flex-start;
   flex-direction: column;
   font-size: var(--fs-normal);
@@ -97,6 +95,10 @@ article {
     --fs-normal: 4vw;
     --fs-small: 3vw;
   }
+
+  article {
+    width: 80vw;
+  }
 }
 
 @media(min-width: 480px){
@@ -109,6 +111,11 @@ article {
     --fs-normal: 3vw;
     --fs-small: 2vw;
   }
+
+  article {
+    width: 60vw;
+  }
+
 }
 
 @media(min-width: 768px){
@@ -121,6 +128,10 @@ article {
     --fs-normal: 2vw;
     --fs-small: 0.75vw;
   }
+
+  article {
+    width: 60vw;
+  }
 }
 
 @media(min-width: 1024px){
@@ -132,7 +143,10 @@ article {
     --fs-medium: 3vw;
     --fs-normal: 1.25vw;
     --fs-small: 0.75vw;
-
+  }
+  
+  article {
+    width: 60vw;
   }
 }
 
@@ -145,7 +159,10 @@ article {
     --fs-medium: 3vw;
     --fs-normal: 1.25vw;
     --fs-small: 0.75vw;
-
+  }
+  
+  article {
+    width: 60vw;
   }
 }
 

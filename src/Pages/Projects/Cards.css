@@ -42,31 +42,31 @@
 
 @media(min-width: 320px){
     .card-container {
-        width: 60vw;
+        width: 80vw;
         gap: 10vw;
     }
 
     .card {
-        max-width: 60vw;
+        max-width: 80vw;
     }
 
     .card-icon {
-        font-size: 60vw;
+        font-size: 80vw;
     }
 
 }
 
 @media(min-width: 480px){
     .card-container {
-        width: 60vw;
+        width: 80vw;
         gap: 10vw;
     }
 
     .card {
-        max-width: 25vw;
+        max-width: 35vw;
     }
     .card-icon {
-        font-size: 25vw;
+        font-size: 35vw;
     }
 
 
