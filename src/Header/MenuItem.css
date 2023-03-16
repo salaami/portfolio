@@ -1,0 +1,10 @@
+.icon-placeholder {
+  background-color: var(--accent-1);
+  font-size: var(--fs-huge);
+}
+
+.text-placeholder {
+  background-color: var(--accent-1);
+  color: var(--text-color);
+  font-size: var(--fs-huge);
+}
