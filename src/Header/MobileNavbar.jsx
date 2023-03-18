@@ -1,47 +1,78 @@
 import './MobileNavbar.css'
-import { useRef } from "react"
-import { motion, useCycle } from "framer-motion"
-import { MenuBtnToggle } from "./MenuBtnToggle"
-import Navigation from "./Navigation"
+import './NavData'
+import { motion, useCycle, AnimatePresence } from "framer-motion"
+import { NavData } from './NavData'
 
-const sidebar = {
-  open: () => ({
-    clipPath: `circle(${Math.sqrt(window.innerWidth ** 2 + window.innerHeight ** 2)}px at 40px 40px)`,
+const sideVariants = {
+  close: {
     transition: {
-      type: "spring",
-      stiffness: 20,
-      restDelta: 2
+      staggeredChildren: 0.2,
+      staggeredDirection: -1
     }
-  }),
+  },
+  open: {
+    transition: {
+      staggeredChildren: 0.2,
+      staggeredDirection: 1
+    }
+  },
+}
+
+const itemVariants = {
+  open: {
+    opacity: 1,
+  },
   closed: {
-    clipPath: "circle(30px at 40px 40px)",
-    transition: {
-      delay: 0.5,
-      type: "spring",
-      stiffness: 400,
-      damping: 40
-    }
+    opacity: 0,
   }
 }
 
 
+
 export default function MobileNavbar() {
-  const [isOpen, toggleOpen] = useCycle(false, true)
-  const containerRef = useRef(null)
+  const [open, cycleOpen] = useCycle(false, true)
 
   return (
-    <motion.nav
-      className="navi"
-      initial={false}
-      animate={isOpen ? "open" : "closed"}
-      ref={containerRef}
-    >
-      <motion.div
-        className="background"
-        variants={sidebar}
-      />
-      <Navigation />
-      <MenuBtnToggle toggle={() => toggleOpen()} />
-    </motion.nav>
+    <div>
+      <AnimatePresence>
+        {open && (
+          <motion.aside
+            animate={{
+              width: "100vw"
+            }}
+            exit={{
+              width: 0,
+              transition: {
+                delay: 0.4,
+                type: "tween",
+                duration: 0.3,
+              }
+            }}
+          >
+            <motion.div
+              className="nav-container"
+              initial="closed"
+              animate="open"
+              variants={sideVariants}
+            >
+              {NavData.map(({ Text, Id, Route }) => (
+                <motion.a
+                  key={Id}
+                  href={Route}
+                  variants={itemVariants}
+                >{Text}
+                </motion.a>
+              ))}
+            </motion.div>
+          </motion.aside>
+        )}
+      </AnimatePresence>
+      <div className="btn-container">
+        <button
+          onClick={cycleOpen}
+        >{open ? "close" : "open"}
+        </button>
+      </div>
+    </div>
   )
 }
