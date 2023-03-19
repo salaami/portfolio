@@ -1,5 +1,6 @@
 import './MobileNavbar.css'
 import './NavData'
+import { ButtonToggle } from './ButtonToggle'
 import {
   motion,
   useCycle,
@@ -32,20 +33,56 @@ const itemVariants = {
   }
 }
 
+const Path = props => (
+  <motion.path
+    strokeWidth="var(--thickness)"
+    stroke="var(--darker)"
+    {...props}
+  />
+)
 
 export default function MobileNavbar() {
-  const [open, cycleOpen] = useCycle(false, true)
+  const [isOpen, toggleOpen] = useCycle(false, true)
 
   return (
     <div>
       <div className="btn-container">
         <button
-          onClick={cycleOpen}
-        >{open ? "Close" : "Open"}
+          onClick={toggleOpen}
+        >
+          <svg
+            width="23"
+            height="23"
+            viewBox="0 0 23 23"
+          >
+            <Path
+              variants={{
+                closed: { d: "M 2 2.5 L 20 2.5" },
+                open: { d: "M 3 16.5 L 17 2.5" }
+              }}
+              animate={isOpen ? "open" : "closed"}
+            />
+            <Path
+              d="M 2 9.423 L 20 9.423"
+              variants={{
+                closed: { opacity: 1 },
+                open: { opacity: 0 }
+              }}
+              transition={{ duration: 0.1 }}
+              animate={isOpen ? "open" : "closed"}
+            />
+            <Path
+              variants={{
+                closed: { d: "M 2 16.346 L 20 16.346" },
+                open: { d: "M 3 2.5 L 17 16.346" }
+              }}
+              animate={isOpen ? "open" : "closed"}
+            />
+          </svg>
         </button>
       </div>
       <AnimatePresence>
-        {open && (
+        {isOpen && (
           <motion.aside
             initial={{
               width: 0,
@@ -54,8 +91,6 @@ export default function MobileNavbar() {
             animate={{
               width: "100vw",
               height: "100vh",
-              right: 0,
-              top: 0,
             }}
             exit={{
               width: 0,
@@ -82,7 +117,7 @@ export default function MobileNavbar() {
                 >
                   <Link
                     to={Route}
-                    onClick={cycleOpen}
+                    onClick={toggleOpen}
                   >
                     {Text}
                   </Link>

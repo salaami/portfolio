@@ -18,6 +18,8 @@
 aside {
   background-color: var(--darker);
   position: absolute;
+  top: 0;
+  right: 0;
 }
 
 button {
@@ -25,7 +27,6 @@ button {
   margin: 1.25rem;
   border: none;
   padding: 0.5rem 1rem;
-  background-color: var(--text-color);
 }
 
 .btn-container {
