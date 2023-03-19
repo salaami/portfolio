@@ -1,10 +1,15 @@
 import './MobileNavbar.css'
 import './NavData'
-import { motion, useCycle, AnimatePresence } from "framer-motion"
+import {
+  motion,
+  useCycle,
+  AnimatePresence
+} from "framer-motion"
+import { Link } from 'react-router-dom'
 import { NavData } from './NavData'
 
 const sideVariants = {
-  close: {
+  closed: {
     transition: {
       staggeredChildren: 0.2,
       staggeredDirection: -1
@@ -69,14 +74,19 @@ export default function MobileNavbar() {
               variants={sideVariants}
             >
               {NavData.map(({ Text, Id, Route }) => (
-                <motion.a
+                <motion.div
                   key={Id}
-                  href={Route}
                   variants={itemVariants}
                   whileHover={{ scale: 0.95 }}
+                  className="nav-item"
                 >
-                  {Text}
-                </motion.a>
+                  <Link
+                    to={Route}
+                    onClick={cycleOpen}
+                  >
+                    {Text}
+                  </Link>
+                </motion.div>
               ))}
             </motion.div>
           </motion.aside>
