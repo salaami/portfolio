@@ -1,6 +1,5 @@
 import './MobileNavbar.css'
 import './NavData'
-import { ButtonToggle } from './ButtonToggle'
 import {
   motion,
   useCycle,
@@ -35,8 +34,8 @@ const itemVariants = {
 
 const Path = props => (
   <motion.path
-    strokeWidth="var(--thickness)"
-    stroke="var(--darker)"
+    strokeWidth="0.15rem"
+    stroke="var(--lighter)"
     {...props}
   />
 )
@@ -57,13 +56,13 @@ export default function MobileNavbar() {
           >
             <Path
               variants={{
-                closed: { d: "M 2 2.5 L 20 2.5" },
-                open: { d: "M 3 16.5 L 17 2.5" }
+                closed: { d: "M 0 2 L 23 2" },
+                open: { d: "M 2.5 19 L 19 2.5" }
               }}
               animate={isOpen ? "open" : "closed"}
             />
             <Path
-              d="M 2 9.423 L 20 9.423"
+              d="M 0 11.5 L 23 11.5"
               variants={{
                 closed: { opacity: 1 },
                 open: { opacity: 0 }
@@ -73,8 +72,8 @@ export default function MobileNavbar() {
             />
             <Path
               variants={{
-                closed: { d: "M 2 16.346 L 20 16.346" },
-                open: { d: "M 3 2.5 L 17 16.346" }
+                closed: { d: "M 0 21 L 23 21" },
+                open: { d: "M 2 2 L 19 19" }
               }}
               animate={isOpen ? "open" : "closed"}
             />
