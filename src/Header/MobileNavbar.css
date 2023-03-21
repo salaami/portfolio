@@ -6,9 +6,7 @@
   padding-top: 15vh;
 }
 
-
 .nav-item {
-  color: var(--text-color);
   text-decoration: none;
   font-size: 7vh;
   margin-right: var(--side-margin);
@@ -25,8 +23,8 @@ aside {
 button {
   cursor: pointer;
   margin: 1.25rem;
+  background-color: transparent; 
   border: none;
-  padding: 0.5rem 1rem;
 }
 
 .btn-container {
