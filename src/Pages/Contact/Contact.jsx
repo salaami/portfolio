@@ -10,15 +10,13 @@ const hoverState = {
         scale: 0.95,
         background: "var(--text-color)",
         boxShadow: "0.25vw 0.25vw var(--darker)",
-        color: "var(--lighter)"
     },
     initial: {
         scale: 1,
         background: "var(--light)",
         boxShadow: "var(--box-shadow)",
-        color: "var(--light)"
     },
-    transition: { 
+    transition: {
         duration: 0.3,
         type: "EaseInOut"
     }
@@ -26,23 +24,23 @@ const hoverState = {
 
 export default function Contact() {
 
-  return (
-    <motion.div 
-      className="contact-content"
-      animate="animate"
-      variants={TransitionVariants}
-    >
-        <h1>
-            CONTACT
-        </h1>
+    return (
         <motion.div
-            variants={hoverState}
-            initial="initial"
-            whileHover="hovered"
-            whileTap="hovered"
+            className="contact-content"
+            animate="animate"
+            variants={TransitionVariants}
         >
-            <Marquee />
+            <h1>
+                CONTACT
+            </h1>
+            <motion.div
+                variants={hoverState}
+                initial="initial"
+                whileHover="hovered"
+                whileTap="hovered"
+            >
+                <Marquee />
+            </motion.div>
         </motion.div>
-    </motion.div>
-  );
+    );
 }

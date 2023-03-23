@@ -15,7 +15,7 @@
     animation: marquee 30s linear infinite;
     font-size: var(--fs-huge);
     text-align: center;
-    font-family: 'BulkyPixel-Regular';
+    font-family: 'SuisseIntlMono-Bold';
 }
 
 @keyframes marquee {
