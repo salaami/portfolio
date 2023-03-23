@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     font-family: SuisseIntlMono-Regular;
     z-index: 10;
-    background-color: var(--dark);
+    background-color: var(--darker);
     font-size: var(--fs-normal);
 }
 
@@ -23,7 +23,7 @@ header {
 
 .header-logo {
     padding: 1vw 1vw 1vw 1vw; 
-    font-family: 'BulkyPixel-Regular';
+    font-family: 'SuisseIntlMono-Bold';
     color: var(--light);
 }
 
