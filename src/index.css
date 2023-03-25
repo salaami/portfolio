@@ -25,12 +25,12 @@
 
 :root {
   --darker: #000000;
-  --dark: #00001E;
-  --middle: #00004F;
-  --light: #000070;
+  --dark: #1B1D1E;
+  --middle: #424E4F;
+  --light: #5E6D70;
   --lighter: #FFF;
-  --accent-1: #FF0000;
-  --accent-2: #C10000;
+  --accent-1: #C13B00;
+  --accent-2: #FF6600;
   --text-color: #FFF;
 }
 

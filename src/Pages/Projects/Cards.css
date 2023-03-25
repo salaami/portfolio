@@ -9,6 +9,7 @@
     display: flex;
     list-style: none;
     box-shadow: var(--box-shadow);
+    background-color: var(--middle);
 }
 
 .link {
@@ -18,13 +19,14 @@
 }
 
 .icon-wrapper {
-    background-color: var(--middle);
+    background-color: var(--light);
 }
 
 .card-icon {
     display: flex;
     align-self: center;
     font-size: var(--fs-huge);
+    color: var(--text-color);
 }
 
 .card-header {
@@ -33,14 +35,12 @@
     align-content: center;
     color: inherit;
     padding: 1vw 2vw;
-    background-color: var(--dark);
     font-size: var(--fs-big);
 }
 
 .card-text {
     font-size: var(--fs-small);
     color: inherit;
-    background-color: var(--dark);
     text-align: left;
     padding: 0.01vw 2vw 1vw 2vw;
 }
