@@ -34,7 +34,6 @@
     flex-direction: column;
     align-content: center;
     color: inherit;
-    padding: 1vw 2vw;
     font-size: var(--fs-big);
 }
 
@@ -42,7 +41,6 @@
     font-size: var(--fs-small);
     color: inherit;
     text-align: left;
-    padding: 0.01vw 2vw 1vw 2vw;
 }
 
 @media(min-width: 320px){
@@ -59,6 +57,13 @@
         font-size: 80vw;
     }
 
+    .card-header {
+        padding: 10vw 10vw 5vw 10vw;
+    }
+
+    .card-text {
+        padding: 0vw 10vw 5vw 10vw;
+    }
 }
 
 @media(min-width: 480px){
@@ -74,7 +79,13 @@
         font-size: 35vw;
     }
 
+    .card-header {
+        padding: 2vw 2vw 1vw 2vw;
+    }
 
+    .card-text {
+        padding: 2vw 2vw 1vw 2vw;
+    }
 }
 
 @media(min-width: 768px){
@@ -91,6 +102,14 @@
     .card-icon {
         font-size: 25vw;
     }
+
+    .card-header {
+        padding: 2vw 2vw 1vw 2vw;
+    }
+
+    .card-text {
+        padding: 2vw 2vw 1vw 2vw;
+    }
 }
 
 @media(min-width: 1024px){
@@ -105,6 +124,14 @@
 
     .card-icon {
         font-size: 16vw;
+    }
+
+    .card-header {
+        padding: 2vw 2vw 1vw 2vw;
+    }
+
+    .card-text {
+        padding: 2vw 2vw 1vw 2vw;
     }
 }
 
@@ -121,5 +148,13 @@
 
     .card-icon {
         font-size: 16vw;
+    }
+
+    .card-header {
+        padding: 2vw 2vw 1vw 2vw;
+    }
+
+    .card-text {
+        padding: 2vw 2vw 1vw 2vw;
     }
 }

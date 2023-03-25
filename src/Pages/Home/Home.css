@@ -9,7 +9,7 @@
     align-items: center;
     font-size: var(--fs-medium);
     box-shadow: var(--box-shadow);
-    width: 60vw;
+    width: var(--content-width);
 }
 
 .terminal-bar {
@@ -39,7 +39,7 @@
 .terminal-content {
     display: flex;
     flex-direction: column;
-    padding: 3rem  3rem 3rem 3rem;
+    padding: var(--thickness);
 }
 
 .prompt {
