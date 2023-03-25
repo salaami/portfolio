@@ -45,6 +45,7 @@
 .prompt {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     text-align: left;
     line-height: calc(var(--fs-medium)*1.5);
     padding-top: 1rem;
@@ -59,6 +60,7 @@
 
 .prompt-text {
     display: flex;
+    white-space: nowrap;
     background: var(--accent-2);
     color: var(--darker);
     font-weight: 900;
