@@ -61,6 +61,8 @@ h1 {
   font-size: var(--fs-medium);
   color: var(--accent-2);
   line-height: 1.25;
+  align-self: start;
+  left:0;
 }
 
 h2 {

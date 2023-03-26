@@ -20,16 +20,13 @@ aside {
   right: 0;
 }
 
-button {
-  cursor: pointer;
-  margin: 1.25rem;
-  background-color: transparent; 
-  border: none;
-}
-
 .btn-container {
-  position: fixed;
+  position: absolute;
   z-index: 10;
   top: 0;
   right: var(--side-margin);
+  bottom: 0;
+  cursor: pointer;
+  background-color: transparent; 
+  border: none;
 }
