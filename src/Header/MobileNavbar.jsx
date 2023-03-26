@@ -45,41 +45,40 @@ export default function MobileNavbar() {
 
   return (
     <div>
-      <div className="btn-container">
-        <button
-          onClick={toggleOpen}
+      <button
+        onClick={toggleOpen}
+        className="btn-container"
+      >
+        <svg
+          width="23"
+          height="23"
+          viewBox="0 0 23 23"
         >
-          <svg
-            width="23"
-            height="23"
-            viewBox="0 0 23 23"
-          >
-            <Path
-              variants={{
-                closed: { d: "M 0 2 L 23 2" },
-                open: { d: "M 2.5 19 L 19 2.5" }
-              }}
-              animate={isOpen ? "open" : "closed"}
-            />
-            <Path
-              d="M 0 11.5 L 23 11.5"
-              variants={{
-                closed: { opacity: 1 },
-                open: { opacity: 0 }
-              }}
-              transition={{ duration: 0.1 }}
-              animate={isOpen ? "open" : "closed"}
-            />
-            <Path
-              variants={{
-                closed: { d: "M 0 21 L 23 21" },
-                open: { d: "M 2 2 L 19 19" }
-              }}
-              animate={isOpen ? "open" : "closed"}
-            />
-          </svg>
-        </button>
-      </div>
+          <Path
+            variants={{
+              closed: { d: "M 0 2 L 23 2" },
+              open: { d: "M 2.5 19 L 19 2.5" }
+            }}
+            animate={isOpen ? "open" : "closed"}
+          />
+          <Path
+            d="M 0 11.5 L 23 11.5"
+            variants={{
+              closed: { opacity: 1 },
+              open: { opacity: 0 }
+            }}
+            transition={{ duration: 0.1 }}
+            animate={isOpen ? "open" : "closed"}
+          />
+          <Path
+            variants={{
+              closed: { d: "M 0 21 L 23 21" },
+              open: { d: "M 2 2 L 19 19" }
+            }}
+            animate={isOpen ? "open" : "closed"}
+          />
+        </svg>
+      </button>
       <AnimatePresence>
         {isOpen && (
           <motion.aside

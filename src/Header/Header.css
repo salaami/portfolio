@@ -6,7 +6,6 @@ header {
     width: 100vw;
     position: fixed;
     align-items: center;
-    justify-content: space-between;
     font-family: SuisseIntlMono-Regular;
     z-index: 10;
     background-color: var(--darker);
@@ -15,9 +14,7 @@ header {
 
 .logo-background {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    max-width: var(--fs-);
     height: 100%;
 }
 
