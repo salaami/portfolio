@@ -30,9 +30,6 @@ export default function Contact() {
             animate="animate"
             variants={TransitionVariants}
         >
-            <h1>
-                CONTACT
-            </h1>
             <motion.div
                 variants={hoverState}
                 initial="initial"

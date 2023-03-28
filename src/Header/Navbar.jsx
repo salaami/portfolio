@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { NavData } from './NavData'
 import { motion, AnimatePresence } from "framer-motion"
 import { Link, useLocation } from 'react-router-dom'
-
+import './Navbar.css'
 
 export default function Navbar() {
     const location = useLocation()
@@ -15,7 +15,9 @@ export default function Navbar() {
     }, [selected])
 
     return (
-        <nav>
+        <nav
+            className="nav-wrapper"
+        >
             <ul
                 className="nav-container"
             >

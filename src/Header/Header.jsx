@@ -34,7 +34,7 @@ export default function Header() {
                 >SALEM SALLEH
                 </div>
             </div>
-            <MobileNavbar />
+            {isMobile ? <MobileNavbar /> : <Navbar />}
         </header>
     )
 }
