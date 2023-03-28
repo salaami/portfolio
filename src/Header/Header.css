@@ -6,6 +6,7 @@ header {
     width: 100vw;
     position: fixed;
     align-items: center;
+    justify-content: space-between;
     font-family: SuisseIntlMono-Regular;
     z-index: 10;
     background-color: var(--darker);
@@ -24,73 +25,6 @@ header {
     color: var(--light);
 }
 
-.nav-container {
-    display: flex;
-    align-items: center;
-    margin-right: 20vw;
-    gap: 2vw;
-}
-
-.nav-list {
-    list-style: none;
-    position: relative;
-    outline: none;
-    text-decoration: none;
-    font-weight: 900;
-    color: var(--light);
-}
-
-.nav-link {
-    position: relative;
-    text-decoration: none;
-    font-family: 'SuisseIntlMono-Bold'
-}
-
-.underline {
-    position: absolute;
-    bottom: -0.25rem;
-    left: 0;
-    right: 0;
-    height: 0.25vw;
-    background: var(--accent-2);
-}
-
-.selected {
-    color: white;
-}
-
-
-@media(min-width: 320px){
-
-    .logo-background {
-         margin-left: 10vw;
-    }
-}
-
-@media(min-width: 480px){
-
-    .logo-background {
-         margin-left: 10vw;
-    }
-}
-
-@media(min-width: 768px){
-
-    .logo-background {
-        margin-left: 20vw;
-    }
-}
-
-@media(min-width: 1024px){
-    
-    .logo-background {
-        margin-left: 20vw;
-    }
-}
-
-@media(min-width: 1200px){
-  
-    .logo-background {
-        margin-left: 20vw;
-    }
+.logo-background {
+    margin-left: var(--side-margin);
 }

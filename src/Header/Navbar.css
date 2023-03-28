@@ -1,0 +1,39 @@
+.nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: var(--side-margin);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    list-style: none;
+    position: relative;
+    color: var(--light);
+    flex-grow: 1;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'SuisseIntlMono-Bold';
+}
+
+.underline {
+    position: absolute;
+    bottom: -0.25rem;
+    left: 0;
+    right: 0;
+    height: 0.25vw;
+    background: var(--accent-2);
+}
+
+.selected {
+    color: white;
+}
+
+
