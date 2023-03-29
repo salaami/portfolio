@@ -12,12 +12,14 @@ const sideVariants = {
   closed: {
     transition: {
       staggeredChildren: 0.2,
+      delayChildren: 0.2,
       staggeredDirection: -1
     }
   },
   open: {
     transition: {
       staggeredChildren: 0.2,
+      delayChildren: 0.2,
       staggeredDirection: 1
     }
   },
@@ -26,9 +28,11 @@ const sideVariants = {
 const itemVariants = {
   open: {
     opacity: 1,
+    x: 0
   },
   closed: {
     opacity: 0,
+    x: 50
   }
 }
 
