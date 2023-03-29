@@ -14,10 +14,10 @@
 }
 
 aside {
-  background-color: var(--dark);
   position: absolute;
   top: 0;
   right: 0;
+  background-color: var(--dark);
 }
 
 .btn-container {

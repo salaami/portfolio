@@ -1,4 +1,3 @@
-import React from 'react'
 import './Header.css'
 import { useState, useEffect } from 'react'
 import Navbar from './Navbar'
@@ -8,7 +7,6 @@ import MobileNavbar from './MobileNavbar'
 export default function Header() {
 
     const [isMobile, setIsMobile] = useState(false)
-
 
     useEffect(() => {
         function handleResize() {
@@ -25,7 +23,7 @@ export default function Header() {
     }, [])
 
     return (
-        <header>
+        <header className="header-container">
             <div
                 className="logo-background"
             >

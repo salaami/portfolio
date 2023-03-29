@@ -14,6 +14,10 @@ export default function Navbar() {
         window.localStorage.setItem('selected', selected)
     }, [selected])
 
+    useEffect(() => {
+        setSelected(NavData.findIndex(({ Route }) => Route === location.pathname))
+    }, [location.pathname])
+
     return (
         <nav
             className="nav-wrapper"
