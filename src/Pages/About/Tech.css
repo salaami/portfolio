@@ -1,0 +1,20 @@
+.tech-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: var(--content-width);
+  margin-top: 5vh;
+}
+
+.tech-bar {
+  width: 80vw;
+  height: 5vh;
+  background-color: var(--accent-1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.tech-bar p {
+  margin-right: 1vw;
+}
