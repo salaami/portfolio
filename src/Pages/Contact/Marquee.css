@@ -6,7 +6,7 @@
     align-content: center;
     gap: 5rem;
     width: 100%;
-    height: calc(var(--fs-huge)*1.5);
+    height: var(--marquee-height);
     overflow: hidden;
     background: var(--middle);
 }
@@ -24,35 +24,5 @@
     }
     100% { 
         transform: translateX(calc(-100% - 5%)); 
-    }
-}
-
-@media(max-width: 320px){
-    .marquee-container {
-            height: 30vw;
-    }
-}
-
-@media(min-width: 480px){
-    .marquee-container {
-            height: 25vw;
-    }
-}
-
-@media(min-width: 768px){
-    .marquee-container {
-            height: 25vw;
-    }
-}
-
-@media(min-width: 1024px){
-    .marquee-container {
-            height: 25vw;
-    }
-}
-
-@media(min-width: 1200px){
-    .marquee-container {
-            height: 15vw;
     }
 }
