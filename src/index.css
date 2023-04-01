@@ -96,6 +96,7 @@ article {
     --side-margin: 10vw;
     --content-width: 80vw;
     --box-shadow: 2vw 2vw var(--dark);
+    --marquee-height: 25vh;
     --fs-huge: 10vw;
     --fs-big: 8vw;
     --fs-medium: 5vw;
@@ -109,6 +110,8 @@ article {
     --thickness: 5vw;
     --side-margin: 10vw;
     --content-width: 80vw;
+    --marquee-height: 25vh;
+    --fs-huge: 10vw;
     --box-shadow: 2vw 2vw var(--dark);
     --fs-huge: 15vw;
     --fs-big: 8vw;
@@ -123,6 +126,7 @@ article {
     --thickness: 5vw;
     --side-margin: 20vw;
     --content-width: 60vw;
+    --marquee-height: 20vh;
     --box-shadow: 1vw 1vw var(--dark);
     --fs-huge: 8vw;
     --fs-big: 6vw;
@@ -137,6 +141,7 @@ article {
     --thickness: 5vw;
     --side-margin: 20vw;
     --content-width: 60vw;
+    --marquee-height: 20vh;
     --box-shadow: 0.75vw 0.75vw var(--dark);
     --fs-huge: 7vw;
     --fs-big: 5vw;
@@ -151,6 +156,7 @@ article {
     --thickness: 2vw;
     --side-margin: 20vw;
     --content-width: 60vw;
+    --marquee-height: 20vh;
     --box-shadow: 0.75rem 0.75rem var(--dark);
     --fs-huge: 7vw;
     --fs-big: 5vw;
