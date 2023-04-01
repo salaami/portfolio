@@ -6,6 +6,11 @@
   margin-top: 5vh;
 }
 
+.tech-wrapper {
+  background-color: var(--dark);
+  padding: 1vw;
+}
+
 .tech-bar {
   width: 80vw;
   height: 5vh;

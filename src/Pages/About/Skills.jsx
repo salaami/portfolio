@@ -10,9 +10,12 @@ export default function Skills() {
       className="skill-container"
     >
       <h1>SKILLS</h1>
-      {SkillData.map(({ Title, Level, Id }, i) => {
+      {SkillData.map(({ Title, Level, Id }) => {
         return (
-          <div key={Id}>
+          <div
+            key={Id}
+            className="skill-wrapper"
+          >
             <h2>{Title}</h2>
             <motion.div
               key={Id}
