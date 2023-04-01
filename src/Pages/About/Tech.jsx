@@ -12,7 +12,10 @@ export default function Tech() {
       <h1>TECH</h1>
       {TechData.map(({ Title, Level, Id }) => {
         return (
-          <div key={Id}>
+          <div
+            key={Id}
+            className="tech-wrapper"
+          >
             <h2>{Title}</h2>
             <motion.div
               className="tech-bar"

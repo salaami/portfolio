@@ -5,6 +5,11 @@
   width: var(--content-width);
 }
 
+.skill-wrapper {
+  background-color: var(--dark);
+  padding: 1vw;
+}
+
 .skill-bar {
   width: 80vw;
   height: 5vh;
