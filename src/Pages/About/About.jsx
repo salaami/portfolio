@@ -2,6 +2,8 @@ import React from "react"
 import "./About.css"
 import { TransitionVariants } from "../../AnimatedRoute/TransitionVariants";
 import { motion } from "framer-motion";
+import Skills from './Skills'
+import Tech from './Tech'
 
 export default function About() {
   return (
@@ -12,7 +14,7 @@ export default function About() {
       exit="exit"
       variants={TransitionVariants}
     >
-      <h1>ABOUT</h1>
+      <h1>INTRO</h1>
       <article>
         <p>
           My journey started as a student of economics and business.
@@ -41,6 +43,8 @@ export default function About() {
           that encourages me to constantly learn new things and develop myself.
         </p>
       </article>
+      <Skills />
+      <Tech />
     </motion.div>
   );
 }
