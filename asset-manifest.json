@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f8d7229.css",
-    "main.js": "/static/js/main.8d58f192.js",
+    "main.css": "/static/css/main.b873cfa7.css",
+    "main.js": "/static/js/main.aef7046e.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/SuisseIntl-Regular.otf": "/static/media/SuisseIntl-Regular.5617268378cfaca54db5.otf",
     "static/media/SuisseIntlMono-Bold.otf": "/static/media/SuisseIntlMono-Bold.1278fb6ed98ed9285bcc.otf",
     "static/media/SuisseIntlMono-Regular.otf": "/static/media/SuisseIntlMono-Regular.3f10e6987f46a0cbe380.otf",
     "index.html": "/index.html",
-    "main.6f8d7229.css.map": "/static/css/main.6f8d7229.css.map",
-    "main.8d58f192.js.map": "/static/js/main.8d58f192.js.map",
+    "main.b873cfa7.css.map": "/static/css/main.b873cfa7.css.map",
+    "main.aef7046e.js.map": "/static/js/main.aef7046e.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f8d7229.css",
-    "static/js/main.8d58f192.js"
+    "static/css/main.b873cfa7.css",
+    "static/js/main.aef7046e.js"
   ]
 }
