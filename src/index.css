@@ -75,11 +75,9 @@ a {
 
 article {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
   font-size: var(--fs-normal);
   line-height: 1.5;
-  text-align: start;
   color: var(--text-color);
   margin: 5vh 0 5vh 0;
   width: var(--content-width);
