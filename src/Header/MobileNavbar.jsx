@@ -95,9 +95,9 @@ export default function MobileNavbar() {
             exit={{
               width: 0,
               transition: {
-                delay: 0.4,
+                delay: 0.2,
                 type: "tween",
-                duration: 0.3,
+                duration: 0.2,
               }
             }}
           >
