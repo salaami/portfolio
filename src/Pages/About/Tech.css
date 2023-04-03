@@ -6,6 +6,10 @@
   margin-top: 5vh;
 }
 
+.tech-container h1 {
+  text-align: center;
+}
+
 .tech-wrapper {
   background-color: var(--dark);
   padding: 0 3vw 3vw 3vw;
