@@ -11,7 +11,7 @@ import { NavData } from './NavData'
 const sideVariants = {
   closed: {
     transition: {
-      staggeredChildren: 0.2,
+      staggerChildren: 0.2,
       delayChildren: 0.2,
       staggeredDirection: -1
     }
