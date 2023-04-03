@@ -4,3 +4,7 @@
     flex-direction: column;
     align-content: flex-start;
 }
+
+.about-content article h1 {
+    text-align: center;
+}
