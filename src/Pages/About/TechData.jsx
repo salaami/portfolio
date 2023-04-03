@@ -5,11 +5,6 @@ const TechData = [
     Title: "DBT",
   },
   {
-    Id: 1,
-    Level: 90,
-    Title: "Prest/Trino",
-  },
-  {
     Id: 2,
     Level: 60,
     Title: "CI/CD Pipelines",
@@ -18,6 +13,11 @@ const TechData = [
     Id: 3,
     Level: 30,
     Title: "Docker",
+  },
+  {
+    Id: 1,
+    Level: 90,
+    Title: "Presto/Trino",
   },
   {
     Id: 4,
@@ -31,13 +31,13 @@ const TechData = [
   },
   {
     Id: 6,
-    Level: 80,
-    Title: "AWS S3",
+    Level: 90,
+    Title: "MS SQL Server",
   },
   {
     Id: 7,
-    Level: 90,
-    Title: "MS SQL Server",
+    Level: 80,
+    Title: "AWS S3",
   },
 ]
 
