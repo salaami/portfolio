@@ -11,16 +11,14 @@ import { NavData } from './NavData'
 const sideVariants = {
   closed: {
     transition: {
-      staggerChildren: 0.2,
-      delayChildren: 0.2,
-      staggeredDirection: -1
+      staggerChildren: 0.05,
+      staggerDirection: -1
     }
   },
   open: {
     transition: {
-      staggeredChildren: 0.2,
-      delayChildren: 0.2,
-      staggeredDirection: 1
+      staggerChildren: 0.05,
+      staggerDirection: 1
     }
   },
 }
