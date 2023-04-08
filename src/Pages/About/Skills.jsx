@@ -22,6 +22,10 @@ export default function Skills() {
               className="skill-bar"
               initial={{ width: "0%" }}
               animate={{ width: `${Level}%` }}
+              transition={{
+                type: 'tween',
+                ease: 'easeInOut'
+              }}
             >
               <p>
                 {Level}

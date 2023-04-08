@@ -12,7 +12,8 @@ const fadeVariants = {
     y: 0,
     transition: {
       delay: 1,
-      type: 'tween'
+      type: 'tween',
+      ease: 'easeInOut'
     }
   }
 }

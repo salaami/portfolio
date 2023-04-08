@@ -59,7 +59,11 @@ export default function MobileNavbar() {
           <Path
             variants={{
               closed: { d: "M 0 2 L 23 2" },
-              open: { d: "M 2.5 19 L 19 2.5" }
+              open: { d: "M 2.5 19 L 19 2.5" },
+              transition: {
+                type: 'tween',
+                ease: 'easeInOut'
+              }
             }}
             animate={isOpen ? "open" : "closed"}
           />
@@ -97,6 +101,7 @@ export default function MobileNavbar() {
               transition: {
                 delay: 0.2,
                 type: "tween",
+                ease: 'easeInOut',
                 duration: 0.2,
               }
             }}
