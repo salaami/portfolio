@@ -43,7 +43,8 @@ html, body {
   color: var(--text-color);
   width: 100vw;
   height: 100vh;
-  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+
 }
 
 main {
