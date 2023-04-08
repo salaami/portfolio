@@ -23,7 +23,8 @@ export default function Tech() {
               animate={{ width: `${Level}%` }}
               transition={{
                 duration: 0.3,
-                type: "Tween"
+                type: 'tween',
+                ease: 'easeInOut'
               }}
             >
               <p>

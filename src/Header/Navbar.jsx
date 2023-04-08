@@ -45,7 +45,10 @@ export default function Navbar() {
                                         initial={{ scaleX: 0 }}
                                         animate={{ scaleX: 1 }}
                                         exit={{ scaleX: 0 }}
-                                        transition={{ type: "tween" }}
+                                        transition={{
+                                            type: 'tween',
+                                            ease: 'easeInOut'
+                                        }}
                                     />
                                 )}
                                 {Text}

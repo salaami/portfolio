@@ -16,7 +16,8 @@ const hoverState = {
     },
     transition: {
         duration: 0.3,
-        type: "EaseInOut"
+        type: "tween",
+        ease: "easeInOut"
     }
 };
 

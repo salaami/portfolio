@@ -6,41 +6,41 @@ import { SocialBarData } from './SocialBarData'
 const hoverState = {
     hovered: {
         scale: 1.5,
-        color: "var(--lighter)"
+        color: 'var(--lighter)'
     },
     initial: {
         scale: 1,
-        color: "var(--light)"
+        color: 'var(--light)'
     },
-    transition: { 
+    transition: {
         duration: 0.3,
-        type: "EaseInOut"
+        type: 'tween',
+        ease: 'easeInOut'
     }
 };
 
 export default function Socialbar() {
     return (
         <div className="social-bar">
-                {SocialBarData.map(({ Cname, Icon, Id, Link }, i) => {
-                    return (
-                            <motion.a
-                                key={Id}
-                                href={Link}
-                                className={Cname} 
-                                rel="noreferrer" 
-                                variants={hoverState}
-                                initial="initial"
-                                whileHover="hovered" 
-                                whileTap="hovered"
-                            >
-                                <svg
-                                    className="card-icon"    
-                                >
-                                    {Icon}
-                                </svg>
-                            </motion.a>
-                    )
-                })}
-        </div>
-    )
-};
+            {SocialBarData.map(({ Cname, Icon, Id, Link }, i) => {
+                return (
+                    <motion.a
+                        key={Id}
+                        href={Link}
+                        className={Cname}
+                        rel="noreferrer"
+                        variants={hoverState}
+                        initial="initial"
+                        whileHover="hovered"
+                        whileTap="hovered"
+                    >
+                        {Icon}               
+                            .a>
+                        
+                            
+                        
+                    
+                
+            
+            
+                            
