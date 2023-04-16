@@ -1,27 +1,7 @@
-import React, { useState, useEffect } from "react"
 import './Contact.css'
 import { motion } from 'framer-motion'
-import { TransitionVariants } from "../../AnimatedRoute/TransitionVariants"
-import Marquee from "./Marquee.jsx"
-
-
-const hoverState = {
-    hovered: {
-        scale: 0.95,
-        background: "var(--text-color)",
-        boxShadow: "0.25vw 0.25vw var(--darker)",
-    },
-    initial: {
-        scale: 1,
-        background: "var(--light)",
-        boxShadow: "var(--box-shadow)",
-    },
-    transition: {
-        duration: 0.3,
-        type: "tween",
-        ease: "easeInOut"
-    }
-};
+import { TransitionVariants } from '../../AnimatedRoute/TransitionVariants'
+import Social from './Social'
 
 export default function Contact() {
 
@@ -31,14 +11,15 @@ export default function Contact() {
             animate="animate"
             variants={TransitionVariants}
         >
-            <motion.div
-                variants={hoverState}
-                initial="initial"
-                whileHover="hovered"
-                whileTap="hovered"
-            >
-                <Marquee />
-            </motion.div>
+            <h1>SAY HELLO</h1>
+            <article className="contact-text">
+                If you would like to get in touch, just send me an email.
+                I will get back to you as soon as possible.
+                Additionally, you can find a link to my GitHub page for more coding topics.
+                To learn more about my educational and professional background,
+                you can visit my LinkedIn and Xing profiles.
+            </article>
+            <Social />
         </motion.div>
     );
 }

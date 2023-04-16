@@ -39,7 +39,7 @@
 .terminal-content {
     display: flex;
     flex-direction: column;
-    padding: var(--thickness);
+    padding: var(--text-pad);
     font-family: "SuisseIntlMono-Regular";
 }
 
@@ -70,11 +70,3 @@
     line-height: var(--normal);
 }
 
-.command {
-    margin-left: 2vw;
-}
-
-.response {
-    color: var(--lighter);
-    margin-top: 3vh;
-}

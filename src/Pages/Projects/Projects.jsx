@@ -14,7 +14,7 @@ export default function Projects() {
             variants={TransitionVariants}
         >
             <h1>PROJECTS</h1>
-            <article className="project-text">
+            <article>
                 This is a curated list of my projects.
                 Despite working in the field of data, I am still enthusiastic about various topics.
                 That's why I try to keep my naive curiosity and discover related topics, too.
