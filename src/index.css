@@ -92,7 +92,8 @@ article {
 
 @media(min-width: 320px){
   :root {
-    --thickness: 5vw;
+    --text-pad: 5vw;
+    --lines: 0.2vw;
     --side-margin: 10vw;
     --content-width: 80vw;
     --box-shadow: 2vw 2vw var(--dark);
@@ -107,7 +108,8 @@ article {
 
 @media(min-width: 480px){
   :root {
-    --thickness: 5vw;
+    --text-pad: 5vw;
+    --lines: 0.2vw;
     --side-margin: 10vw;
     --content-width: 80vw;
     --marquee-height: 25vh;
@@ -123,7 +125,8 @@ article {
 
 @media(min-width: 768px){
   :root {
-    --thickness: 5vw;
+    --text-pad: 5vw;
+    --lines: 0.2vw;
     --side-margin: 20vw;
     --content-width: 60vw;
     --marquee-height: 20vh;
@@ -138,7 +141,8 @@ article {
 
 @media(min-width: 1024px){
   :root {
-    --thickness: 5vw;
+    --text-pad: 5vw;
+    --lines: 0.2vw;
     --side-margin: 20vw;
     --content-width: 60vw;
     --marquee-height: 20vh;
@@ -153,7 +157,8 @@ article {
 
 @media(min-width: 1200px){
   :root {
-    --thickness: 2vw;
+    --text-pad: 2vw;
+    --lines: 0.2vw;
     --side-margin: 20vw;
     --content-width: 60vw;
     --marquee-height: 20vh;
