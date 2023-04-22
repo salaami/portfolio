@@ -1,14 +1,11 @@
+
 import React from 'react'
 import { motion } from 'framer-motion'
 import './Command.css'
 
 
 const sentence = {
-  hidden: {
-    opacity: 1
-  },
   visible: {
-    opacity: 1,
     transition: {
       delay: 0.5,
       staggerChildren: 0.1,
@@ -48,6 +45,7 @@ export default function Command() {
             {char}
           </motion.span>
         )
+
       })}
     </motion.div>
   )

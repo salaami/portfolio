@@ -24,24 +24,23 @@ export default function Socialbar() {
         <div className="social">
             {SocialData.map(({ Name, Icon, Id, Link }) => {
                 return (
-                    <motion.div
-                        className="item-wrapper"
+                    <motion.a
+                        key={Id}
+                        href={Link}
+                        rel="noreferrer" className="item-wrapper"
                         variants={hoverState}
                         initial="initial"
                         whileHover="hovered"
                         whileTap="hovered"
-
                     >
-                        <h2>{Name}</h2>
-                        <a
-                            key={Id}
-                            href={Link}
+                        <div
+
                             className="social-icon"
-                            rel="noreferrer"
                         >
                             {Icon}
-                        </a>
-                    </motion.div>
+                        </div>
+                        <h2>{Name}</h2>
+                    </motion.a>
                 )
             })}
         </div>

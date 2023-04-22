@@ -1,0 +1,26 @@
+.prompt-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.prompt {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.triangle {
+    border-left: var(--fs-big) solid var(--accent-2);
+    border-bottom: var(--fs-big) solid transparent;
+    border-top: var(--fs-big) solid transparent;
+}
+
+.prompt-text {
+    white-space: nowrap;
+    background: var(--accent-2);
+    color: var(--darker);
+    font-weight: 900;
+    line-height: 1.4; 
+}

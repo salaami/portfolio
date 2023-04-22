@@ -1,4 +1,5 @@
 .command {
     margin-left: 2vw;
+    font-size: var(--fs-big);
 }
 
