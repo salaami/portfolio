@@ -46,17 +46,22 @@
 .prompt {
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     text-align: left;
-    line-height: var(--fs-big);
-    padding-top: 1rem;
+    font-size: var(--fs-big);
+    line-height: 1.2;
+
 }
 
 .triangle {
     border-left: var(--fs-medium) solid var(--accent-2);
     border-bottom: var(--fs-medium) solid transparent;
     border-top: var(--fs-medium) solid transparent;
-    line-height: var(--fs-big);
+}
+
+.placeholder {
+    width: 1rem;
+    background: transparent;
 }
 
 .prompt-text {
@@ -69,4 +74,5 @@
     text-align: center;
     line-height: var(--normal);
 }
+
 

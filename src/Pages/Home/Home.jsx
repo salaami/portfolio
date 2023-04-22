@@ -4,6 +4,8 @@ import { motion } from 'framer-motion'
 import { TransitionVariants } from '../../AnimatedRoute/TransitionVariants'
 import Command from './Command'
 import Response from './Response'
+import Prompt from './Prompt'
+
 
 export default function Home() {
     return (
@@ -24,11 +26,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="terminal-content">
-                        <div className="prompt">
-                            <div className="prompt-text">salem ~ home </div>
-                            <div className="triangle" />
-                            <Command />
-                        </div>
+                        <Prompt />
                         <Response />
                     </div>
                 </div>
@@ -36,4 +34,5 @@ export default function Home() {
         </main>
     )
 }
+
 
