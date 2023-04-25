@@ -1,5 +1,5 @@
 .response {
     color: var(--lighter);
     margin-top: 3vh;
-    font-size: var(--fs-normal);
+    font-size: var(--fs-medium);
 }
