@@ -4,6 +4,8 @@ import { motion } from 'framer-motion'
 import { SkillData } from './SkillData'
 
 
+
+
 export default function Skills() {
   return (
     <div
@@ -11,6 +13,18 @@ export default function Skills() {
     >
       <h1>SKILLS</h1>
       {SkillData.map(({ Title, Level, Id }) => {
+        const skillVariants = {
+          initial: {
+            width: "0%"
+          },
+          animate: {
+            width: `${Level}%`,
+            transition: {
+              type: "tween",
+              ease: "easeInOut"
+            }
+          },
+        }
         return (
           <div
             key={Id}
@@ -20,12 +34,9 @@ export default function Skills() {
             <motion.div
               key={Id}
               className="skill-bar"
-              initial={{ width: "0%" }}
-              animate={{ width: `${Level}%` }}
-              transition={{
-                type: 'tween',
-                ease: 'easeInOut'
-              }}
+              variants={skillVariants}
+              initial="initial"
+              animate="animate"
             >
               <p>
                 {Level}

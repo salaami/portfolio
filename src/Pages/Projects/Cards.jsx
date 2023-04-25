@@ -2,7 +2,6 @@ import { React } from 'react'
 import { CardsData } from './CardsData'
 import './Cards.css'
 import { motion } from 'framer-motion'
-import Folder from '../../assets/icons/file-icon.svg'
 
 
 const hoverState = {
