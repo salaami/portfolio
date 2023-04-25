@@ -2,6 +2,8 @@ import { React } from 'react'
 import { CardsData } from './CardsData'
 import './Cards.css'
 import { motion } from 'framer-motion'
+import Folder from '../../assets/icons/file-icon.svg'
+
 
 const hoverState = {
     hovered: {
@@ -27,43 +29,39 @@ export default function Cards() {
 
             {CardsData.map((item, index) => {
                 return (
-                    <motion.li
+                    <motion.a
                         className="card"
                         key={index}
                         variants={hoverState}
                         initial="initial"
                         whileHover="hovered"
                         whileTap="hovered"
+                        href={item.Link}
                     >
-                        <a
-                            className="link"
-                            href={item.Link}
+                        <div
+                            className="card-header"
                         >
                             <div
-                                className="card-header"
+                                className="icon-wrapper"
                             >
                                 <div
-                                    className="icon-wrapper"
+                                    className="card-icon"
                                 >
-                                    <div
-                                        className="card-icon"
-                                    >
-                                        {item.Icon}
-                                    </div>
+                                    {item.Icon}
                                 </div>
                             </div>
-                            <motion.div
-                                className="card-text"
-                            >
-                                <h2>
-                                    {item.Title}
-                                </h2>
-                                <p>
-                                    {item.Text}
-                                </p>
-                            </motion.div>
-                        </a>
-                    </motion.li>
+                        </div>
+                        <motion.div
+                            className="card-text"
+                        >
+                            <h2>
+                                {item.Title}
+                            </h2>
+                            <p>
+                                {item.Text}
+                            </p>
+                        </motion.div>
+                    </motion.a>
                 )
             })}
         </div>

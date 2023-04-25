@@ -13,11 +13,13 @@ export default function Projects() {
             exit="exit"
             variants={TransitionVariants}
         >
-            <h1>PROJECTS</h1>
+            <h1>MY WORK</h1>
             <article>
-                This is a curated list of my projects.
-                Despite working in the field of data, I am still enthusiastic about various topics.
-                That's why I try to keep my naive curiosity and discover related topics, too.
+                Here you can find a showcase of my private projects.
+                From web applications to data related topics and everything in between,
+                these projects reflect my passion for exploring new technologies and pushing my own boundaries.
+                Whether you're a fellow developer or just curious about what I've been up to,
+                I invite you to browse my collection of projects and see for yourself.
             </article>
             <Cards />
         </motion.div>
