@@ -18,7 +18,7 @@
     justify-content: center;
     background-color: var(--text-color);
     color: var(--darker);
-    margin-right: 5vw;
+    margin-right: 1.5rem;
 }
 
 @media(min-width: 320px){
