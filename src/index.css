@@ -143,11 +143,11 @@ article {
     --side-margin: 20vw;
     --content-width: 60vw;
     --box-shadow: 0.75vw 0.75vw var(--dark);
-    --fs-huge: 10rem;
-    --fs-big: 5rem;
-    --fs-medium: 3rem;
-    --fs-normal: 2rem;
-    --fs-small: 1rem;
+    --fs-huge: 6rem;
+    --fs-big: 3.5rem;
+    --fs-medium: 2rem;
+    --fs-normal: 1.5rem;
+    --fs-small: 0.5rem;
   }
 }
 
@@ -158,11 +158,11 @@ article {
     --side-margin: 20vw;
     --content-width: 60vw;
     --box-shadow: 0.75vw 0.75vw var(--dark);
-    --fs-huge: 10rem;
-    --fs-big: 5rem;
-    --fs-medium: 3rem;
-    --fs-normal: 2rem;
-    --fs-small: 1rem;
+    --fs-huge: 6rem;
+    --fs-big: 3.5rem;
+    --fs-medium: 2rem;
+    --fs-normal: 1.5rem;
+    --fs-small: 0.5rem;
   }
 }
 
