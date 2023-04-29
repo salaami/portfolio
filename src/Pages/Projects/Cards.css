@@ -18,7 +18,6 @@
 .card-icon {
     display: flex;
     align-self: center;
-    font-size: var(--fs-huge);
     color: var(--text-color);
 }
 

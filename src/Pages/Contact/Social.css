@@ -19,6 +19,7 @@
     background-color: var(--text-color);
     color: var(--darker);
     margin-right: 1.5rem;
+    height: 100%;
 }
 
 @media(min-width: 320px){
@@ -34,7 +35,6 @@
 
     .social-icon {
         width: 15vw;
-        height: 100%;
         font-size: var(--fs-big);
     }
 }
@@ -53,7 +53,6 @@
 
     .social-icon {
         width: 10vw;
-        height: 100%;
         font-size: var(--fs-normal);
     }
 }
@@ -72,7 +71,6 @@
 
     .social-icon {
         width: 6vw;
-        height: 100%;
         font-size: var(--fs-normal);
     }
 }
@@ -90,7 +88,6 @@
     
     .social-icon {
         width: 5vw;
-        height: 100%;
         font-size: var(--fs-medium);
     }
 }
@@ -109,7 +106,6 @@
 
     .social-icon {
         width: 4vw;
-        height: 100%;
         font-size: var(--fs-medium);
     }
 }

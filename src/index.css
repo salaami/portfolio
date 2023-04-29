@@ -61,7 +61,7 @@ main {
 
 h1 {
   font-family: 'SuisseIntlMono-Bold';
-  font-size: var(--fs-medium);
+  font-size: var(--fs-big);
   color: var(--accent-2);
   line-height: 1.25;
 }
@@ -98,12 +98,11 @@ article {
     --side-margin: 10vw;
     --content-width: 80vw;
     --box-shadow: 2vw 2vw var(--dark);
-    --marquee-height: 25vh;
-    --fs-huge: 10vw;
-    --fs-big: 8vw;
-    --fs-medium: 5vw;
-    --fs-normal: 4vw;
-    --fs-small: 3vw;
+    --fs-huge: 5rem;
+    --fs-big: 3rem;
+    --fs-medium: 1.25rem;
+    --fs-normal: 1rem;
+    --fs-small: 0.75rem;
   }
 }
 
@@ -113,14 +112,12 @@ article {
     --lines: 0.2vw;
     --side-margin: 10vw;
     --content-width: 80vw;
-    --marquee-height: 25vh;
-    --fs-huge: 10vw;
     --box-shadow: 2vw 2vw var(--dark);
-    --fs-huge: 15vw;
-    --fs-big: 8vw;
-    --fs-medium: 5vw;
-    --fs-normal: 3vw;
-    --fs-small: 2vw;
+    --fs-huge: 4rem;
+    --fs-big: 3rem;
+    --fs-medium: 1.25rem;
+    --fs-normal: 1rem;
+    --fs-small: 0.75rem;
   }
 }
 
@@ -130,13 +127,12 @@ article {
     --lines: 0.4vw;
     --side-margin: 20vw;
     --content-width: 60vw;
-    --marquee-height: 20vh;
     --box-shadow: 1vw 1vw var(--dark);
-    --fs-huge: 8vw;
-    --fs-big: 6vw;
-    --fs-medium: 4vw;
-    --fs-normal: 2vw;
-    --fs-small: 0.75vw;
+    --fs-huge: 6rem;
+    --fs-big: 4rem;
+    --fs-medium: 2rem;
+    --fs-normal: 1.5rem;
+    --fs-small: 1rem;
   }
 }
 
@@ -146,13 +142,12 @@ article {
     --lines: 0.2vw;
     --side-margin: 20vw;
     --content-width: 60vw;
-    --marquee-height: 20vh;
     --box-shadow: 0.75vw 0.75vw var(--dark);
-    --fs-huge: 7vw;
-    --fs-big: 5vw;
-    --fs-medium: 3vw;
-    --fs-normal: 1.25vw;
-    --fs-small: 0.75vw;
+    --fs-huge: 10rem;
+    --fs-big: 5rem;
+    --fs-medium: 3rem;
+    --fs-normal: 2rem;
+    --fs-small: 1rem;
   }
 }
 
@@ -162,13 +157,12 @@ article {
     --lines: 0.2vw;
     --side-margin: 20vw;
     --content-width: 60vw;
-    --marquee-height: 20vh;
-    --box-shadow: 0.75rem 0.75rem var(--dark);
-    --fs-huge: 7vw;
-    --fs-big: 3vw;
-    --fs-medium: 2vw;
-    --fs-normal: 1.25vw;
-    --fs-small: 0.75vw;
+    --box-shadow: 0.75vw 0.75vw var(--dark);
+    --fs-huge: 10rem;
+    --fs-big: 5rem;
+    --fs-medium: 3rem;
+    --fs-normal: 2rem;
+    --fs-small: 1rem;
   }
 }
 
