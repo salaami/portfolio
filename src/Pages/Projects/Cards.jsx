@@ -6,14 +6,10 @@ import { motion } from 'framer-motion'
 
 const hoverState = {
     hovered: {
-        boxShadow: "0.25vw 0.25vw var(--dark)",
         scale: 0.95,
-        color: "var(--text-color)"
     },
     initial: {
-        boxShadow: "var(--box-shadow)",
         scale: 1,
-        color: "var(--light)"
     },
     transition: {
         duration: 0.3,
@@ -41,13 +37,9 @@ export default function Cards() {
                             className="card-header"
                         >
                             <div
-                                className="icon-wrapper"
+                                className="card-icon"
                             >
-                                <div
-                                    className="card-icon"
-                                >
-                                    {item.Icon}
-                                </div>
+                                {item.Icon}
                             </div>
                         </div>
                         <motion.div

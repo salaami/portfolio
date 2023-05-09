@@ -27,7 +27,8 @@ export default function Socialbar() {
                     <motion.a
                         key={Id}
                         href={Link}
-                        rel="noreferrer" className="item-wrapper"
+                        rel="noreferrer"
+                        className="item-wrapper"
                         variants={hoverState}
                         initial="initial"
                         whileHover="hovered"

@@ -3,6 +3,9 @@
   flex-direction: column;
   justify-items: center;
   width: var(--content-width);
+  margin-top: 5vh;
+  border: var(--lines) solid var(--dark);
+  border-radius: 16px;
 }
 
 .skill-container h1 {
@@ -10,7 +13,6 @@
 }
 
 .skill-wrapper {
-  background-color: var(--dark);
   padding: 0 3vw 3vw 3vw;
 }
 

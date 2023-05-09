@@ -7,12 +7,9 @@
 
 .card {
     list-style: none;
-    box-shadow: var(--box-shadow);
-    background-color: var(--middle);
-}
-
-.icon-wrapper {
-    background-color: var(--light);
+    border-radius: var(--border-radius);
+    border: var(--lines) solid var(--dark);
+    overflow: hidden;
 }
 
 .card-icon {
@@ -27,11 +24,12 @@
     align-content: center;
     color: inherit;
     font-size: var(--fs-big);
+    color: var(--text-color);
 }
 
 .card-text {
     font-size: var(--fs-small);
-    color: inherit;
+    background-color: var(--dark);
     text-align: left;
 }
 
@@ -54,7 +52,7 @@
     }
 
     .card-text {
-        padding: 0vw 10vw 5vw 10vw;
+        padding: 5vw 10vw 5vw 10vw;
     }
 }
 
@@ -76,7 +74,7 @@
     }
 
     .card-text {
-        padding: 0vw 2vw 1vw 2vw;
+        padding: 1vw 2vw 1vw 2vw;
     }
 }
 
@@ -100,7 +98,7 @@
     }
 
     .card-text {
-        padding: 0vw 2vw 1vw 2vw;
+        padding: 1vw 2vw 1vw 2vw;
     }
 }
 
@@ -123,7 +121,7 @@
     }
 
     .card-text {
-        padding: 0vw 2vw 1vw 2vw;
+        padding: 1vw 2vw 1vw 2vw;
     }
 }
 
@@ -147,6 +145,6 @@
     }
 
     .card-text {
-        padding: 0vw 2vw 1vw 2vw;
+        padding: 1vw 2vw 1vw 2vw;
     }
 }
