@@ -9,7 +9,8 @@ export default function Tech() {
     <div
       className="tech-container"
     >
-      <h1>TECH</h1>
+      <h1>Tech
+      </h1>
       {TechData.map(({ Title, Level, Id }) => {
         return (
           <div

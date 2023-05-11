@@ -8,14 +8,16 @@
 .card {
     list-style: none;
     border-radius: var(--border-radius);
-    border: var(--lines) solid var(--dark);
+    border: var(--border-width) solid var(--grey-80);
     overflow: hidden;
+    background: hsla(0,0%,100%,.035);
+    box-shadow: inset 6px 84px 79px -40px hsla(0,0%,100%,.025),inset 0 -4px 1px -3px hsla(0,0%,100%,.25),inset 0 4px 1px -3px hsla(0,0%,100%,.25);
 }
 
 .card-icon {
     display: flex;
     align-self: center;
-    color: var(--text-color);
+    color: var(--grey-00);
 }
 
 .card-header {
@@ -24,13 +26,13 @@
     align-content: center;
     color: inherit;
     font-size: var(--fs-big);
-    color: var(--text-color);
+    color: var(--grey-00);
 }
 
 .card-text {
     font-size: var(--fs-small);
-    background-color: var(--dark);
     text-align: left;
+    border-top: var(--lines) solid var(--grey-80);
 }
 
 @media(min-width: 320px){

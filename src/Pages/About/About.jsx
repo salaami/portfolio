@@ -15,7 +15,7 @@ export default function About() {
       variants={TransitionVariants}
     >
       <article>
-        <h1>INTRO</h1>
+        <h1>Intro</h1>
         I began as an economics and business student.
         In my part-time job, I had to cope with tedious reporting tasks.
         After taking a Business Intelligence and Data Mining class, I was able to automate and optimize these.

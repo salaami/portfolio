@@ -4,8 +4,9 @@
   justify-items: center;
   width: var(--content-width);
   margin-top: 5vh;
-  border: var(--lines) solid var(--dark);
+  border: var(--border-width) solid var(--grey-80);
   border-radius: 16px;
+  background: var(--grey-100);
 }
 
 .tech-container h1 {
@@ -19,7 +20,7 @@
 .tech-bar {
   width: 80vw;
   height: 5vh;
-  background-color: var(--accent-1);
+  background: linear-gradient(to right,var(--primary-lightest), var(--primary-light), var(--primary-dark), var(--primary-darkest));
   display: flex;
   align-items: center;
   justify-content: flex-end;

@@ -11,7 +11,7 @@ export default function Skills() {
     <div
       className="skill-container"
     >
-      <h1>SKILLS</h1>
+      <h1>Skills</h1>
       {SkillData.map(({ Title, Level, Id }) => {
         const skillVariants = {
           initial: {

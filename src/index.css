@@ -1,13 +1,25 @@
 @font-face {
-  font-family: 'SuisseIntlMono-Bold';
-  src: local('SuisseIntlMono-Bold'),
-   url('./assets/fonts/SuisseIntlMono/SuisseIntlMono-Bold.otf') format('opentype');
+  font-family: 'SuisseIntlMono-Light';
+  src: local('SuisseIntlMono-Light'),
+   url('./assets/fonts/SuisseIntlMono/SuisseIntlMono-Light.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'SuisseIntlMono-Regular';
   src: local('SuisseIntlMono-Regular'),
    url('./assets/fonts/SuisseIntlMono/SuisseIntlMono-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SuisseIntlMono-Bold';
+  src: local('SuisseIntlMono-Bold'),
+   url('./assets/fonts/SuisseIntlMono/SuisseIntlMono-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SuisseIntl-Light';
+  src: local('SuisseIntl-Light'),
+   url('./assets/fonts/rest/SuisseIntl-Light.otf') format('opentype');
 }
 
 @font-face {
@@ -24,29 +36,50 @@
 
 
 :root {
-  --darker: #000000;
-  --dark: #1B1D1E;
-  --middle: #424E4F;
-  --light: #5E6D70;
-  --lighter: #FFF;
-  --accent-1: #C13B00;
-  --accent-2: #FF6600;
-  --text-color: #FFF;
+  --primary: #63e;
+  --primary-pale: #dfd2ff;
+  --primary-lightest: #b49afb;
+  --primary-light: #8e64ff;
+  --primary-dark: #4213c1;
+  --primary-darkest: #2a0885;
+  --grey-00: #fff;
+  --grey-10: #f4f4ff;
+  --grey-20: #ececfb;
+  --grey-30: #dfe1f4;
+  --grey-40: #babcd2;
+  --grey-50: #9fa2b9;
+  --grey-60: #5e6077;
+  --grey-70: #383a4d;
+  --grey-80: #2a2b3a;
+  --grey-90: #171825;
+  --grey-100: #010314;
+  --elevation1: #292d39;
+  --elevation2: #181c20;
+  --elevation3: #373c4b;
+  --accent-1: #0066dc;
+  --accent-2: #007bff;
+  --accent-3: #3c93ff;
+  --highlight1: #535760;
+  --highlight2: #8c92a4;
+  --highlight3: #fefefe;
+  --vivid1: #ffcc00;
+
   --border-radius: 16px;
+  --border-width: 1px;
+  --border-color: var(--grey-80);
   --btn-radius: 4.5rem;
 }
 
 html, body {
   box-sizing: border-box;
-  font-family: 'SuisseIntl-Regular';  
+  font-family: 'SuisseIntl-Light';  
   padding: 0;
   margin: 0;
-  background: var(--darker);
-  color: var(--text-color);
+  background: var(--grey-100);
+  color: var(--grey-20);
   width: 100vw;
   height: 100vh;
   -webkit-tap-highlight-color: transparent;
-
 }
 
 main {
@@ -61,14 +94,14 @@ main {
 }
 
 h1 {
-  font-family: 'SuisseIntlMono-Bold';
+  font-family: 'SuisseIntlMono-Light';
   font-size: var(--fs-big);
-  color: var(--accent-2);
+  color: var(--grey-00);
   line-height: 1.25;
 }
 
 h2 {
-  font-family: 'SuisseIntlMono-Bold';
+  font-family: 'SuisseIntlMono-Regular';
   font-size: var(--fs-normal);
 }
 
@@ -82,7 +115,7 @@ article {
   flex-direction: column;
   font-size: var(--fs-normal);
   line-height: 1.5;
-  color: var(--text-color);
+  color: var(--grey-00);
   margin: 5vh 0 5vh 0;
   width: var(--content-width);
 }
@@ -98,7 +131,7 @@ article {
     --lines: 1vw;
     --side-margin: 10vw;
     --content-width: 80vw;
-    --box-shadow: 2vw 2vw var(--dark);
+    --box-shadow: 2vw 2vw var(--grey-80);
     --fs-huge: 5rem;
     --fs-big: 3rem;
     --fs-medium: 1.25rem;
@@ -113,7 +146,7 @@ article {
     --lines: 0.2vw;
     --side-margin: 10vw;
     --content-width: 80vw;
-    --box-shadow: 2vw 2vw var(--dark);
+    --box-shadow: 2vw 2vw var(--grey-80);
     --fs-huge: 4rem;
     --fs-big: 2rem;
     --fs-medium: 1.25rem;
@@ -128,7 +161,7 @@ article {
     --lines: 0.4vw;
     --side-margin: 20vw;
     --content-width: 60vw;
-    --box-shadow: 1vw 1vw var(--dark);
+    --box-shadow: 1vw 1vw var(--grey-80);
     --fs-huge: 6rem;
     --fs-big: 3rem;
     --fs-medium: 2rem;
@@ -143,7 +176,7 @@ article {
     --lines: 0.2vw;
     --side-margin: 20vw;
     --content-width: 60vw;
-    --box-shadow: 0.75vw 0.75vw var(--dark);
+    --box-shadow: 0.75vw 0.75vw var(--grey-80);
     --fs-huge: 5rem;
     --fs-big: 3.5rem;
     --fs-medium: 2rem;
@@ -158,7 +191,7 @@ article {
     --lines: 0.2vw;
     --side-margin: 20vw;
     --content-width: 60vw;
-    --box-shadow: 0.75vw 0.75vw var(--dark);
+    --box-shadow: 0.75vw 0.75vw var(--grey-80);
     --fs-huge: 5rem;
     --fs-big: 3.5rem;
     --fs-medium: 2rem;

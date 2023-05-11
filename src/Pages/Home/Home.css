@@ -3,13 +3,15 @@
     flex-direction: column;
 }
 
+
 .terminal {
-    background: var(--light);
+    background: linear-gradient(135deg,var(--grey-80),var(--grey-80));
     justify-content: center;
     align-items: center;
     font-size: var(--fs-medium);
     width: var(--content-width);
     border-radius: var(--border-radius);
+    border: var(--grey-70) solid var(--border-width);
 }
 
 .terminal-bar {
@@ -19,9 +21,10 @@
     justify-content: flex-end;
     background-color: var(--middle);
     width: 100%;
-    height: calc(var(--fs-medium)*1.5);
+    height: 45px;
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
+    border-bottom: var(--grey-70) solid var(--border-width);
 }
 
 .dot-container {
@@ -33,9 +36,9 @@
 
 .dot {
     border-radius: 50%;
-    background: var(--light);
-    width: var(--fs-small);
-    height: var(--fs-small); 
+    background: var(--grey-60);
+    width: 10px;
+    height: 10px; 
 }
 
 .terminal-content {
@@ -70,7 +73,7 @@
     display: flex;
     white-space: nowrap;
     background: var(--accent-2);
-    color: var(--darker);
+    color: var(--grey-100);
     font-weight: 900;
     padding: 0.5vw;
     text-align: center;
