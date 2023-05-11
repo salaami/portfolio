@@ -3,24 +3,24 @@ export const NavData = [
         Route: "/",
         Cname: "nav-link",
         Id: 0,
-        Text: "HOME"
+        Text: "Home"
     },
     {
         Route: "/About",
         Cname: "nav-link",
         Id: 1,
-        Text: "ABOUT"
+        Text: "About"
     },
     {
         Route: "/Projects",
         Cname: "nav-link",
         Id: 2,
-        Text: "PROJECTS"
+        Text: "Projects"
     },
     {
         Route: "/Contact",
         Cname: "nav-link",
         Id: 3,
-        Text: "CONTACT"
+        Text: "Contact"
     },
 ]

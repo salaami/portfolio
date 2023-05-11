@@ -31,7 +31,7 @@ export default function Navbar() {
                             className="nav-list"
                             key={Id}
                             whileHover={{
-                                color: 'var(--text-color)',
+                                color: 'var(--grey-00)',
                             }}
                             onClick={() => setSelected(i)}
                         >

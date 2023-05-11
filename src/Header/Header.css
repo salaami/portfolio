@@ -9,8 +9,7 @@
     justify-content: space-between;
     font-family: SuisseIntlMono-Regular;
     z-index: 10;
-    background-color: var(--darker);
-    backdrop-filter: blur(10px);
+    background-color: transparent;
     font-size: var(--fs-normal);
 }
 
@@ -23,7 +22,7 @@
 .header-logo {
     padding: 1vw 1vw 1vw 1vw; 
     font-family: 'SuisseIntlMono-Bold';
-    color: var(--light);
+    color: var(--grey-40);
 }
 
 .logo-background {

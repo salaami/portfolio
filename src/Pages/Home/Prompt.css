@@ -12,15 +12,14 @@
 }
 
 .triangle {
-    border-left: var(--fs-medium) solid var(--accent-2);
+    border-left: var(--fs-medium) solid var(--primary);
     border-bottom: var(--fs-medium) solid transparent;
     border-top: var(--fs-medium) solid transparent;
 }
 
 .prompt-text {
     white-space: nowrap;
-    background: var(--accent-2);
-    color: var(--darker);
+    background: var(--primary);
     font-size: var(--fs-medium);
     font-weight: 900;
     line-height: 1.3; 

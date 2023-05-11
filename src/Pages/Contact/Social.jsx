@@ -5,12 +5,12 @@ import { SocialData } from './SocialData'
 
 const hoverState = {
     hovered: {
-        scale: 0.95,
-        background: 'var(--accent-2)',
+        y: -5,
+        background: 'var(--grey-30)',
     },
     initial: {
-        scale: 1,
-        background: 'var(--darker)',
+        y: 0,
+        background: 'var(--grey-00)',
     },
     transition: {
         duration: 0.3,
@@ -35,12 +35,15 @@ export default function Socialbar() {
                         whileTap="hovered"
                     >
                         <div
-
                             className="social-icon"
                         >
                             {Icon}
                         </div>
-                        <h2>{Name}</h2>
+                        <p
+                            className="btn-text"
+                        >
+                            {Name}
+                        </p>
                     </motion.a>
                 )
             })}

@@ -13,7 +13,7 @@ export default function Projects() {
             exit="exit"
             variants={TransitionVariants}
         >
-            <h1>MY WORK</h1>
+            <h1>Work</h1>
             <article>
                 Here you can find a showcase of my private projects.
                 From web applications to data related topics and everything in between,

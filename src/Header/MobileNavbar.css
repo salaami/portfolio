@@ -17,7 +17,7 @@ aside {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: var(--dark);
+  background-color: var(--grey-80);
 }
 
 .btn-container {
