@@ -6,10 +6,10 @@ import { motion } from 'framer-motion'
 
 const hoverState = {
     hovered: {
-        scale: 0.95,
+        y: -5,
     },
     initial: {
-        scale: 1,
+        y: 0,
     },
     transition: {
         duration: 0.3,
