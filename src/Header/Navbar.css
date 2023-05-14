@@ -33,10 +33,10 @@
 
 .underline {
     position: absolute;
-    bottom: -0.25rem;
+    bottom: -0.1rem;
     left: 0;
     right: 0;
-    height: 0.25vw;
+    height: 0.1rem;
     background: var(--primary-lightest);
 }
 
