@@ -37,7 +37,7 @@ const itemVariants = {
 const Path = props => (
   <motion.path
     strokeWidth="0.15rem"
-    stroke="var(--lighter)"
+    stroke="var(--highlight-2)"
     {...props}
   />
 )
