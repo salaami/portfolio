@@ -59,10 +59,9 @@
   --accent-1: #0066dc;
   --accent-2: #007bff;
   --accent-3: #3c93ff;
-  --highlight1: #535760;
-  --highlight2: #8c92a4;
-  --highlight3: #fefefe;
-  --vivid1: #ffcc00;
+  --highlight-1: #535760;
+  --highlight-2: #8c92a4;
+  --highlight-3: #fefefe;
 
   --border-radius: 16px;
   --border-width: 1px;
