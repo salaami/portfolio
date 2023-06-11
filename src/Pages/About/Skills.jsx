@@ -11,40 +11,43 @@ export default function Skills() {
     <div
       className="skill-container"
     >
-      <h1>Skills</h1>
-      {SkillData.map(({ Title, Level, Id }) => {
-        const skillVariants = {
-          initial: {
-            width: "0%"
-          },
-          animate: {
-            width: `${Level}%`,
-            transition: {
-              type: "tween",
-              ease: "easeInOut"
-            }
-          },
-        }
-        return (
-          <div
-            key={Id}
-            className="skill-wrapper"
-          >
-            <h2>{Title}</h2>
-            <motion.div
+      <div className="glow-container">
+        <h1>Skills</h1>
+        {SkillData.map(({ Title, Level, Id }) => {
+          const skillVariants = {
+            initial: {
+              width: "0%"
+            },
+            animate: {
+              width: `${Level}%`,
+              transition: {
+                type: "tween",
+                ease: "easeInOut"
+              }
+            },
+          }
+          return (
+            <div
               key={Id}
-              className="skill-bar"
-              variants={skillVariants}
-              initial="initial"
-              animate="animate"
+              className="skill-wrapper"
             >
-              <p>
-                {Level}
-              </p>
-            </motion.div>
-          </div>
-        )
-      })}
+              <h2>{Title}</h2>
+              <motion.div
+                key={Id}
+                className="skill-bar"
+                variants={skillVariants}
+                initial="initial"
+                animate="animate"
+              >
+                <p>
+                  {Level}
+                </p>
+              </motion.div>
+
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }
