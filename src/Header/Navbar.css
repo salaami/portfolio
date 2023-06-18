@@ -21,6 +21,9 @@
 }
 
 .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     position: relative;
     color: var(--light);
