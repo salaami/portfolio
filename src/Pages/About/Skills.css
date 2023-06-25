@@ -6,7 +6,7 @@
   justify-items: center;
   width: var(--content-width);
   margin-top: 5vh;
-  border-radius: 16px;
+  border-radius: var(--border-radius);
   background: var(--grey-80);
   z-index: 1;
 }
@@ -16,11 +16,14 @@
   width: 100%;
   background: radial-gradient(500px circle at 300px 300px,var(--grey-70),transparent);
   border: var(--border-width) solid var(--elevation-3);
+  border-radius: var(--border-radius);
 }
 
 .skill-container h1 {
   text-align: center;
   background: transparent;
+  border-radius: var(--border-radius);
+
 }
 
 .skill-wrapper {
