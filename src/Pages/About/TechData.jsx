@@ -1,43 +1,53 @@
+import { SiPresto } from 'react-icons/si'
+import { SiDocker } from 'react-icons/si'
+import { SiDbt } from 'react-icons/si'
+import { SiApachehive } from 'react-icons/si'
+import { SiPostgresql } from 'react-icons/si'
+import { SiMicrosoftsqlserver } from 'react-icons/si'
+import { SiAmazonaws } from 'react-icons/si'
+
 const TechData = [
   {
     Id: 0,
-    Level: 90,
+    Icon: <SiDbt />,
+    Text: "Generate data models in SQL and Jinja using the Data Build Tool.",
     Title: "DBT",
   },
   {
-    Id: 2,
-    Level: 60,
-    Title: "CI/CD Pipelines",
-  },
-  {
     Id: 3,
-    Level: 30,
+    Icon: <SiDocker />,
+    Text: "Containerization in of software components within CI/CD data pipelines.",
     Title: "Docker",
   },
   {
     Id: 1,
-    Level: 90,
-    Title: "Presto/Trino",
+    Icon: <SiPresto />,
+    Text: "Leverage Presto/Trino to run SQL queries on different database technologies.",
+    Title: "Presto / Trino",
   },
   {
     Id: 4,
-    Level: 70,
+    Icon: <SiApachehive />,
+    Text: "Handling large datasets in Hive using HDFS.",
     Title: "Hive",
   },
   {
     Id: 5,
-    Level: 60,
+    Icon: <SiPostgresql />,
+    Text: "Maintain Postgres instances via the CLI tool.",
     Title: "Postgres",
   },
   {
     Id: 6,
-    Level: 90,
-    Title: "MS SQL Server",
+    Icon: <SiMicrosoftsqlserver />,
+    Text: "Provides a user interface to manage and administer MSSQL databases.",
+    Title: "SQL Server Management Studio",
   },
   {
     Id: 7,
-    Level: 80,
-    Title: "AWS S3",
+    Icon: <SiAmazonaws />,
+    Text: "Scalable cloud Storage service for easy and fast data integration.",
+    Title: "S3",
   },
 ]
 

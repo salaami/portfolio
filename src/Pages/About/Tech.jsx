@@ -1,6 +1,4 @@
-import React from 'react'
 import './Tech.css'
-import { motion } from 'framer-motion'
 import { TechData } from './TechData'
 
 
@@ -9,32 +7,40 @@ export default function Tech() {
     <div
       className="tech-container"
     >
-      <h1>Tech
-      </h1>
-      {TechData.map(({ Title, Level, Id }) => {
-        return (
-          <div
-            key={Id}
-            className="tech-wrapper"
-          >
-            <h2>{Title}</h2>
-            <motion.div
-              className="tech-bar"
-              initial={{ width: "0%" }}
-              animate={{ width: `${Level}%` }}
-              transition={{
-                duration: 0.3,
-                type: 'tween',
-                ease: 'easeInOut'
-              }}
-            >
-              <p>
-                {Level}
-              </p>
-            </motion.div>
-          </div>
-        )
-      })}
+      <div
+        className="glow-container"
+      >
+        <h1>Tech
+        </h1>
+        <ul
+          className="tech-wrapper"
+        >
+          {TechData.map(({ Title, Text, Icon, Id }) => {
+            return (
+              <li
+                className="tech-card"
+                key={Id}
+              >
+                <div
+                  className="tech-card-top"
+                >
+                  <div
+                    className="tech-icon"
+                  >
+                    {Icon}
+                  </div>
+                </div>
+                <div className="tech-card-text">
+                  <h3>
+                    {Title}
+                  </h3>
+                  {Text}
+                </div>
+              </li>
+            )
+          })}
+        </ul>
+      </div>
     </div>
   )
 }
