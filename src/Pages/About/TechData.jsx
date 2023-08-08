@@ -40,8 +40,8 @@ const TechData = [
   {
     Id: 6,
     Icon: <SiMicrosoftsqlserver />,
-    Text: "Provides a user interface to manage and administer MSSQL databases.",
-    Title: "SQL Server Management Studio",
+    Text: "GUI to administer MSSQL databases.",
+    Title: "Management Studio",
   },
   {
     Id: 7,
