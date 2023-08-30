@@ -50,6 +50,11 @@
   text-align: left;
   border-top: var(--lines) solid var(--grey-80);
   white-space: normal;
+  background-color: var(--grey-20);
+  color: var(--grey-70);
+  height: 40%;
+  border-bottom-right-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
 }
 
 .tech-card-text h3 {
@@ -57,6 +62,7 @@
 }
 
 .tech-icon {
+  display: flex;
   font-size: calc(var(--fs-huge)*2);
 }
 
