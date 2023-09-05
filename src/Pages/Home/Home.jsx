@@ -1,8 +1,7 @@
 import React from 'react'
 import './Home.css'
 import { motion } from 'framer-motion'
-import { TransitionVariants } from '../../AnimatedRoute/TransitionVariants'
-import Command from './Command'
+import { TransitionVariants } from '../../Animations/TransitionVariants'
 import Response from './Response'
 import Prompt from './Prompt'
 

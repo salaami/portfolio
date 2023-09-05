@@ -2,7 +2,7 @@ import React from 'react'
 import './Projects.css'
 import Cards from './Cards'
 import { motion } from 'framer-motion'
-import { TransitionVariants } from '../../AnimatedRoute/TransitionVariants'
+import { TransitionVariants } from '../../Animations/TransitionVariants'
 
 export default function Projects() {
     return (
