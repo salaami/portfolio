@@ -1,9 +1,10 @@
 import React from "react"
 import "./About.css"
-import { TransitionVariants } from "../../AnimatedRoute/TransitionVariants";
+import { TransitionVariants } from "../../Animations/TransitionVariants";
 import { motion } from "framer-motion";
 import Skills from './Skills'
 import Tech from './Tech'
+import AnimateContent from '../../Animations/AnimateContent'
 
 export default function About() {
   return (
@@ -25,8 +26,12 @@ export default function About() {
         As our infrastructure improved, I shifted my focus to data integration and data transformation tasks.
         I found it very inspiring to work in an environment that encourages constant learning and development.
       </article>
-      <Skills />
-      <Tech />
+      <AnimateContent>
+        <Skills />
+      </AnimateContent>
+      <AnimateContent>
+        <Tech />
+      </AnimateContent>
     </motion.div>
   );
 }

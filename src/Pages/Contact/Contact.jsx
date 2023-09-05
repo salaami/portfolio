@@ -1,6 +1,6 @@
 import './Contact.css'
 import { motion } from 'framer-motion'
-import { TransitionVariants } from '../../AnimatedRoute/TransitionVariants'
+import { TransitionVariants } from '../../Animations/TransitionVariants'
 import Social from './Social'
 
 export default function Contact() {
