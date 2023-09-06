@@ -6,7 +6,7 @@ const fadeIn = {
   visible: {
     opacity: 1,
     transition: {
-      duration: 0.25,
+      duration: 0.1,
       delay: 0.1
     }
   },
