@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c9d3fd7f.css",
-    "main.js": "/static/js/main.a43dadfa.js",
+    "main.js": "/static/js/main.a16009b1.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/SuisseIntl-Regular.otf": "/static/media/SuisseIntl-Regular.5617268378cfaca54db5.otf",
     "static/media/SuisseIntl-Light.otf": "/static/media/SuisseIntl-Light.c6b7ab8db5d8779ea031.otf",
@@ -10,11 +10,11 @@
     "static/media/SuisseIntlMono-Light.otf": "/static/media/SuisseIntlMono-Light.88b18eed724867faf62e.otf",
     "index.html": "/index.html",
     "main.c9d3fd7f.css.map": "/static/css/main.c9d3fd7f.css.map",
-    "main.a43dadfa.js.map": "/static/js/main.a43dadfa.js.map",
+    "main.a16009b1.js.map": "/static/js/main.a16009b1.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9d3fd7f.css",
-    "static/js/main.a43dadfa.js"
+    "static/js/main.a16009b1.js"
   ]
 }
