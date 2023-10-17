@@ -10,9 +10,9 @@ const CardsData = [
     },
     {
         Id: 1,
-        Title: "test",
-        Text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", 
-        Link: "https://github.com/salaami/",
+        Title: "dotfiles",
+        Text: "Version controlling my configuration files on Github.",
+        Link: "https://github.com/salaami/dotfiles",
         Icon: <DiReact />
     },
     {
