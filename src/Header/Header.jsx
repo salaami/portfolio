@@ -21,11 +21,15 @@ export default function Header() {
     return (
         <header className="header-container">
             <div
-                className="logo-background"
+                className="header-logo"
             >
                 <div
-                    className="header-logo"
-                >SALEM SALLEH
+                    className="header-logo-left"
+                >Salem&nbsp;|&nbsp;
+                </div>
+                <div
+                    className="header-logo-right"
+                >Salleh
                 </div>
             </div>
             {isMobile ? <MobileNavbar /> : <Navbar />}
