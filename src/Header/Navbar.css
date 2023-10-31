@@ -4,11 +4,6 @@
     justify-content: center;
     align-items: center;
     margin-right: var(--side-margin);
-    border-radius: var(--btn-radius);
-    border: var(--border-width) solid var(--border-color);
-    background: var(--elevation2);
-    height: 70%;
-    padding:0 3rem 0 3rem;
 
 }
 
@@ -31,7 +26,7 @@
 
 .nav-link {
     text-decoration: none;
-    font-family: 'SuisseIntlMono-Bold';
+    font-family: 'SuisseIntlMono-Regular';
     font-size: var(--fs-small);
 }
 
