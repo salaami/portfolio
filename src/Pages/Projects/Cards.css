@@ -23,7 +23,7 @@
 .card-header {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
     color: inherit;
     font-size: var(--fs-big);
     color: var(--grey-00);
@@ -38,40 +38,46 @@
 @media(min-width: 320px){
     .card-container {
         width: 80vw;
-        gap: 10vw;
+        column-gap: 10vw;
+        gap: 4vw;
     }
 
     .card {
-        max-width: 80vw;
+        width: 35vw;
+        min-height: 22vw;
     }
 
     .card-icon {
-        font-size: 80vw;
+        font-size: 14vw;
     }
 
     .card-header {
+        height: 10vh;
         padding: 10vw 10vw 5vw 10vw;
     }
 
     .card-text {
-        padding: 5vw 10vw 5vw 10vw;
+        padding: 1vw 2vw 1vw 2vw;
     }
 }
 
 @media(min-width: 480px){
     .card-container {
         width: 80vw;
-        gap: 10vw;
+        column-gap: 5vw;
+        gap: 4vw;
     }
 
     .card {
-        max-width: 35vw;
+        width: 22vw;
+        min-height: 32vw;
     }
     .card-icon {
-        font-size: 35vw;
+        font-size: 12vw;
     }
 
     .card-header {
+        height: 12vh;
         padding: 2vw 2vw 1vw 2vw;
     }
 
@@ -83,19 +89,23 @@
 @media(min-width: 768px){
     .card-container {
         width: 60vw;
-        column-gap: 10vw;
-        gap: 10vw;
+        column-gap: 4vw;
+        gap: 4vw;
     }
 
     .card {
-        max-width: 25vw;
+        width: 16vw;
+        min-height: 22vw;
+        display: flex;
+
     }
 
     .card-icon {
-        font-size: 25vw;
+        font-size: 10vw;
     }
 
     .card-header {
+        height: 16vh;
         padding: 2vw 2vw 1vw 2vw;
     }
 
@@ -107,18 +117,20 @@
 @media(min-width: 1024px){
     .card-container {
         width: 60vw;
-        gap: 4.5vw;
+        column-gap: 8.5vw;
     }
 
     .card {
-        max-width: 16vw;
+        max-width: 14vw;
+        min-height: 22vw;
     }
 
     .card-icon {
-        font-size: 16vw;
+        font-size: 10vw;
     }
 
     .card-header {
+        height: 24vh;
         padding: 2vw 2vw 1vw 2vw;
     }
 
@@ -130,19 +142,20 @@
 @media(min-width: 1200px){
     .card-container {
         width: 60vw;
-        column-gap: 5vw;
-        gap: 4.5vw;
+        column-gap: 8.5vw;
     }
 
     .card {
-        max-width: 16vw;
+        width: 14vw;
+        min-height: 22vw;
     }
 
     .card-icon {
-        font-size: 16vw;
+        font-size: 10vw;
     }
 
     .card-header {
+        height: 24vh;
         padding: 2vw 2vw 1vw 2vw;
     }
 

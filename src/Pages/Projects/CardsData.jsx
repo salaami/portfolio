@@ -1,4 +1,6 @@
 import { DiReact } from 'react-icons/di' 
+import { DiLinux } from 'react-icons/di'
+import { SiAirbyte } from 'react-icons/si'
 
 const CardsData = [
     {
@@ -13,14 +15,14 @@ const CardsData = [
         Title: "dotfiles",
         Text: "Version controlling my configuration files on Github.",
         Link: "https://github.com/salaami/dotfiles",
-        Icon: <DiReact />
+        Icon: <DiLinux />
     },
     {
         Id: 2,
-        Title: "test",
-        Text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
-        Link: "https://github.com/salaami/",
-        Icon: <DiReact />
+        Title: "airbyte",
+        Text: "Open-source data integration engine.",
+        Link: "https://github.com/salaami/airbyte/tree/master",
+        Icon: <SiAirbyte />
     },
 ]
 

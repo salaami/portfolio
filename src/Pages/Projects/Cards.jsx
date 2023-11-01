@@ -45,9 +45,9 @@ export default function Cards() {
                         <motion.div
                             className="card-text"
                         >
-                            <h2>
+                            <h3>
                                 {item.Title}
-                            </h2>
+                            </h3>
                             <p>
                                 {item.Text}
                             </p>
