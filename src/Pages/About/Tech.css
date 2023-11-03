@@ -3,18 +3,9 @@
   flex-direction: column;
   width: var(--content-width);
   margin-top: 5vh;
-  border: var(--border-width) solid var(--grey-80);
-  border-radius: 16px;
-  background: var(--grey-80);
-  justify-content: space-between; 
-}
-
-.glow-container {  
-  height: 100%;
-  width: 100%;
-  background: radial-gradient(500px circle at 300px 300px,var(--grey-70),transparent);
-  border: var(--border-width) solid var(--elevation-3);
   border-radius: var(--border-radius);
+  justify-content: space-between; 
+  background-color: var(--grey-100);
 }
 
 .tech-container h1 {
@@ -32,7 +23,7 @@
 .tech-card {
   display: flex;
   flex-direction: column;
-  background: hsla(0,0%,100%,.035);
+  background: var(--grey-90);
   box-shadow: inset 6px 84px 79px -40px hsla(0,0%,100%,.025),inset 0 -4px 1px -3px hsla(0,0%,100%,.25),inset 0 4px 1px -3px hsla(0,0%,100%,.25);
   border-radius: var(--border-radius);
 }
