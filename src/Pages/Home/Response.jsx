@@ -5,15 +5,13 @@ import { motion } from 'framer-motion'
 const fadeVariants = {
   hidden: {
     opacity: 0,
-    y: 50
   },
   visible: {
     opacity: 1,
-    y: 0,
     transition: {
-      delay: 1,
+      delay: 2,
       type: 'tween',
-      ease: 'easeInOut'
+      ease: 'linear'
     }
   }
 }
