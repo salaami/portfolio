@@ -5,6 +5,7 @@ import { SiApachehive } from 'react-icons/si'
 import { SiPostgresql } from 'react-icons/si'
 import { SiMicrosoftsqlserver } from 'react-icons/si'
 import { SiAmazonaws } from 'react-icons/si'
+import { SiGit } from 'react-icons/si'
 
 const TechData = [
   {
@@ -14,16 +15,22 @@ const TechData = [
     Title: "DBT",
   },
   {
-    Id: 3,
-    Icon: <SiDocker />,
-    Text: "Containerization in of software components within CI/CD data pipelines.",
-    Title: "Docker",
-  },
-  {
     Id: 1,
     Icon: <SiPresto />,
     Text: "Leverage Presto/Trino to run SQL queries on different database technologies.",
     Title: "Presto / Trino",
+  },
+  {
+    Id: 2,
+    Icon: <SiDocker />,
+    Text: "Containerization of software components within CI/CD data pipelines.",
+    Title: "Docker",
+  },
+  {
+    Id: 3,
+    Icon: <SiGit />,
+    Text: "Version control changes to colaborative projects.",
+    Title: "Git",
   },
   {
     Id: 4,
