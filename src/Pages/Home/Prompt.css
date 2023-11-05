@@ -1,6 +1,5 @@
 .prompt-container {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     line-height: 1.5rem;
 }
@@ -12,6 +11,8 @@
 }
 
 .prompt-text {
+    display: inline-block;
+    white-space: nowrap;
     background: var(--primary);
     font-weight: 900;
     line-height: 1.3rem; 
