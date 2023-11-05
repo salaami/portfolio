@@ -1,6 +1,8 @@
 .home-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -64,14 +66,8 @@
     border-top: var(--fs-medium) solid transparent;
 }
 
-.placeholder {
-    width: 1rem;
-    background: transparent;
-}
-
 .prompt-text {
     display: flex;
-    white-space: nowrap;
     background: var(--accent-2);
     color: var(--grey-100);
     font-weight: 900;

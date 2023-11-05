@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react'
 import { motion, useMotionValue, useTransform, animate } from 'framer-motion'
 import Cursor from './Cursor.jsx'
+import './Command.css'
 
 
 export default function Command() {
@@ -26,14 +27,16 @@ export default function Command() {
   }, [])
 
   return (
-    <span className="cursor-container">
-      <motion.span>{displayText}</motion.span>
+    <div className="cursor-container">
+      <motion.span
+        className="command-text"
+      >{displayText}</motion.span>
       {done && (
         <>
           <br /> <br />
         </>
       )}
       <Cursor />
-    </span>
+    </div>
   )
 }
