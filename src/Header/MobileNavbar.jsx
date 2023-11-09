@@ -25,11 +25,11 @@ const sideVariants = {
 const itemVariants = {
   open: {
     opacity: 1,
-    x: 0
+    y: 0
   },
   closed: {
     opacity: 0,
-    x: 50
+    y: 50
   }
 }
 
@@ -96,7 +96,7 @@ export default function MobileNavbar() {
               height: "100vh",
             }}
             exit={{
-              width: 0,
+              height: 0,
               transition: {
                 delay: 0.2,
                 type: "tween",
@@ -123,7 +123,7 @@ export default function MobileNavbar() {
                     to={Route}
                     onClick={toggleOpen}
                   >
-                    {Text}
+                   0{Id}|{Text}
                   </Link>
                 </motion.div>
               ))}
