@@ -1,4 +1,4 @@
-export const NavData = [
+export const NavbarData = [
     {
         Route: "/",
         Cname: "nav-link",
