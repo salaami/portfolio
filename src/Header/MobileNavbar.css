@@ -9,8 +9,7 @@
 .nav-item {
   text-decoration: none;
   font-size: 7vh;
-  margin-right: var(--side-margin);
-  text-align: right;
+  margin-left: var(--side-margin);
 }
 
 aside {
@@ -18,6 +17,7 @@ aside {
   top: 0;
   right: 0;
   background-color: var(--grey-80);
+  font-family: SuisseIntlMono-Regular;
 }
 
 .btn-container {
