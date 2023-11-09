@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { NavData } from './NavData'
+import { NavbarData } from './NavbarData'
 import { motion, AnimatePresence } from "framer-motion"
 import { Link, useLocation } from 'react-router-dom'
 import './Navbar.css'
@@ -7,7 +7,7 @@ import './Navbar.css'
 export default function Navbar() {
     const location = useLocation()
     const [selected, setSelected] = useState(
-        NavData.findIndex(({ Route }) => Route === location.pathname)
+        NavbarData.findIndex(({ Route }) => Route === location.pathname)
     )
 
     useEffect(() => {
@@ -15,7 +15,7 @@ export default function Navbar() {
     }, [selected])
 
     useEffect(() => {
-        setSelected(NavData.findIndex(({ Route }) => Route === location.pathname))
+        setSelected(NavbarData.findIndex(({ Route }) => Route === location.pathname))
     }, [location.pathname])
 
     return (
@@ -26,7 +26,7 @@ export default function Navbar() {
                 className="nav-container"
             >
                 <AnimatePresence>
-                    {NavData.map(({ Route, Id, Text }, i) => (
+                    {NavbarData.map(({ Route, Id, Text }, i) => (
                         <motion.li
                             className="nav-list"
                             key={Id}

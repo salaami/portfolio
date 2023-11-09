@@ -1,12 +1,11 @@
 import './MobileNavbar.css'
-import './NavData'
 import {
   motion,
   useCycle,
   AnimatePresence
 } from "framer-motion"
 import { Link } from 'react-router-dom'
-import { NavData } from './NavData'
+import { NavbarData } from './NavbarData'
 
 const sideVariants = {
   closed: {
@@ -113,7 +112,7 @@ export default function MobileNavbar() {
               exit="closed"
               variants={sideVariants}
             >
-              {NavData.map(({ Text, Id, Route }) => (
+              {NavbarData.map(({ Text, Id, Route }) => (
                 <motion.div
                   key={Id}
                   variants={itemVariants}
