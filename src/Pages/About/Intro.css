@@ -1,0 +1,11 @@
+.intro-text {
+  background-color: var(--grey-80);
+  border-radius: var(--border-radius);
+  padding: var(--text-pad);
+}
+
+.intro-paragraph {
+  border-top: var(--lines) solid var(--highlight-1);
+  margin-top: var(--text-pad);
+  padding-top: var(--text-pad);
+}
