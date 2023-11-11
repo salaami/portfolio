@@ -96,11 +96,15 @@ h1 {
     font-size: var(--fs-big);
     color: var(--grey-00);
     line-height: 1.25;
+    padding: 0;
+    margin: 0;
 }
 
 h2 {
     font-family: 'SuisseIntlMono-Regular';
     font-size: var(--fs-normal);
+    padding: 0;
+    margin: 0;
 }
 h2 {
     font-family: 'SuisseIntlMono-Regular';
