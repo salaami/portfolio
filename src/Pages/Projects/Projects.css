@@ -1,7 +1,14 @@
-.project-content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    align-content: flex-start;
-    width: 60vw;
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  background-image: linear-gradient(var(--primary-darkest),var(--grey-100));
+  border-radius: var(--border-radius);
+  padding: var(--text-pad);
+}
+
+.project-text {
+  margin-top: var(--text-pad);
+  padding: var(--text-pad) 0 var(--text-pad) 0;
+  border-top: var(--lines) solid var(--grey-00);
 }

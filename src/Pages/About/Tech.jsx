@@ -5,12 +5,12 @@ import { TechData } from './TechData'
 export default function Tech() {
   return (
     <div
-      className="tech-container"
+      className="tech-wrapper"
     >
-      <h1>Tech
-      </h1>
+      <h1>Tech at Work</h1>
+      <h2>My Toolkit in Data Engineering</h2>
       <ul
-        className="tech-wrapper"
+        className="tech-content"
       >
         {TechData.map(({ Title, Text, Icon, Id }) => {
           return (

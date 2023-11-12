@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <main>
             <motion.div
-                className="home-content"
+                className="home-wrapper"
                 initial="inital"
                 animate="animate"
                 exit="exit"

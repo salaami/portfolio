@@ -7,12 +7,13 @@ export default function Contact() {
 
     return (
         <motion.div
-            className="contact-content"
+            className="contact-wrapper"
             animate="animate"
             variants={TransitionVariants}
         >
-            <div className="gradient-wrapper">
-                <h1>Say hello</h1>
+            <div className="contact-content">
+                <h1>Let's Connect</h1>
+                <h2>Reach Out and Say Hello</h2>
                 <article className="contact-text">
                     If you would like to get in touch, just send me an email.
                     I will get back to you as soon as possible.

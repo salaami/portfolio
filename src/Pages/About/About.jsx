@@ -10,7 +10,7 @@ import AnimateContent from '../../Animations/AnimateContent'
 export default function About() {
   return (
     <motion.div
-      className="about-content"
+      className="about-wrapper"
       initial="inital"
       animate="animate"
       exit="exit"
