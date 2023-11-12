@@ -21,14 +21,14 @@ const hoverState = {
 
 export default function Socialbar() {
     return (
-        <div className="social">
+        <div className="social-container">
             {SocialData.map(({ Name, Icon, Id, Link }) => {
                 return (
                     <motion.a
                         key={Id}
                         href={Link}
                         rel="noreferrer"
-                        className="item-wrapper"
+                        className="item-content"
                         variants={hoverState}
                         initial="initial"
                         whileHover="hovered"

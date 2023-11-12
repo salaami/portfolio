@@ -7,10 +7,8 @@ export default function Intro() {
     <div>
       <article className="intro-text">
         <h1>Data-Driven Detour</h1>
-        <h2>Embracing constant change and development.</h2>
+        <h2>Embracing Constant Change and Development</h2>
         <p className="intro-paragraph">
-          I began as an economics and business student.
-          In my part-time job, I had to cope with tedious reporting tasks.
           After taking a Business Intelligence and Data Mining class, I was able to automate and optimize these.
           This experience motivated me to redirect my career towards the data space.
           I wrote my thesis in business informatics and started my first full-time job as a system manager at a media agency.

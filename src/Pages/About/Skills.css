@@ -1,31 +1,30 @@
 .skill-container {
-  height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-items: center;
+  height: 100%;
   width: var(--medium-content-width);
   margin-top: 5vh;
-  border-radius: var(--border-radius);
   z-index: 1;
-}
-
-
-.skill-container h1 {
-  text-align: center;
-  background: transparent;
+  background-image: linear-gradient(0deg,var(--grey-100),var(--elevation-1));
   border-radius: var(--border-radius);
-
+  padding: var(--text-pad);
 }
 
 .skill-wrapper {
-  padding: 0 3vw 3vw 3vw;
+  padding: 3vw 3vw 3vw 0;
+}
+
+.skill-content {
+  border-top: var(--lines) solid var(--grey-00);
+  margin-top: var(--text-pad);
+  padding: var(--text-pad) 0 var(--text-pad) 0;
 }
 
 .skill-bar {
   width: 80vw;
   height: 5vh;
-  background: linear-gradient(to right,var(--primary-lightest), var(--primary-light), var(--primary-dark), var(--primary-darkest));
+  background: linear-gradient(to right,var(--primary-darkest), var(--primary-dark), var(--primary-light), var(--primary-lightest));
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -33,4 +32,5 @@
 
 .skill-bar p {
   margin-right: 2rem;
+  font-family: SuisseIntlMono-Bold;
 }

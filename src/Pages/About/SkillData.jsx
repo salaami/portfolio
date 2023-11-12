@@ -5,9 +5,7 @@ const SkillData = [
     Title: "SQL",
   },
   {
-    Id: 1,
-    Level: 70,
-    Title: "Shell",
+    Id: 1, Level: 70, Title: "Shell",
   },
   {
     Id: 2,
