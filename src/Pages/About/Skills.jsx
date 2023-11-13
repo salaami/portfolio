@@ -32,7 +32,7 @@ export default function Skills() {
               key={Id}
               className="skill-wrapper"
             >
-              <h2>{Title}</h2>
+              <h3>{Title}</h3>
               <motion.div
                 key={Id}
                 className="skill-bar"
