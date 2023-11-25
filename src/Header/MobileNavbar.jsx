@@ -10,13 +10,13 @@ import { NavbarData } from './NavbarData'
 const sideVariants = {
   closed: {
     transition: {
-      staggerChildren: 0.05,
+      staggerChildren: 0.1,
       staggerDirection: -1
     }
   },
   open: {
     transition: {
-      staggerChildren: 0.05,
+      staggerChildren: 0.1,
       staggerDirection: 1
     }
   },
@@ -25,11 +25,11 @@ const sideVariants = {
 const itemVariants = {
   open: {
     opacity: 1,
-    y: 0
+    scale: 1,
   },
   closed: {
     opacity: 0,
-    y: 50
+    scale: 0.9,
   }
 }
 
@@ -88,7 +88,7 @@ export default function MobileNavbar() {
         {isOpen && (
           <motion.aside
             initial={{
-              width: 0,
+              width: "100vw",
               height: 0,
             }}
             animate={{
