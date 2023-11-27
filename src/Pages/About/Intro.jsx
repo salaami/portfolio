@@ -1,5 +1,6 @@
 import React from 'react'
 import './Intro.css'
+import portrait from '../../assets/images/portait_closeup.png'
 
 
 export default function Intro() {
@@ -16,6 +17,7 @@ export default function Intro() {
           As our infrastructure improved, I shifted my focus to data integration and data transformation tasks.
           I found it very inspiring to work in an environment that encourages constant learning and development.
         </p>
+        <img src={portrait} alt='portrait_picture' className="portait"/>
       </article>
     </div>
   )
