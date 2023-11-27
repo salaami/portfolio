@@ -6,7 +6,16 @@
 }
 
 .intro-paragraph {
+  display: flex;
   border-top: var(--lines) solid var(--grey-00);
   margin-top: var(--text-pad);
   padding: var(--text-pad) 0 var(--text-pad) 0;
+}
+
+.portait {
+    display: flex;
+    align-self: flex-end;
+    max-height: auto;
+    width: 40vw;
+    border-radius: var(--border-radius);
 }

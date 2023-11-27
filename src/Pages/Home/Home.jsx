@@ -5,7 +5,6 @@ import { TransitionVariants } from '../../Animations/TransitionVariants'
 import Response from './Response'
 import Prompt from './Prompt'
 
-
 export default function Home() {
     return (
         <main>

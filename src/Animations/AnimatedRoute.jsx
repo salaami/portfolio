@@ -1,7 +1,6 @@
 import React from 'react'
 import { 
-  AnimatePresence, 
-  motion 
+  AnimatePresence 
 } from 'framer-motion'
 import { 
   Route,

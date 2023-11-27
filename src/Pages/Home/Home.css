@@ -12,7 +12,7 @@
     align-items: center;
     font-size: var(--fs-normal);
     width: var(--medium-content-width);
-    height: 50vh;
+    min-height: 50vh;
     border-radius: var(--border-radius);
     border: var(--grey-70) solid var(--border-width);
 }

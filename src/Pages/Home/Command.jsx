@@ -24,7 +24,7 @@ export default function Command() {
       }
     })
     return controls.stop
-  }, [])
+  }, [count])
 
   return (
     <div className="cursor-container">
