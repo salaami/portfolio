@@ -1,8 +1,9 @@
 import React from 'react'
 import './Projects.css'
-import Cards from './Cards'
-import { motion } from 'framer-motion'
 import { TransitionVariants } from '../../Animations/TransitionVariants'
+import AnimateContent from '../../Animations/AnimateContent'
+import { motion } from 'framer-motion'
+import ProjectText from './ProjectText'
 
 export default function Projects() {
     return (
@@ -13,18 +14,9 @@ export default function Projects() {
             exit="exit"
             variants={TransitionVariants}
         >
-            <div className="project-content">
-                <h1>Project Showcases</h1>
-                <h2>A Collection of my Digital Explorations</h2>
-                <article className="project-text">
-                    Here you can find a showcase of my private projects.
-                    From web applications to data related topics and everything in between,
-                    these projects reflect my passion for exploring new technologies and pushing my own boundaries.
-                    Whether you're a fellow developer or just curious about what I've been up to,
-                    I invite you to browse my collection of projects and see for yourself.
-                </article>
-                <Cards />
-            </div>
+            <AnimateContent>
+                <ProjectText />
+            </AnimateContent>
         </motion.div>
     )
 };
