@@ -1,0 +1,12 @@
+.project-text {
+  padding: var(--text-pad);
+  border-radius: var(--border-radius);
+  background-image: linear-gradient(0deg,var(--grey-100),var(--primary-darkest));
+}
+
+.project-paragraph {
+  display: flex;
+  border-top: var(--lines) solid var(--grey-00);
+  margin-top: var(--text-pad);
+  padding: var(--text-pad) 0 var(--text-pad) 0;
+}

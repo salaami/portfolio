@@ -13,7 +13,7 @@ export default function Skills() {
     >
       <h1>Coding Skills Barometer</h1>
       <h2>Visualizing my Proficiency in Programming Languages</h2>
-      <p class="skill-content">
+      <div className="skill-content">
         {SkillData.map(({ Title, Level, Id }) => {
           const skillVariants = {
             initial: {
@@ -48,7 +48,7 @@ export default function Skills() {
             </div>
           )
         })}
-      </p>
+      </div>
     </div>
   )
 }

@@ -5,7 +5,6 @@ import portrait from '../../assets/images/portait_closeup.png'
 
 export default function Intro() {
   return (
-    <div>
       <article className="intro-text">
         <h1>Data-Driven Detour</h1>
         <h2>Embracing Constant Change and Development</h2>
@@ -19,6 +18,5 @@ export default function Intro() {
         </p>
         <img src={portrait} alt='portrait_picture' className="portait"/>
       </article>
-    </div>
   )
 }
