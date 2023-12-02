@@ -1,6 +1,6 @@
 .contact-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: var(--content-width);
 }

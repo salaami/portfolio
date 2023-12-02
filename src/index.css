@@ -62,10 +62,14 @@
   --highlight-1: #535760;
   --highlight-2: #8c92a4;
   --highlight-3: #fefefe;
+
   --border-radius: 1.5rem;
   --border-width: 1px;
   --border-color: var(--grey-80);
   --btn-radius: 4.5rem;
+  --lines: 0.1rem;
+  --side-margin: 10vw;
+  --content-width: 80vw;
 }
 
 html, body {
@@ -135,7 +139,6 @@ article {
   line-height: 1.5;
   color: var(--grey-00);
   margin: 5vh 0 5vh 0;
-  width:  var(--medium-content-width);
 }
 
 ::-webkit-scrollbar {
@@ -146,11 +149,6 @@ article {
 @media(min-width: 320px){
   :root {
   --text-pad: 5vw;
-  --header-pad: 1vw;
-  --lines: 0.1rem;
-  --side-margin: 10vw;
-  --content-width: 90vw;
-  --medium-content-width: 70vw;
   --box-shadow: 2vw 2vw var(--grey-80);
   --fs-huge: 3rem;
   --fs-big: 1.75rem;
@@ -163,10 +161,6 @@ article {
 @media(min-width: 480px){
   :root {
   --text-pad: 5vw;
-  --lines: 0.1rem;
-  --side-margin: 5vw;
-  --content-width: 90vw;
-  --medium-content-width: 70vw;
   --box-shadow: 2vw 2vw var(--grey-80);
   --fs-huge: 3.5rem;
   --fs-big: 1.75rem;
@@ -179,10 +173,6 @@ article {
 @media(min-width: 768px){
   :root {
   --text-pad: 5vw;
-  --lines: 0.1rem;
-  --side-margin: 5vw;
-  --content-width: 90vw;
-  --medium-content-width: 70vw;
   --box-shadow: 1vw 1vw var(--grey-80);
   --fs-huge: 6rem;
   --fs-big: 3rem;
@@ -195,10 +185,6 @@ article {
 @media(min-width: 1024px){
   :root {
   --text-pad: 3vw;
-  --lines: 0.1rem;
-  --side-margin: 5vw;
-  --content-width: 90vw;
-  --medium-content-width: 70vw;
   --box-shadow: 0.75vw 0.75vw var(--grey-80);
   --fs-huge: 6rem;
   --fs-big: 3rem;
@@ -211,10 +197,6 @@ article {
 @media(min-width: 1200px){
   :root {
   --text-pad: 3vw;
-  --lines: 0.1rem;
-  --side-margin: 5vw;
-  --content-width: 90vw;
-  --medium-content-width: 70vw;
   --box-shadow: 0.75vw 0.75vw var(--grey-80);
   --fs-huge: 6rem;
   --fs-big: 3rem;

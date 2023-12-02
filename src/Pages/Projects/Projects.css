@@ -1,7 +1,6 @@
 .project-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: var(--content-width);
 }
-
-
