@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e4ff32ed.css",
-    "main.js": "/static/js/main.c29bffdc.js",
+    "main.js": "/static/js/main.c5f96143.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/portait_closeup.png": "/static/media/portait_closeup.31eb4592880015c66261.png",
     "static/media/SuisseIntl-Bold.otf": "/static/media/SuisseIntl-Bold.8953dd1a4ab6c889befa.otf",
@@ -12,11 +12,11 @@
     "static/media/SuisseIntlMono-Light.otf": "/static/media/SuisseIntlMono-Light.88b18eed724867faf62e.otf",
     "index.html": "/index.html",
     "main.e4ff32ed.css.map": "/static/css/main.e4ff32ed.css.map",
-    "main.c29bffdc.js.map": "/static/js/main.c29bffdc.js.map",
+    "main.c5f96143.js.map": "/static/js/main.c5f96143.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4ff32ed.css",
-    "static/js/main.c29bffdc.js"
+    "static/js/main.c5f96143.js"
   ]
 }
