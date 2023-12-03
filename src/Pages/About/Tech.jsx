@@ -31,7 +31,9 @@ export default function Tech() {
                 <h3>
                   {Title}
                 </h3>
+                <p>
                 {Text}
+                </p>
               </div>
             </li>
           )
