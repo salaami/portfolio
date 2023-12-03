@@ -10,51 +10,51 @@ import { SiGit } from 'react-icons/si'
 const TechData = [
   {
     Id: 0,
+    Title: "DBT",
     Icon: <SiDbt />,
     Text: "Generate data models in SQL and Jinja using the Data Build Tool.",
-    Title: "DBT",
   },
   {
     Id: 1,
+    Title: "Presto / Trino",
     Icon: <SiPresto />,
     Text: "Leverage Presto/Trino to run SQL queries on different database technologies.",
-    Title: "Presto / Trino",
   },
   {
     Id: 2,
+    Title: "Docker",
     Icon: <SiDocker />,
     Text: "Containerization of software components within CI/CD data pipelines.",
-    Title: "Docker",
   },
   {
     Id: 3,
+    Title: "Git",
     Icon: <SiGit />,
     Text: "Version control changes to colaborative projects.",
-    Title: "Git",
   },
   {
     Id: 4,
+    Title: "Hive",
     Icon: <SiApachehive />,
     Text: "Handling large datasets in Hive using HDFS.",
-    Title: "Hive",
   },
   {
     Id: 5,
+    Title: "Postgres",
     Icon: <SiPostgresql />,
     Text: "Maintain Postgres instances via the CLI tool.",
-    Title: "Postgres",
   },
   {
     Id: 6,
+    Title: "SSMS",
     Icon: <SiMicrosoftsqlserver />,
     Text: "GUI to administer MSSQL databases.",
-    Title: "Management Studio",
   },
   {
     Id: 7,
+    Title: "S3",
     Icon: <SiAmazonaws />,
     Text: "Scalable cloud Storage service for easy and fast data integration.",
-    Title: "S3",
   },
 ]
 

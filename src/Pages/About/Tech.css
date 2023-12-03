@@ -38,8 +38,7 @@
 .tech-card-text {
   display: flex;
   flex-direction: column;
-  text-align: left;
-  border-top: var(--border-width) solid var(--grey-100);
+  text-align: center;
   white-space: normal;
   height: 40%;
   border-bottom-right-radius: var(--border-radius);
@@ -72,7 +71,6 @@
   }
 
   .tech-card-text h3 {
-    text-align: center;
     padding: 0.05rem 0.1rem 0.05rem 0.1rem;
   }
 
@@ -98,7 +96,6 @@
   }
 
   .tech-card-text h3 {
-    text-align: center;
     padding: 0.05rem 0.1rem 0.05rem 0.1rem;
   }
 
@@ -124,7 +121,6 @@
   }
 
   .tech-card-text h3 {
-    text-align: center;
     padding: 0.05rem 0.1rem 0.05rem 0.1rem;
   }
 
@@ -150,7 +146,6 @@
   }
 
   .tech-card-text h3 {
-    text-align: center;
     padding: 0.05rem 0.1rem 0.05rem 0.1rem;
   }
 
@@ -175,7 +170,6 @@
   }
 
   .tech-card-text h3 {
-    text-align: center;
     padding: 0.05rem 0.1rem 0.05rem 0.1rem;
   }
 
