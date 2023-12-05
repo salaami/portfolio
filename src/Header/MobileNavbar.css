@@ -6,11 +6,6 @@
   padding-top: 15vh;
 }
 
-.nav-item {
-  text-decoration: none;
-  margin-left: var(--side-margin);
-}
-
 aside {
   position: absolute;
   top: 0;
@@ -27,6 +22,11 @@ aside {
   cursor: pointer;
   background-color: transparent; 
   border: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  margin-left: var(--side-margin);
 }
 
 .link-number {
