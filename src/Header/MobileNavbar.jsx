@@ -127,10 +127,10 @@ export default function MobileNavbar() {
                     onClick={toggleOpen}
                   >
                     <span className="link-number">
-                      0{Id}|
+                      0{Id}
                     </span>
                     <span className="link-text">
-                      {Text}
+                      |{Text}
                     </span>
                   </Link>
                 </motion.div>

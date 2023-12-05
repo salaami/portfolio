@@ -51,7 +51,7 @@ export default function Navbar() {
                                         }}
                                     />
                                 )}
-                                {Text}
+                                0{Id}|{Text}
                             </Link>
                         </motion.li>
                     ))}
