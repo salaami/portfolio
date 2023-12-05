@@ -34,11 +34,6 @@ export default function Socialbar() {
                         whileHover="hovered"
                         whileTap="hovered"
                     >
-                        <div
-                            className="social-icon"
-                        >
-                            {Icon}
-                        </div>
                         <p
                             className="btn-text"
                         >

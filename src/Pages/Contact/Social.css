@@ -5,115 +5,73 @@
     justify-content: space-between;
     gap: var(--text-pad);
     padding: 3rem 0 3rem 0;
-    width: 100%;
 }
 
 .item-content {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     border-radius: var(--border-radius);
     overflow: hidden;
     user-select: none;
 }
-  
-.social-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: inherit;
-    color: var(--grey-100);
-    margin-right: 1.5rem;
-    height: 100%;
-}
 
 .btn-text {
     color: var(--grey-100);
+    font-family: 'SuisseIntlMono-Light';
 }
 
 @media(min-width: 320px){
     social-container {
         width: 80vw;
-        gap: 10vw;
     }
 
     .item-content {
-        width: 80vw;
+        width: 30vw;
         height: 5vh;
-    }
-
-    .social-icon {
-        width: 15vw;
-        font-size: var(--fs-medium);
     }
 }
 
 @media(min-width: 480px){
     .social {
         width: 80vw;
-        gap: 5vw;
-        column-gap: 5vw;
     }
 
     .item-content {
-        width: 35vw;
+        width: 30vw;
         height: 5vh;
-    }
-
-    .social-icon {
-        width: 10vw;
-        font-size: var(--fs-medium);
     }
 }
 
 @media(min-width: 768px){
     .social {
         width: 60vw;
-        gap: 5vw;
     }
 
     .item-content {
         width: 25vw;
         height: 4vh;
     }
-
-    .social-icon {
-        width: 6vw;
-        font-size: var(--fs-medium);
-    }
 }
 
 @media(min-width: 1024px){
     .social {
         width: 60vw;
-        gap: 2.5vw;
     }
 
     .item-content {
-        width: 26vw;
+        width: 15vw;
         height: 4rem;
-    }
-    
-    .social-icon {
-        width: 5vw;
-        font-size: var(--fs-medium);
     }
 }
 
 @media(min-width: 1200px){
     .social {
         width: 60vw;
-        column-gap: 2.5vw;
-        gap: 2.5vw;
     }
 
     .item-content {
-        width: 24vw;
+        width: 15vw;
         height: 4rem;
-    }
-
-    .social-icon {
-        width: 5vw;
-        font-size: var(--fs-medium);
     }
 }
