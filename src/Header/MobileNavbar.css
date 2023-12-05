@@ -8,7 +8,6 @@
 
 .nav-item {
   text-decoration: none;
-  font-size: 12vw;
   margin-left: var(--side-margin);
 }
 
@@ -17,7 +16,6 @@ aside {
   top: 0;
   right: 0;
   background-color: var(--grey-80);
-  font-family: SuisseIntlMono-Regular;
 }
 
 .btn-container {
@@ -29,4 +27,14 @@ aside {
   cursor: pointer;
   background-color: transparent; 
   border: none;
+}
+
+.link-number {
+  font-family: SuisseIntlMono-Bold;
+  font-size: 15vw;
+}
+
+.link-text {
+  font-family: SuisseIntlMono-Light;
+  font-size: 11vw;
 }

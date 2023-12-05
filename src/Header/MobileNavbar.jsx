@@ -126,7 +126,12 @@ export default function MobileNavbar() {
                     to={Route}
                     onClick={toggleOpen}
                   >
-                   0{Id}|{Text}
+                    <span className="link-number">
+                      0{Id}|
+                    </span>
+                    <span className="link-text">
+                      {Text}
+                    </span>
                   </Link>
                 </motion.div>
               ))}
