@@ -7,7 +7,7 @@ export default function ContactText() {
     return (
         <article className="contact-text">
             <h1>Let's Connect</h1>
-            <h2>Don't Hesitate to Reach Out</h2>
+            <h2>Feel free to Reach Out</h2>
             <p className="contact-paragraph">
                 If you would like to get in touch, just send me an email.
                 I will get back to you as soon as possible.

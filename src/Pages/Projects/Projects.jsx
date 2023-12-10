@@ -5,6 +5,7 @@ import AnimateContent from '../../Animations/AnimateContent'
 import { motion } from 'framer-motion'
 import ProjectText from './ProjectText'
 
+
 export default function Projects() {
     return (
         <motion.div

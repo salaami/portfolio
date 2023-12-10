@@ -1,6 +1,6 @@
 import React from 'react'
 import './ProjectText.css'
-import Cards from './Cards'
+import List from './List'
 
 
 export default function ProjectText() {
@@ -15,7 +15,7 @@ export default function ProjectText() {
             Whether you're a fellow developer or just curious about what I've been up to,
             I invite you to browse my collection of projects and see for yourself.
         </p>
-        <Cards />
+        <List />
     </article>
   )
 }
