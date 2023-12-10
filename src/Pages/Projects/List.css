@@ -1,0 +1,41 @@
+.list-container {
+  margin-top: 2vh;
+}
+
+.list-item {
+  background: var(--highlight-1);
+}
+
+.list-icon {
+  display: flex;
+  align-self: center;
+  color: var(--text-color);
+  background-color: var(--highlight-2);
+  padding: 1rem;
+}
+
+.list-title {
+  font-size: var(--fs-normal);
+  font-family: SuisseIntlMono-Light;
+  margin-top: 5vh;
+}
+
+.list-body {
+}
+
+.list-text {
+}
+
+.tags-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.list-tags {
+  list-style-type: none;
+  border-radius: var(--border-radius);
+  border: solid var(--highlight-1);
+  padding: 0 1rem 0 1rem;
+  font-family: SuisseIntlMono-Light;
+  font-size: var(--fs-small);
+}
