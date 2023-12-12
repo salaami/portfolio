@@ -33,18 +33,20 @@ export default function Skills() {
               className="skill-wrapper"
             >
               <h3>{Title}</h3>
-              <motion.div
-                key={Id}
-                className="skill-bar"
-                variants={skillVariants}
-                initial="initial"
-                animate="animate"
-              >
-                <p>
-                  {Level}
-                </p>
-              </motion.div>
-
+              <section className="bar-wrapper">
+                <div className="background-bar"/>
+                <motion.div
+                  key={Id}
+                  className="skill-bar"
+                  variants={skillVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  <p>
+                    {Level}
+                  </p>
+                </motion.div>
+              </section>
             </div>
           )
         })}

@@ -9,26 +9,41 @@
   padding: var(--text-pad);
 }
 
-.skill-wrapper {
-  padding: 3vw 3vw 3vw 0;
-}
-
 .skill-content {
   border-top: var(--lines) solid var(--grey-00);
   margin-top: var(--text-pad);
   padding: var(--text-pad) 0 var(--text-pad) 0;
 }
 
+.skill-wrapper {
+  padding: 3vw 0 3vw 0;
+}
+
+.bar-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.background-bar {
+  z-index: 2;
+  width: 100%;
+  background: var(--grey-80);
+  height: var(--fs-big);
+  position: absolute;
+}
+
 .skill-bar {
-  width: 80vw;
-  height: 5vh;
+  height: var(--fs-big);
   background: linear-gradient(to right,var(--primary-darkest), var(--primary-dark), var(--primary-light), var(--primary-lightest));
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  z-index: 3;
 }
 
 .skill-bar p {
-  margin-right: 2rem;
+  margin-right: 1rem;
   font-family: SuisseIntlMono-Bold;
 }
