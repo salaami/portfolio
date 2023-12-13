@@ -14,7 +14,7 @@ export default function Intro() {
           This experience motivated me to redirect my career towards the data space.
           I wrote my thesis at the department for business informatics and started my first full-time job as a system manager at a media agency.
           Soon I transitioned to the Business Intelligence department and began using relational databases to streamline reporting efforts.
-          Today I am mainly working on data integration, data transformation as well as provisioning tasks.
+          Today I am mainly taking care of data integration, data transformation as well as provisioning tasks.
           I found it very inspiring to work in an environment that encourages constant learning and development.
         </p>
         <img src={portrait} alt='portrait_picture' className="portait"/>
