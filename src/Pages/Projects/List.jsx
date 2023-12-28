@@ -23,8 +23,13 @@ export default function List() {
                                 {item.Text}
                             </p>
                             <p className="tags-container">
-                                {item.Tags.map((Tags) => (
-                                        <div className="list-tags">{Tags}</div>
+                                {item.Tags.map((Tags, Id) => (
+                                        <span
+                                            className="list-tags"
+                                            key={Id}
+                                        >
+                                            {Tags}
+                                        </span>
                                 ))}
                             </p>
                         </div>
