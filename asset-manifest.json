@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7be12df.css",
-    "main.js": "/static/js/main.48d36a2e.js",
+    "main.css": "/static/css/main.1829d4c7.css",
+    "main.js": "/static/js/main.b98b3e1f.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/portait_closeup.png": "/static/media/portait_closeup.31eb4592880015c66261.png",
     "static/media/SuisseIntl-Bold.otf": "/static/media/SuisseIntl-Bold.8953dd1a4ab6c889befa.otf",
@@ -11,12 +11,12 @@
     "static/media/SuisseIntlMono-Regular.otf": "/static/media/SuisseIntlMono-Regular.3f10e6987f46a0cbe380.otf",
     "static/media/SuisseIntlMono-Light.otf": "/static/media/SuisseIntlMono-Light.88b18eed724867faf62e.otf",
     "index.html": "/index.html",
-    "main.a7be12df.css.map": "/static/css/main.a7be12df.css.map",
-    "main.48d36a2e.js.map": "/static/js/main.48d36a2e.js.map",
+    "main.1829d4c7.css.map": "/static/css/main.1829d4c7.css.map",
+    "main.b98b3e1f.js.map": "/static/js/main.b98b3e1f.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7be12df.css",
-    "static/js/main.48d36a2e.js"
+    "static/css/main.1829d4c7.css",
+    "static/js/main.b98b3e1f.js"
   ]
 }
