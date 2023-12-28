@@ -4,6 +4,7 @@ const ListData = [
         Title: "Portfolio Website",
         Text: "This website is a React application using jsx and css.",
         Link: "https://github.com/salaami/portfolio",
+        Color: "linear-gradient(0deg,var(--grey-100),var(--primary-darkest))",
         Tags: ["react.js", "jsx", "css"]
     },
     {
@@ -11,20 +12,23 @@ const ListData = [
         Title: "Dotfiles",
         Text: "Version controlling my configuration files on Github.",
         Link: "https://github.com/salaami/dotfiles",
+        Color: "linear-gradient(0deg,var(--grey-100),var(--primary-dark))",
         Tags: ["linux", "git", "bash"]
     },
     {
         Id: 2,
         Title: "Airbyte",
-        Text: "Open-source data integration engine.",
+        Text: "Contribution to open-source data integration engine.",
         Link: "https://github.com/salaami/airbyte/tree/master",
-        Tags: ["python", "oop", "api", "http"] 
+        Color: "linear-gradient(0deg,var(--grey-100),var(--primary))",
+        Tags: ["python", "oop", "api", "http"]
     },
     {
         Id: 3,
         Title: "Takraw Website",
         Text: "Small webapp for my sports club using Vue.js .",
         Link: "https://github.com/salaami/airbyte/tree/master",
+        Color: "linear-gradient(0deg,var(--grey-100),var(--primary-light))",
         Tags: ["vue.js", "jsx", "css"]
     },
 ]
