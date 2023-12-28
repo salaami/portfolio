@@ -4,6 +4,7 @@ import { TransitionVariants } from '../../Animations/TransitionVariants'
 import AnimateContent from '../../Animations/AnimateContent'
 import { motion } from 'framer-motion'
 import ProjectText from './ProjectText'
+import List from './List'
 
 
 export default function Projects() {
@@ -17,6 +18,9 @@ export default function Projects() {
         >
             <AnimateContent>
                 <ProjectText />
+            </AnimateContent>
+            <AnimateContent>
+                <List />
             </AnimateContent>
         </motion.div>
     )
