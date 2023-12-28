@@ -5,18 +5,21 @@ const SkillData = [
     Title: "SQL",
   },
   {
-    Id: 1, Level: 70, Title: "Shell",
-  },
-  {
-    Id: 2,
-    Level: 60,
+    Id: 1,
+    Level: 70,
     Title: "Python",
   },
   {
-    Id: 3,
-    Level: 40,
-    Title: "Javascript",
+    Id: 2,
+    Level: 70,
+    Title: "Jsx / Css",
   },
+  {
+    Id: 3,
+    Level: 60,
+    Title: "Shell",
+  },
+
 ]
 
 export { SkillData }
