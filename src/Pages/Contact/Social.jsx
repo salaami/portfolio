@@ -2,22 +2,8 @@ import './Social.css'
 import React from 'react'
 import { motion } from 'framer-motion'
 import { SocialData } from './SocialData'
+import { HoverVariants } from '../../Animations/HoverVariants.jsx'
 
-const hoverState = {
-    hovered: {
-        y: -5,
-        background: 'var(--grey-30)',
-    },
-    initial: {
-        y: 0,
-        background: 'var(--grey-00)',
-    },
-    transition: {
-        duration: 0.3,
-        type: 'tween',
-        ease: 'easeInOut'
-    }
-};
 
 export default function Socialbar() {
     return (
@@ -29,10 +15,8 @@ export default function Socialbar() {
                         href={Link}
                         rel="noreferrer"
                         className="item-content"
-                        variants={hoverState}
-                        initial="initial"
+                        variants={ HoverVariants }
                         whileHover="hovered"
-                        whileTap="hovered"
                     >
                         <p
                             className="btn-text"
@@ -44,4 +28,4 @@ export default function Socialbar() {
             })}
         </div>
     )
-}        
+}
