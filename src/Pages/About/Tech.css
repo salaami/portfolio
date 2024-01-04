@@ -4,14 +4,14 @@
   width: var(--medium-content-width);
   margin-top: 5vh;
   border-radius: var(--border-radius);
-  justify-content: space-between; 
+  justify-content: space-between;
   background-image: linear-gradient(0deg,var(--grey-100),var(--accent-1));
   border-radius: var(--border-radius);
   padding: var(--text-pad);
 }
 
 .tech-content {
-  display: flex; 
+  display: flex;
   list-style: none;
   overflow-x: auto;
   white-space: nowrap;
@@ -40,7 +40,6 @@
   flex-direction: column;
   text-align: center;
   white-space: normal;
-  height: 40%;
   border-bottom-right-radius: var(--border-radius);
   border-bottom-left-radius: var(--border-radius);
 }
@@ -166,7 +165,7 @@
   }
 
   .tech-card-text {
-    padding: 0 1rem 0 1rem;
+    padding: 0 1.5rem 0 1.5rem;
   }
 
   .tech-card-text h3 {

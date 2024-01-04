@@ -4,6 +4,7 @@ import './List.css'
 import { motion } from 'framer-motion'
 import { HoverVariants } from '../../Animations/HoverVariants.jsx'
 
+
 export default function List() {
     return (
         <div className="list-container">

@@ -28,9 +28,6 @@ export default function Tech() {
                 </div>
               </div>
               <div className="tech-card-text">
-                <h3>
-                  {Title}
-                </h3>
                 <p>
                 {Text}
                 </p>
