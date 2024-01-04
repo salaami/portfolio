@@ -10,51 +10,43 @@ import { SiGit } from 'react-icons/si'
 const TechData = [
   {
     Id: 0,
-    Title: "DBT",
     Icon: <SiDbt />,
-    Text: "Generate data models in SQL and Jinja using the Data Build Tool.",
+    Text: "Data modeling in SQL and Jinja with the Data Build Tool. Streamlines data transformation and testing process.",
   },
   {
     Id: 1,
-    Title: "Presto / Trino",
     Icon: <SiPresto />,
-    Text: "Leverage Presto/Trino to run SQL queries on different database technologies.",
+    Text: "Trino (formerly known as Presto) is a SQL-based query engine that seamlessly integrates in the BI ecosystem.",
   },
   {
     Id: 2,
-    Title: "Docker",
     Icon: <SiDocker />,
-    Text: "Containerization of software components within CI/CD data pipelines.",
+    Text: "Containerization of software components in Docker. Enhancing reproducibility and scalability of CI/CD pipelines.",
   },
   {
     Id: 3,
-    Title: "Git",
     Icon: <SiGit />,
-    Text: "Version control changes to colaborative projects.",
+    Text: "Efficient version control for collaborative development, enabling easy tracking, branching, and merging of code changes.",
   },
   {
     Id: 4,
-    Title: "Hive",
     Icon: <SiApachehive />,
-    Text: "Handling large datasets in Hive using HDFS.",
+    Text: "Apache Hive is Distributed datawarehouse systeming that allows analytics at a large scale.",
   },
   {
     Id: 5,
-    Title: "Postgres",
     Icon: <SiPostgresql />,
-    Text: "Maintain Postgres instances via the CLI tool.",
+    Text: "Apache Postgres is a powerful relational database system known for its extensibility and reliability.",
   },
   {
     Id: 6,
-    Title: "SSMS",
     Icon: <SiMicrosoftsqlserver />,
-    Text: "GUI to administer MSSQL databases.",
+    Text: "Microsoft SQL Server Management Studio is a GUI to administering Microsoft SQL databases.",
   },
   {
     Id: 7,
-    Title: "S3",
     Icon: <SiAmazonaws />,
-    Text: "Scalable cloud Storage service for easy and fast data integration.",
+    Text: "Amazon S3 is a scalable cloud storage service that facilitates efficient data management and integration.",
   },
 ]
 
