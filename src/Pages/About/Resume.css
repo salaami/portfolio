@@ -15,21 +15,29 @@
 }
 
 .job-title {
-  margin-button: 0;
+}
+
+.job-entry {
+    margin: var(--fs-small) var(--fs-small);
 }
 
 .company {
-  font-family: 'SuisseIntl-Bold';
+  font-family: 'SuisseIntlMono-Regular';
   font-size: var(--fs-small);
 }
 
 .time-period {
-  font-family: 'SuisseIntl-Bold';
+  font-family: 'SuisseIntlMono-Regular';
   font-size: var(--fs-small);
 }
 
+.job-tasks {
+  padding-left: 1em;
+  margin: 0;
+}
 
 .task-item {
   list-style: initial;
   font-size: var(--fs-small);
+  padding-left: 0;
 }
