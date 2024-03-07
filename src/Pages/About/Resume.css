@@ -1,0 +1,35 @@
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(0deg,var(--grey-100),var(--primary-dark));
+  border-radius: var(--border-radius);
+  padding: var(--text-pad);
+}
+
+.career-paragraph {
+  display: flex;
+  flex-direction: column;
+  border-top: var(--lines) solid var(--grey-00);
+  margin-top: var(--text-pad);
+  padding: var(--text-pad) 0 var(--text-pad) 0;
+}
+
+.job-title {
+  margin-button: 0;
+}
+
+.company {
+  font-family: 'SuisseIntl-Bold';
+  font-size: var(--fs-small);
+}
+
+.time-period {
+  font-family: 'SuisseIntl-Bold';
+  font-size: var(--fs-small);
+}
+
+
+.task-item {
+  list-style: initial;
+  font-size: var(--fs-small);
+}

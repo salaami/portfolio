@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Intro from './Intro'
 import Skills from './Skills'
 import Tech from './Tech'
+import Resume from './Resume'
 import AnimateContent from '../../Animations/AnimateContent'
 
 export default function About() {
@@ -18,6 +19,9 @@ export default function About() {
     >
       <AnimateContent>
         <Intro/>
+      </AnimateContent>
+      <AnimateContent>
+        <Resume/>
       </AnimateContent>
       <AnimateContent>
         <Skills />
