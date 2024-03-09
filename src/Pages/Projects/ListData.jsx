@@ -11,7 +11,7 @@ const ListData = [
         Id: 1,
         Title: "Dotfiles",
         Text: "Version controlling my configuration files on Github.",
-        Link: "https://github.com/salaami/dotfiles",
+        Link: "https://github.com/salaami/.dotfiles",
         Color: "linear-gradient(0deg, var(--grey-100), var(--grey-70))",
         Tags: ["linux", "git", "bash"]
     },
