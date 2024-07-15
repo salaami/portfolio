@@ -11,14 +11,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: var(--grey-00) solid var(--lines);
     border-radius: var(--border-radius);
     overflow: hidden;
     user-select: none;
-    background-image: linear-gradient(0deg, var(--grey-60), var(--grey-10));
+    background: transparent;
 }
 
 .btn-text {
-    color: var(--grey-100);
+    color: var(--grey-00);
     font-family: 'SuisseIntlMono-Light';
 }
 
@@ -29,7 +30,7 @@
 
     .item-content {
         width: 30vw;
-        height: 5vh;
+        height: 4vh;
     }
 }
 
@@ -39,8 +40,8 @@
     }
 
     .item-content {
-        width: 30vw;
-        height: 5vh;
+        width: 25vw;
+        height: 4vh;
     }
 }
 
@@ -50,7 +51,7 @@
     }
 
     .item-content {
-        width: 25vw;
+        width: 20vw;
         height: 4vh;
     }
 }
@@ -72,7 +73,7 @@
     }
 
     .item-content {
-        width: 15vw;
+        width: 11vw;
         height: 4rem;
     }
 }
