@@ -8,7 +8,7 @@ import { HoverVariants } from '../../Animations/HoverVariants.jsx'
 export default function Socialbar() {
     return (
         <div className="social-container">
-            {SocialData.map(({ Name, Icon, Id, Link }) => {
+            {SocialData.map(({ Name, Id, Link }) => {
                 return (
                     <motion.a
                         key={Id}
