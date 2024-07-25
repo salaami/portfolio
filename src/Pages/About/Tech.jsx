@@ -18,19 +18,12 @@ export default function Tech() {
               className="tech-card"
               key={Id}
             >
-              <div
-                className="tech-card-top"
-              >
-                <div
-                  className="tech-icon"
-                >
-                  {Icon}
-                </div>
+              <div className="tech-card-top">
+                <div className="tech-icon">{Icon}</div>
               </div>
               <div className="tech-card-text">
-                <p>
-                {Text}
-                </p>
+                <h4>{Title}</h4>
+                <p>{Text}</p>
               </div>
             </li>
           )
