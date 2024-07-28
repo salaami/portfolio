@@ -1,53 +1,40 @@
-import React, { useEffect, useRef, useState } from "react";
-import { motion, useAnimation } from "framer-motion";
+import React, { useEffect, useRef } from "react";
+import { motion, useInView, useAnimation } from "framer-motion";
+import './AnimateContent.css'; // Import the CSS file
 
-const fadeIn = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      duration: 0.1,
-    }
-  },
-};
-
-export default function AnimateContent({ children }) {
-  const elementRef = useRef(null);
-  const controls = useAnimation();
-  const [animated, setAnimated] = useState(false);
-
-  useEffect(() => {
-    const element = elementRef.current;
-
-    const handleScroll = async () => {
-      if (!animated && element) {
-        const { top, bottom } = element.getBoundingClientRect();
-        const windowHeight = window.innerHeight;
-
-        if (top < windowHeight && bottom >= 0) {
-          await controls.start("visible");
-          setAnimated(true);
-        }
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    handleScroll();
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [controls, animated]);
-
-  return (
-    <motion.div
-      ref={elementRef}
-      initial="hidden"
-      animate={controls}
-      variants={fadeIn}
-    >
-      {children}
-    </motion.div>
-  );
+interface Props {
+  children: JSX.Element;
 }
 
+export const AnimateContent = ({ children }: Props) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  const mainControls = useAnimation();
+
+  useEffect(() => {
+    if (isInView) {
+      mainControls.start("visible");
+    }
+  }, [isInView, mainControls]);
+
+  return (
+    <div
+      ref={ref}
+      className="animate-content-container"
+    >
+      <motion.div
+        className="animate-content-motion"
+        variants={{
+          hidden: { opacity: 0, y: 75 },
+          visible: { opacity: 1, y: 0 },
+        }}
+        initial="hidden"
+        animate={mainControls}
+        transition={{ duration: 0.5, delay: 0.25 }}
+      >
+        {children}
+      </motion.div>
+    </div>
+  );
+};

@@ -12,9 +12,9 @@
 }
 
 .portait {
-    display: flex;
-    align-self: flex-end;
-    max-height: auto;
-    width: 40vw;
-    border-radius: var(--border-radius);
+  display: flex;
+  align-self: flex-end;
+  max-height: auto;
+  width: 40vw;
+  border-radius: var(--border-radius);
 }

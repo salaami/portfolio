@@ -1,0 +1,5 @@
+.animate-content-container {
+  position: relative;
+  overflow: hidden;
+  max-width: var(--content-width);
+}
