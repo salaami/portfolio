@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-items: center;
-  width: var(--content-width);
   margin-top: 5vh;
   z-index: 1;
   background-image: linear-gradient(0deg,var(--grey-100),var(--elevation-1));
