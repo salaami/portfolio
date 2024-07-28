@@ -3,4 +3,5 @@
     flex-direction: column;
     align-content: flex-start;
     width: var(--content-width);
+    max-width: 100%;
 }
