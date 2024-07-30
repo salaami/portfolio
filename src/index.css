@@ -127,6 +127,13 @@ h4 {
   line-height: var(--fs-normal);
 }
 
+h5 {
+  font-family: 'SuisseIntl-Regular';
+  font-size: var(--fs-small);
+  padding: 0;
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: inherit;

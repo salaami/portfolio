@@ -26,7 +26,7 @@ export const AnimateContent = ({ children }: Props) => {
       <motion.div
         className="animate-content-motion"
         variants={{
-          hidden: { opacity: 0, y: 75 },
+          hidden: { opacity: 0, y: 55 },
           visible: { opacity: 1, y: 0 },
         }}
         initial="hidden"

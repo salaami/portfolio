@@ -5,7 +5,7 @@ import './ProjectText.css'
 export default function ProjectText() {
   return (
     <article className="project-text">
-        <h1>Project Showcases</h1>
+        <h1>Projects</h1>
         <h2>A Collection of my Digital Explorations</h2>
         <p className="project-paragraph">
             Here you can find a showcase of my private projects.

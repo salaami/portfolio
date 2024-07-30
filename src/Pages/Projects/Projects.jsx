@@ -7,13 +7,13 @@ import List from './List'
 
 export default function Projects() {
   return (
-    <>
+    <div className="project-wrapper">
       <AnimateContent>
         <ProjectText />
       </AnimateContent>
       <AnimateContent>
         <List />
       </AnimateContent>
-    </>
+    </div>
   )
 };
