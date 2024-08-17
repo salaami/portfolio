@@ -23,7 +23,7 @@
 .time-period {
   grid-column: 1;
   font-family: 'SuisseIntlMono-Regular';
-  font-size: var(--fs-tiny);
+  font-size: var(--fs-small);
   color: var(--grey-50);
 }
 
@@ -45,9 +45,9 @@
 }
 
 .job-tasks {
-  padding-left: 1em;
+  padding-left: 1rem;
   margin: 0;
-  list-style: initial;
+  list-style-type: "- ";
   margin-bottom: var(--fs-small);
   color: var(--grey-50);
 }
@@ -64,6 +64,7 @@
 
   .time-period {
     margin-bottom: var(--fs-small);
+    font-size: var(--fs-tiny)
   }
 }
 
