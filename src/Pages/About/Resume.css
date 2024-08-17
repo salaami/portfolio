@@ -1,40 +1,70 @@
 .resume-content {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(0deg,var(--grey-100),var(--primary-dark));
+  background-image: linear-gradient(0deg, var(--grey-100), var(--primary-dark));
   border-radius: var(--border-radius);
   padding: var(--text-pad);
 }
 
 .career-paragraph {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: var(--fs-small);
   border-top: var(--lines) solid var(--grey-00);
   margin-top: var(--text-pad);
   padding: var(--text-pad) 0 var(--text-pad) 0;
 }
 
 .job-entry {
-    margin: var(--fs-small) var(--fs-small);
-}
-
-.company {
-  font-family: 'SuisseIntlMono-Regular';
-  font-size: var(--fs-small);
+  display: contents;
+  padding-bottom: 5rem;
 }
 
 .time-period {
+  grid-column: 1;
   font-family: 'SuisseIntlMono-Regular';
   font-size: var(--fs-small);
+  color: var(--grey-50);
+}
+
+.job-details {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-title {
+  font-weight: bold;
+}
+
+.company {
+  font-family: 'SuisseIntl-Bold';
+  color: var(--grey-50);
+  font-size: var(--fs-small);
+  margin: 0.2rem 0 0.1rem 0;
 }
 
 .job-tasks {
-  padding-left: 1em;
+  padding-left: 1rem;
   margin: 0;
+  list-style-type: "- ";
+  margin-bottom: var(--fs-small);
+  color: var(--grey-50);
 }
 
 .task-item {
-  list-style: initial;
   font-size: var(--fs-small);
   padding-left: 0;
 }
+
+@media (max-width: 768px) {
+  .career-paragraph {
+    grid-template-columns: 1fr;
+  }
+
+  .time-period {
+    margin-bottom: var(--fs-small);
+    font-size: var(--fs-tiny)
+  }
+}
+
