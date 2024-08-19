@@ -27,8 +27,7 @@ export default function Skills() {
             animate: {
               width: `${Level}%`,
               transition: {
-                type: "tween",
-                ease: "easeInOut",
+                type: "easeInOut",
                 delay: 1,
                 duration: 1,
               }
