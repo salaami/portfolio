@@ -12,8 +12,11 @@ export default function List() {
           <a
             className="list-item"
             href={item.Link}
+            key={index}
           >
-            <img src={item.Pic} alt='project_picture' className="list-pic"/>
+            <div className="list-pic">
+              {item.Pic}
+            </div>
             <h5>
               {item.Title}
             </h5>
