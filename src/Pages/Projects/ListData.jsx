@@ -1,14 +1,15 @@
-import portfolio from '../../assets/images/portfolio_screenshot.png'
-import dotfiles from '../../assets/images/dotfiles_screenshot.png'
-import airbyte from '../../assets/images/airbyte_screenshot.png'
-import helper_scripts from '../../assets/images/helper_scripts_screenshot.png'
-import real_estate from '../../assets/images/real_estate_screenshot.png'
-import takraw_website from '../../assets/images/takraw_website_screenshot.png'
+import { FaReact } from "react-icons/fa";
+import { GrArchlinux } from "react-icons/gr";
+import { SiAirbyte } from "react-icons/si";
+import { FaVuejs } from "react-icons/fa"; 
+import { FaToolbox } from "react-icons/fa";
+import { MdOutlineRealEstateAgent } from "react-icons/md";
+
 
 const ListData = [
   {
     Id: 0,
-    Pic: portfolio,
+    Pic: <FaReact />,
     Title: "Portfolio Website",
     Text: "This website is a React application using jsx and css.",
     Link: "https://github.com/salaami/portfolio",
@@ -16,7 +17,7 @@ const ListData = [
   },
   {
     Id: 1,
-    Pic: dotfiles,
+    Pic: <GrArchlinux/>,
     Title: "Dotfiles",
     Text: "Version controlling my configuration files on Github.",
     Link: "https://github.com/salaami/.dotfiles",
@@ -24,7 +25,7 @@ const ListData = [
   },
   {
     Id: 2,
-    Pic: airbyte,
+    Pic: <SiAirbyte/>,
     Title: "Airbyte",
     Text: "Contribution to open-source data integration engine.",
     Link: "https://github.com/salaami/airbyte/tree/master",
@@ -32,7 +33,7 @@ const ListData = [
   },
   {
     Id: 3,
-    Pic: takraw_website,
+    Pic: <FaVuejs/>,
     Title: "Takraw Website",
     Text: "Small webapp for my sports club using Vue.js.",
     Link: "https://github.com/salaami/takraw-webapp",
@@ -40,7 +41,7 @@ const ListData = [
   },
   {
     Id: 4,
-    Pic: helper_scripts,
+    Pic:  <FaToolbox/>,
     Title: "Helper Scripts",
     Text: "Repo for small scripts to speed up my workflow in Obsidian.", 
     Link: "https://github.com/salaami/helper_scripts",
@@ -48,7 +49,7 @@ const ListData = [
   },
   {
     Id: 5,
-    Pic: real_estate,
+    Pic:  <MdOutlineRealEstateAgent/>,
     Title: "Real Estate",
     Text: "Python app to evaluate real estate offers.", 
     Link: "https://github.com/salaami/real_estate_helper",
