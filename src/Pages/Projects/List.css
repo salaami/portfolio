@@ -8,7 +8,6 @@
   flex-direction: column;
   text-decoration: none;
   padding: 0 var(--text-pad) 0 var(--text-pad);
-  margin-bottom: 1vh;
   border-radius: var(--border-radius);
   background-color: var(--elevation-1);
 }
@@ -48,16 +47,13 @@ svg {
 }
 
 @media(min-width: 320px) {
-  .list-container {
-    gap: 1rem;
-  }
-
   .list-item {
+    margin-bottom: 1rem;
     width: auto;
   }
 
   .list-pic {
-    height: 150px;
+    height: 130px;
     padding: 2rem 2rem 2rem 0;
   }
 }
@@ -71,10 +67,11 @@ svg {
 
   .list-item {
     width: auto;
+    margin-bottom: 0.5rem;
   }
 
   .list-pic {
-    height: 150px;
+    height: 120px;
     padding: 2rem 2rem 2rem 0;
   }
 }
@@ -117,11 +114,11 @@ svg {
   }
 
   .list-pic {
-    height: 150px;
-    padding: 3rem 2rem 2rem 0;
+    height: 130px;
+    padding: 3.5rem 2rem 3rem 0;
   }
 
   .tags-container {
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
   }
 }
