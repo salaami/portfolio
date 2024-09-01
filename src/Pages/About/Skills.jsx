@@ -22,10 +22,12 @@ export default function Skills() {
         {SkillData.map(({ Title, Level, Id }) => {
           const skillVariants = {
             initial: {
-              width: "0%"
+              width: "0%",
+              opacity: 0,
             },
             animate: {
               width: `${Level}%`,
+              opacity: 1,
               transition: {
                 type: "easeInOut",
                 delay: 1,
