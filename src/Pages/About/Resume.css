@@ -1,70 +1,81 @@
 .resume-content {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(0deg,var(--grey-100),var(--primary-dark));
   border-radius: var(--border-radius);
   padding: var(--text-pad);
 }
 
 .career-paragraph {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  gap: var(--fs-small);
   border-top: var(--lines) solid var(--grey-00);
   margin-top: var(--text-pad);
   padding: var(--text-pad) 0 var(--text-pad) 0;
 }
 
 .job-entry {
-  display: contents;
+  display: flex;
   padding-bottom: 5rem;
+  width: 100%;
+  min-height: 15vh;
+}
+
+.job-key-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  background-image: linear-gradient(90deg,var(--grey-100),var(--primary-dark));
+  border-radius: var(--border-radius);
+  width: 35%;
+  padding: var(--text-pad);
 }
 
 .time-period {
-  grid-column: 1;
   font-family: 'SuisseIntlMono-Regular';
-  font-size: var(--fs-small);
-  color: var(--grey-50);
-}
-
-.job-details {
-  grid-column: 2;
-  display: flex;
-  flex-direction: column;
+  font-size: var(--fs-tiny);
+  color: var(--grey-20);
 }
 
 .job-title {
-  font-weight: bold;
+  margin: 1rem 0 1rem 0;
+  font-size: var(--fs-medium);
+  line-height: 1.1;
 }
 
 .company {
-  font-family: 'SuisseIntl-Bold';
-  color: var(--grey-50);
+  font-family: 'SuisseIntl-Light';
+  color: var(--grey-20);
   font-size: var(--fs-small);
   margin: 0.2rem 0 0.1rem 0;
+}
+
+.job-details {
+  display: flex;
+  flex-grow: 1;
+  z-index: -1;
+  padding: var(--text-pad);
+  background-color: var(--grey-100);
+  border-radius: var(--border-radius);
+  background: linear-gradient(var(--grey-100), var(--grey-100)) padding-box,
+              linear-gradient(to right, var(--grey-100), var(--primary-dark)) border-box;
+  border-radius: var(--border-radius);
+  border: 4px solid transparent;
 }
 
 .job-tasks {
   padding-left: 1rem;
   margin: 0;
-  list-style-type: "- ";
   margin-bottom: var(--fs-small);
-  color: var(--grey-50);
+  color: var(--grey-20);
 }
 
 .task-item {
   font-size: var(--fs-small);
-  padding-left: 0;
 }
 
 @media (max-width: 768px) {
-  .career-paragraph {
-    grid-template-columns: 1fr;
-  }
-
   .time-period {
-    margin-bottom: var(--fs-small);
-    font-size: var(--fs-tiny)
+  margin-bottom: var(--fs-small);
+  font-size: var(--fs-tiny)
   }
 }
 
