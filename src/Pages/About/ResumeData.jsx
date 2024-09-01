@@ -1,7 +1,7 @@
 const ResumeData = [
   {
     Id: 0,
-    Company: "MERCURY MEDIA TECHNOLOGY",
+    Company: "Mercury Media Technology",
     Title: "Senior Data Engineer",
     Period: "2022 - TODAY",
     Tasks: [
@@ -12,7 +12,7 @@ const ResumeData = [
   },
   {
     Id: 1,
-    Company: "MERCURY MEDIA TECHNOLOGY",
+    Company: "Mercury Media Technology",
     Title: "Data Engineer",
     Period: "2021 - 2022",
     Tasks: [
@@ -23,7 +23,7 @@ const ResumeData = [
   },
   {
     Id: 2,
-    Company: "PILOT HAMBURG",
+    Company: "Pilot Hamburg",
     Title: "Developer Data Technologies",
     Period: "2019 - 2021",
     Tasks: [
@@ -34,7 +34,7 @@ const ResumeData = [
   },
   {
     Id: 3,
-    Company: "PILOT HAMBURG",
+    Company: "Pilot Hamburg",
     Title: "Junior System Manager",
     Period: "2017 - 2018",
     Tasks: [
@@ -45,7 +45,7 @@ const ResumeData = [
   },
   {
     Id: 4,
-    Company: "UNIVERSAL MCCANN",
+    Company: "Universal McCann",
     Title: "Digital Analyst",
     Period: "2015 - 2016",
     Tasks: [
@@ -56,7 +56,7 @@ const ResumeData = [
   },
   {
     Id: 5,
-    Company: "OTTO GROUP",
+    Company: "Otto Group",
     Title: "Intern Operations and Controlling",
     Period: "2014 - 2015",
     Tasks: [
@@ -67,7 +67,7 @@ const ResumeData = [
   },
   {
     Id: 6,
-    Company: "AIRBUS",
+    Company: "Airbus",
     Title: "Working Student Procurement Measurement Support",
     Period: "2013 - 2014",
     Tasks: [
